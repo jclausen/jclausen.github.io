@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: Someday - Jan 08
+author:
+  display_name: Jonathan Clausen
+  login: JClausen
+  email: jon_clausen@mac.com
+  url: http://betweensilences.com
+author_login: JClausen
+author_email: jon_clausen@mac.com
+author_url: http://betweensilences.com
+wordpress_id: 43
+wordpress_url: http://betweensilences.com/2008/01/18/someday-jan-08/
+date: '2008-01-18 17:47:03 -0500'
+date_gmt: '2008-01-18 22:47:03 -0500'
+categories:
+- Asides
+tags: []
+comments: []
+---
+<p>Someday...</p>
+<ul>
+<li>I would like to direct one half of a two director, non-traditional, casting of <cite>The Homecoming</cite> in repertory.  There's something in this play - disturbing by itself - that seems to allow it to be played as a comedy or drama and also would lend it self well to two contrasting versions side by side.  I think a non-traditional casting of the two would open up some interesting paths for both the audience and the creative team.</li>
+</li>
+<li>I would like to get my MFA in Directing from The Theatre School or Yale School of Drama.</li>
+<li>I would like to direct Richard III.</li>
+<li>I might like to act and sing in Les Miserables.</li>
+<li>I would like to facilitate a meaningful conversation between a company of fine actors and an audience over a period of years and explore the ways in which they grow together in tastes and interpretation.</li>
+<li>I would like to take a verse speaking workshop or class from Cic Berry.</li>
+<li>I would like to take a Shakespeare course or workshop from Gary Taylor or Harold Bloom.</li>
+</ul>
+<p><!-- technorati tags start -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/goals" rel="tag">goals</a>, <a href="http://www.technorati.com/tag/someday" rel="tag">someday</a></p>
+<p><!-- technorati tags end --></p>

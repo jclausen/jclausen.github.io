@@ -1,0 +1,61 @@
+---
+layout: post
+status: publish
+published: true
+title: Black Fox
+author:
+  display_name: Jonathan Clausen
+  login: JClausen
+  email: jon_clausen@mac.com
+  url: http://betweensilences.com
+author_login: JClausen
+author_email: jon_clausen@mac.com
+author_url: http://betweensilences.com
+wordpress_id: 54
+wordpress_url: http://betweensilences.com/2008/01/29/black-fox/
+date: '2008-01-29 12:45:46 -0500'
+date_gmt: '2008-01-29 17:45:46 -0500'
+categories:
+- Poetry
+tags:
+- Poetry
+- poems
+- origins
+- camping
+- black fox
+comments: []
+---
+<p><em>Note: The subject of this poem is place in the Black Hills of South Dakota I used to camp every year as a child.   <a href="http://www.hikercentral.com/campgrounds/117916.html">Black Fox Campground.</a></em></p>
+<p>My father is packing;<br />
+it’s part of his ritual.<br />
+A way, perhaps, of mentally washing<br />
+the rigors of life’s prisons away.<br />
+Prisons on high hills, made pink from Dells quartz<br />
+hold purses, not dreams nor ambitions.</p>
+<p>Near is the time for Black Fox once more.<br />
+Time for crystal streams which go by<br />
+the name Rapid.<br />
+Time for fireflies to stage their ballet<br />
+in coolness of the impending dusk<br />
+as a doe bows her head in hunger, in prayer.<br />
+Time for trout of one year,<br />
+to pause, frozen beneath their hidden waterfall.<br />
+They are strangers here too.<br />
+Borrowing time, far from the tank of their birth.<br />
+We trespass together, invaders and protectors alike.</p>
+<p>He lifts an old tent, one of faded green canvas.<br />
+Which long ago gave way to nylon expansion.<br />
+It still rides along,  a friend of many years,<br />
+filled once with memories, even marriages<br />
+it has long since grown out of:<br />
+Peeking out in pajamas, frozen dew fresh<br />
+from the cold before dawn.<br />
+It’s scent speaks of moments ago;<br />
+coffee forged on a fire,<br />
+cakes assembled on iron,<br />
+packing still wet as time stood expired.</p>
+<p>I think that this year I may climb a small mountain<br />
+and sleep alone without sleeping a wink.<br />
+I’ll listen for bears, wolves, things which may frighten.<br />
+Prone at the summit, with ears to the valley<br />
+as my creek sings it’s lullaby to adolescence, adventure.</p>

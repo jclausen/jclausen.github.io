@@ -1,0 +1,42 @@
+---
+layout: post
+status: publish
+published: true
+title: Puzzle
+author:
+  display_name: Jonathan Clausen
+  login: JClausen
+  email: jon_clausen@mac.com
+  url: http://betweensilences.com
+author_login: JClausen
+author_email: jon_clausen@mac.com
+author_url: http://betweensilences.com
+wordpress_id: 127
+wordpress_url: http://betweensilences.com/?p=127
+date: '2008-08-23 15:54:38 -0400'
+date_gmt: '2008-08-23 20:54:38 -0400'
+categories:
+- Poetry
+tags:
+- Poetry
+- creative writing
+- poems
+comments: []
+---
+<p><em>by Jonathan Clausen</em></p>
+<p>Deliver me in a box of many colors.<br />
+Empty this image atomized<br />
+to the pleasure of your gaze.<br />
+Inspect my jagged edges toward this<br />
+decoration of your achievement.<br />
+My garments cease to exist.<br />
+For now, their beauty is a challenge<br />
+to be met and won.<br />
+The seams of my gilded robe,<br />
+simply clues to something<br />
+recognizable as a chance for recognition<br />
+of intellect, not artistry.<br />
+Frame me not with glue and mitred corners.<br />
+Instead, savor my complete complexity.<br />
+Then destroy me,<br />
+as I am neither puzzle nor puzzling.</p>

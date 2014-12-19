@@ -1,0 +1,58 @@
+---
+layout: post
+status: publish
+published: true
+title: Glasses
+author:
+  display_name: Jonathan Clausen
+  login: JClausen
+  email: jon_clausen@mac.com
+  url: http://betweensilences.com
+author_login: JClausen
+author_email: jon_clausen@mac.com
+author_url: http://betweensilences.com
+wordpress_id: 56
+wordpress_url: http://betweensilences.com/2008/01/29/glasses/
+date: '2008-01-29 12:48:30 -0500'
+date_gmt: '2008-01-29 17:48:30 -0500'
+categories:
+- Poetry
+tags:
+- Poetry
+- poems
+- glasses
+- perspective
+- eyes
+comments: []
+---
+<p>I once wore glasses<br />
+Sometimes I still do<br />
+When I would go outside,<br />
+on a cold winters day,<br />
+they would fog over;<br />
+blinding me.</p>
+<p>So I removed them, changed lenses<br />
+with new ones placed into my eyes,<br />
+not in front of them.<br />
+Now I see differently, but the same.</p>
+<p>I have tried many different lenses in 35 years.<br />
+Some dried and clouded faster than others.<br />
+Some caused my vision to deteriorate even further.<br />
+A few even caused my sight to flip-flop:<br />
+my right eye took on the prescription of the left.</p>
+<p>It seems it’s time for a new prescription,<br />
+which necessitates an evaluation as well.<br />
+What will be the verdict?</p>
+<p>Am I better off or worse than before?<br />
+What correction is needed<br />
+so that I may see clearly again;<br />
+as cleanly, clearly as perhaps I<br />
+only last did upon exiting the womb?</p>
+<p>Get real, self.<br />
+These eyes are not old, but are getting older.<br />
+They still see clearly, yet it’s true that while<br />
+each year brings a stronger prescription<br />
+to focus these eyes, I can still see clearly.<br />
+I guess that’s all that really matters.<br />
+That is, until someday<br />
+I’m blinded once again.</p>
