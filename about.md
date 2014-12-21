@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /about/index.html
 title: About The Person and The Space
 description: "Developer, Actor, Bookworm, Outdoorsy Type and Fishing Geek. No one can say I lack for a variety of interests."
@@ -21,11 +21,12 @@ categories:
 - Theatre
 tags: []
 comments: []
+fa_class: "fa-user"
 ---
 
-<img class="left" src="/images/jon_headshot_md.jpg" alt="My photo" width="225px"/>Hi! I'm Jon.  If you're looking for my professional info, go [here](http://silowebworks.com/about/) or look [here](http://silowebworks.com/solutions/sub-contract/) if you want to vet out the tech stuff I know.  
+<img class="left" src="/images/jon_headshot_md.jpg" alt="My photo" width="225px"/>I'm Jon.  If you're looking for my professional info, go [here](http://silowebworks.com/about/) or look [here](http://silowebworks.com/solutions/sub-contract/) if you want to vet out the tech stuff I know.  
 
-I was born and raised in the tall grasses and open skies of South Dakota - well not literally *in* the tall grasses, but you get the drift.  My interests:  theatre, learning, technology, problem solving, and the outdoors - though the order of importance may vary by time of year.
+I was born and raised in the tall grasses and open skies of South Dakota, USA - well not literally *in* the tall grasses, but you get the drift.  My interests:  theatre, learning, technology, problem solving, and the outdoors - though the order of importance may vary by time of year.
 
 This is my thinkspace.  
 ----------------------
