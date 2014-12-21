@@ -73,7 +73,11 @@ code {
     border-radius: 4px;
     margin-bottom: $lh;
     overflow-x: scroll;
-
+	
+	pre {
+		background: $black;
+	}
+    
     code {
         color: $white;
         font-family: "Monaco", "Courier New", "Courier";

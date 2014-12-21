@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-published: true
+published: false
 title: Ranch Style
 author:
   display_name: Jon Clausen
