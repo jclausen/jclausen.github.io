@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Who's Afraid of Virginia Woolf - First Read
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,9 +16,9 @@ wordpress_url: http://betweensilences.com/?p=151
 date: '2008-09-14 15:16:26 -0400'
 date_gmt: '2008-09-14 20:16:26 -0400'
 categories:
-- General
+- Theatre
 tags:
-- Directing
+- Theatre
 - WAVW
 - Albee
 comments: []

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Quote of the Day
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/?p=156
 date: '2008-09-14 15:52:23 -0400'
 date_gmt: '2008-09-14 20:52:23 -0400'
 categories:
-- Asides
+- Theatre
 tags:
 - quotes
 - boal

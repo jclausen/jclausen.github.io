@@ -4,7 +4,7 @@ status: publish
 published: true
 title: You can't have community theatre without a community
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/05/you-cant-have-community-theatr
 date: '2008-05-25 09:21:33 -0400'
 date_gmt: '2008-05-25 14:21:33 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

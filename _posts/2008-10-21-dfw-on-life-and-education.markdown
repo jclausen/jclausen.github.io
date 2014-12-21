@@ -4,7 +4,7 @@ status: publish
 published: true
 title: DFW on Life and Education
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/10/dfw-on-life-and-education/
 date: '2008-10-21 13:07:23 -0400'
 date_gmt: '2008-10-21 18:07:23 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

@@ -31,9 +31,7 @@ a:hover {
 }
 
 em {
-    padding: 1px 2px;
-    border-radius: 2px;
-    background: #ffe8c0;
+    font-style:italic;
 }
 
 strong {
@@ -439,8 +437,6 @@ header.site-header nav {
 
 .post {
     
-    min-height: 500px;
-    
     .deets {
         position: relative;
         top: 45px;
@@ -484,6 +480,21 @@ header.site-header nav {
     }
     
     img {
+    	padding: 10px;
+    	border: 2px #cccccc solid;
+    	&.left{
+    		float: left;
+    		margin-right: 20px;
+    		margin-bottom: 20px;
+    	}
+    	&.right{
+    		float: right;
+    		margin-left: 20px;
+    		margin-bottom: 20px;
+    	}
+    }
+    
+    img.full {
         width: 100%;
         height: auto;
         display: block;

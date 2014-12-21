@@ -4,7 +4,7 @@ status: publish
 published: true
 title: On Theatres and their Vision
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/01/23/on-theatres-and-their-visio
 date: '2008-01-23 18:44:32 -0500'
 date_gmt: '2008-01-23 23:44:32 -0500'
 categories:
-- General
+- Theatre
 tags: []
 comments: []
 ---

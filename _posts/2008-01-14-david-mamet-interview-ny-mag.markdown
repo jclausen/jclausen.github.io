@@ -1,10 +1,10 @@
 ---
 layout: post
 status: publish
-published: true
+published: false
 title: 'David Mamet Interview: NY Mag'
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,10 +16,9 @@ wordpress_url: http://betweensilences.com/2008/01/14/david-mamet-interview-ny-ma
 date: '2008-01-14 11:10:35 -0500'
 date_gmt: '2008-01-14 16:10:35 -0500'
 categories:
-- On Stage
+- Theatre
 tags:
 - David Mamet
-- Mamet
 - Playwrights
 comments: []
 ---

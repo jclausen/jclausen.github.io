@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Theater in Disrepair
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,8 @@ wordpress_url: http://betweensilences.com/2008/01/11/theater-in-disrepair/
 date: '2008-01-11 17:49:42 -0500'
 date_gmt: '2008-01-11 22:49:42 -0500'
 categories:
-- General
-- Asides
+- Theatre
+- Theatre
 tags:
 - theaters
 - chicago

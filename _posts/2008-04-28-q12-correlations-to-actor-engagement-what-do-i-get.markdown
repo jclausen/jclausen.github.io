@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Q12 Correlations to Actor Engagement: What Do I Get?'
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,14 +16,14 @@ wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-actor-enga
 date: '2008-04-28 06:25:11 -0400'
 date_gmt: '2008-04-28 11:25:11 -0400'
 categories:
-- Directing
+- Theatre
 tags:
 - actor engagement
 - q12
 comments: []
 ---
 <p>As <a href="http://betweensilences.com/2008/04/q12-correlations-to-actor-engagement-introduction/">discussed previously</a>, there are direct correlations to the journey of engagement undertaken by employees in an organization and actors/crew in a production to the Gallup School of Management's Q12 process.   The solid foundation of that process of engagement is the the actors ability to answer the question "What Do I Get?" in the affirmative.</p>
-<p><img title="employee-engagement.jpg" src="http://betweensilences.com/wp-content/uploads/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" align="right" />Marcus Buckingham, author of "<a href="http://www.amazon.com/gp/redirect.html%3FASIN=0684852861%26tag=blogezods-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0684852861%253FSubscriptionId=0PZ7TM66EXQCXFVTMTR2">First Break All The Rules</a>" describes the process as akin to the acclimation steps which a mountain climber undergoes in adjusting to life in high altitude in preparation for ascent to the summit.    Unless the climber acclimates and adjusts to life at base camp, camp 1, etc. along the route to the summit, they are unable to emotionally and physically handle subsequent steps along the way. The two questions of the Gallup Q12 which relate to the "What Do I Get?" are:</p>
+<p><img title="employee-engagement.jpg" src="/images/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" align="right" />Marcus Buckingham, author of "<a href="http://www.amazon.com/gp/redirect.html%3FASIN=0684852861%26tag=blogezods-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0684852861%253FSubscriptionId=0PZ7TM66EXQCXFVTMTR2">First Break All The Rules</a>" describes the process as akin to the acclimation steps which a mountain climber undergoes in adjusting to life in high altitude in preparation for ascent to the summit.    Unless the climber acclimates and adjusts to life at base camp, camp 1, etc. along the route to the summit, they are unable to emotionally and physically handle subsequent steps along the way. The two questions of the Gallup Q12 which relate to the "What Do I Get?" are:</p>
 <ol>
 <li>I know what is expected of me at work.</li>
 <li>I have the materials and equipment I need to do my work right.</li>

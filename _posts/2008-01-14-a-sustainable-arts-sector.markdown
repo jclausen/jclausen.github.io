@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: post-no-feature
 status: publish
 published: true
 title: A Sustainable Arts Sector
+image:
+  feature: soft-trees.jpg
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +18,7 @@ wordpress_url: http://betweensilences.com/2008/01/14/a-sustainable-arts-sector/
 date: '2008-01-14 18:33:52 -0500'
 date_gmt: '2008-01-14 23:33:52 -0500'
 categories:
-- General
+- The Arts
 tags:
 - arts funding
 - box office

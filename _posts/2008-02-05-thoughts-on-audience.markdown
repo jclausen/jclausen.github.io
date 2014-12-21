@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Thoughts on Audience
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/02/05/thoughts-on-audience/
 date: '2008-02-05 10:10:21 -0500'
 date_gmt: '2008-02-05 15:10:21 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

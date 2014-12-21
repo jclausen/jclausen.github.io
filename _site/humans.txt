@@ -1,0 +1,14 @@
+/* TEAM */
+Creator: Jon Clausen
+Contact: jon@silowebworks.com
+Twitter: jclausen
+Location: Grand Rapids, MI
+                           
+/* THANKS */                           
+Creator of Balzac theme: Cole Townsend
+Twitter: @twnsndco
+
+/* SITE */                         
+Last update: 2014-12-21
+Standards: HTML, SCSS, Jekyll                        
+Software: git

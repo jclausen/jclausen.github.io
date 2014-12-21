@@ -1,8 +1,8 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description }}">
+<!-- head v.head-dark-->
+<meta name="description" content="{% if page.description != null and page.description != '' %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
-
 
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
@@ -35,12 +35,12 @@
 <!-- Fresh Squeezed jQuery -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
+<!-- Add Bootstrap -->
+<script src="{{ site.url }}/assets/js/bootstrap.js"></script>
 <meta http-equiv="cleartype" content="on">
 
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-
 
 <!-- Icons -->
 <!-- 16x16 -->

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Q12 Correlations to Actor Engagement - Introduction
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,7 @@ wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-directing-
 date: '2008-04-27 02:09:15 -0400'
 date_gmt: '2008-04-27 07:09:15 -0400'
 categories:
-- Directing
-- Featured
+- Theatre
 tags: []
 comments: []
 ---
@@ -42,7 +41,7 @@ The questions are copyright of the Gallup Organization and a detailed analysis o
 <p>
 As may be evident, these questions are not entirely applicable to a student or volunteer environment, though it's arguable that they can be made to be.  Part of understanding the impact of these questions, however is to understand the journey of engagement which every employee goes through - in full or to a degree.   It is in this journey or what the Gallup School of Management refers to as the pyramid of employee engagement that I find very direct correlations in the director to actor/crew relationships of a theatrical production.</p>
 <p>
-<img src="http://betweensilences.com/wp-content/uploads/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" title="employee-engagement.jpg" align="right" /><br />
+<img src="/images/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" title="employee-engagement.jpg" align="right" /><br />
 In essence, as any new employee enters a job or undergoes a significant change in job responsibilities they must answer the four "journey questions" for themselves in the affirmative.  There are four of them, and the questions of the Q12 are sub-segments of these four journey-based questions:</p>
 <ol>
 <li>What do I get?</li>

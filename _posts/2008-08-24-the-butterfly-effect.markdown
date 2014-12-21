@@ -4,7 +4,7 @@ status: publish
 published: true
 title: The Butterfly Effect
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/08/the-butterfly-effect/
 date: '2008-08-24 08:37:39 -0400'
 date_gmt: '2008-08-24 13:37:39 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

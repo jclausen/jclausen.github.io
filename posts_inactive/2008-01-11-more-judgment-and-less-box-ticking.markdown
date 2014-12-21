@@ -4,7 +4,7 @@ status: publish
 published: true
 title: More judgment and less box-ticking
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,8 @@ wordpress_url: http://betweensilences.com/2008/01/11/more-judgment-and-less-box-
 date: '2008-01-11 15:31:49 -0500'
 date_gmt: '2008-01-11 20:31:49 -0500'
 categories:
-- General
-- Asides
+- Theatre
+- Theatre
 tags:
 - arts funding
 - uk theatre

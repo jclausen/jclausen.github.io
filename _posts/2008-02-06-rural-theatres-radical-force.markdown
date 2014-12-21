@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Rural theatre's radical force
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/02/06/rural-theatres-radical-forc
 date: '2008-02-06 20:54:20 -0500'
 date_gmt: '2008-02-07 01:54:20 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: The standing ovation is a filthy American habit
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/07/the-standing-ovation-is-a-filt
 date: '2008-07-31 12:34:19 -0400'
 date_gmt: '2008-07-31 17:34:19 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

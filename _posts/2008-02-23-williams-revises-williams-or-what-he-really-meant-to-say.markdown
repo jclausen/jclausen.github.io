@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Williams Revises Williams - or what he really meant to say
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,8 @@ wordpress_url: http://betweensilences.com/2008/02/23/williams-revises-williams-o
 date: '2008-02-23 23:58:42 -0500'
 date_gmt: '2008-02-24 04:58:42 -0500'
 categories:
-- On Stage
-- Asides
+- Theatre
+- Theatre
 tags: []
 comments: []
 ---
@@ -37,5 +37,5 @@ Mr. Kahn thought the objections a little silly, considering the gothic ghastline
 </p></blockquote>
 <p>Here's a production still from the 2008 staging starring James Earl Jones and Terrence Howard:</p>
 <div align="center">
-<a href="http://betweensilences.com/wp-content/uploads/2008/02/catspan.jpg" onclick="window.open('http://betweensilences.com/wp-content/uploads/2008/02/catspan.jpg','popup','width=600,height=280,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="http://betweensilences.com/wp-content/uploads/2008/02/catspan-tm.jpg" height="210" width="450" border="1" hspace="4" vspace="4" alt="Catspan" /></a>
+<a href="/images/2008/02/catspan.jpg" onclick="window.open('/images/2008/02/catspan.jpg','popup','width=600,height=280,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="/images/2008/02/catspan-tm.jpg" height="210" width="450" border="1" hspace="4" vspace="4" alt="Catspan" /></a>
 </div>

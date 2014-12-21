@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Empathy for the Devil
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2009/05/empathy-for-the-devil/
 date: '2009-05-26 14:34:59 -0400'
 date_gmt: '2009-05-26 19:34:59 -0400'
 categories:
-- Theory
+- Theatre
 tags: []
 comments: []
 ---

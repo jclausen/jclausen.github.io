@@ -4,7 +4,7 @@ status: publish
 published: true
 title: You & the Needs of Your Audience
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/09/you-the-needs-of-your-audience
 date: '2008-09-26 15:33:06 -0400'
 date_gmt: '2008-09-26 20:33:06 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

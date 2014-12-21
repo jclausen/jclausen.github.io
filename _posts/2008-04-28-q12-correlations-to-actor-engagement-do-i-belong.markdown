@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Q12 Correlations to Actor Engagement:  Do I Belong?'
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,12 +16,12 @@ wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-actor-enga
 date: '2008-04-28 09:08:30 -0400'
 date_gmt: '2008-04-28 14:08:30 -0400'
 categories:
-- Directing
+- Theatre
 tags: []
 comments: []
 ---
 <p>
-<img src="http://betweensilences.com/wp-content/uploads/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" title="employee-engagement.jpg" align="right" />It is important to emphasize that each level of <a href="http://betweensilences.com/2008/04/q12-correlations-to-actor-engagement-introduction/">the engagement pyramid</a> builds on the underlying levels.  If at any point there becomes a disconnect in the ability of the individual to answer satisfactorily the questions in the previous levels, there is a negative impact on their ability to complete the higher levels of the journey.</p>
+<img src="/images/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" title="employee-engagement.jpg" align="right" />It is important to emphasize that each level of <a href="http://betweensilences.com/2008/04/q12-correlations-to-actor-engagement-introduction/">the engagement pyramid</a> builds on the underlying levels.  If at any point there becomes a disconnect in the ability of the individual to answer satisfactorily the questions in the previous levels, there is a negative impact on their ability to complete the higher levels of the journey.</p>
 <p>
 The third phase of the engagement journey - as relating Gallup's Q12 to the theatrical production process - is the actors ability to answer the question "Do I Belong?" in a way that is meaningful to them personally.   This is perhaps the trickiest part of the journey because if the actor is struggling with either script issues (i.e. - not connecting with the material, knowledge of lines, etc.) or feel an absence of support from other members of the production they will never answer this question to their satisfaction.   Gallup groups the following Q12 questions into this phase:</p>
 <ul>

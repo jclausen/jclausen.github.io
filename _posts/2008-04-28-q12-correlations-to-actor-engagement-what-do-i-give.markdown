@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Q12 Correlations to Actor Engagement:  What Do I Give?'
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-actor-enga
 date: '2008-04-28 08:45:14 -0400'
 date_gmt: '2008-04-28 13:45:14 -0400'
 categories:
-- Directing
+- Theatre
 tags: []
 comments: []
 ---

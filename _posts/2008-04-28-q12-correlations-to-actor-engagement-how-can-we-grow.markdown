@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Q12 Correlations to Actor Engagement:  How Can We Grow?'
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,11 +16,11 @@ wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-actor-enga
 date: '2008-04-28 09:36:40 -0400'
 date_gmt: '2008-04-28 14:36:40 -0400'
 categories:
-- Directing
+- Theatre
 tags: []
 comments: []
 ---
-<p><img src="http://betweensilences.com/wp-content/uploads/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" title="employee-engagement.jpg" align="right" />It is this final phase of <a href="http://www.gallup.com/consulting/52/Employee-Engagement.aspx?gclid=CKiGg-mE_pICFSB7IgodZ0q-Bw">the engagement journey</a> which most directors aspire to, but so seldom attain within the time frame of a production.  While we often speak of "creative teams" and "ensembles," saying that the actors an team assembled for a production are such doesn't necessarily make it so.</p>
+<p><img src="/images/2008/04/employee-engagement.jpg" alt="employee-engagement.jpg" title="employee-engagement.jpg" align="right" />It is this final phase of <a href="http://www.gallup.com/consulting/52/Employee-Engagement.aspx?gclid=CKiGg-mE_pICFSB7IgodZ0q-Bw">the engagement journey</a> which most directors aspire to, but so seldom attain within the time frame of a production.  While we often speak of "creative teams" and "ensembles," saying that the actors an team assembled for a production are such doesn't necessarily make it so.</p>
 <p>Gallup groups the following final questions of the Q12 into the the final ascent to the summit of this journey:</p>
 <ul>
 <li>In the last six months, someone at work talked to me about my progress.</li>

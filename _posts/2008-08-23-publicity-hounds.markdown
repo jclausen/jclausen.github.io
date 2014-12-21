@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Publicity Hounds
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/?p=131
 date: '2008-08-23 15:59:14 -0400'
 date_gmt: '2008-08-23 20:59:14 -0400'
 categories:
-- Asides
+- Theatre
 tags:
 - creative writing
 - randomness

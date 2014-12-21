@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Debating Rehearsal Audiences
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/01/18/debating-rehearsal-audience
 date: '2008-01-18 17:55:40 -0500'
 date_gmt: '2008-01-18 22:55:40 -0500'
 categories:
-- General
+- Theatre
 tags: []
 comments: []
 ---

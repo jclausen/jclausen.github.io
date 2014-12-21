@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Engaging Arts - In the Classroom
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/09/engaging-arts-in-the-classroom
 date: '2008-09-18 07:37:48 -0400'
 date_gmt: '2008-09-18 12:37:48 -0400'
 categories:
-- Theory
+- The Arts
 tags: []
 comments: []
 ---

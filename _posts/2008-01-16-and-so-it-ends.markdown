@@ -4,7 +4,7 @@ status: publish
 published: true
 title: And So it Ends
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,8 @@ wordpress_url: http://betweensilences.com/2008/01/16/and-so-it-ends/
 date: '2008-01-16 14:40:19 -0500'
 date_gmt: '2008-01-16 19:40:19 -0500'
 categories:
-- On Stage
-- Asides
+- Theatre
+- Theatre
 tags: []
 comments: []
 ---

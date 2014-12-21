@@ -2,7 +2,8 @@
 <html lang="en">
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description }}">
+<!-- head v.head-->
+<meta name="description" content="{% if page.description != null and page.description != '' %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
 
@@ -37,6 +38,8 @@
 <!-- Fresh Squeezed jQuery -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- Add Bootstrap -->
+<script src="{{ site.url }}/assets/js/bootstrap.js"></script>
 
 <meta http-equiv="cleartype" content="on">
 

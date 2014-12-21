@@ -4,7 +4,7 @@ status: publish
 published: true
 title: September
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com

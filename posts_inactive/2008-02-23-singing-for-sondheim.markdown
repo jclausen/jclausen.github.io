@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Singing for Sondheim
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/02/23/singing-for-sondheim/
 date: '2008-02-23 23:26:41 -0500'
 date_gmt: '2008-02-24 04:26:41 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

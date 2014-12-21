@@ -1,3 +1,5 @@
+@import "_bootstrap.scss";
+@import "_font-awesome.scss";
 /* ==========================================================================
    VARIABLES
    ========================================================================== */
@@ -37,10 +39,10 @@ $serif: "Calendas Plus","Crimson Text", "Hoefler Text", "Georgia", serif;
 
 /** * 12 & 16 as roots then powers of two. */
 
-$fs1:64px;
-$fs2:48px;
-$fs3:32px;
-$fs4:24px;
+$fs1:42px;
+$fs2:36px;
+$fs3:24px;
+$fs4:20px;
 
 $fsp:22px;
 

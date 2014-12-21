@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Let Them Act and Eat Cupcakes!
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/03/05/let-them-act-and-eat-cupcak
 date: '2008-03-05 14:28:26 -0500'
 date_gmt: '2008-03-05 19:28:26 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

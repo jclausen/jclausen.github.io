@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Theatre for the Survivors
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,7 @@ wordpress_url: http://betweensilences.com/2008/01/11/theatre-for-the-survivors/
 date: '2008-01-11 17:41:23 -0500'
 date_gmt: '2008-01-11 22:41:23 -0500'
 categories:
-- On Stage
-- Featured
+- Theatre
 tags:
 - ART
 - Cophenhagen
@@ -26,7 +25,7 @@ tags:
 comments: []
 ---
 <p>
-<a href="http://amrep.org/copenhagen/"><img src="http://betweensilences.com/wp-content/uploads/2008/01/bomb3-press320.jpg" alt="Still from ART's Copenhagen" align="left"/></a><br />
+<a href="http://amrep.org/copenhagen/"><img src="/images/2008/01/bomb3-press320.jpg" alt="Still from ART's Copenhagen" align="left"/></a><br />
 I find it fascinating when a play is written which attempts to depict the life of a recently deceased subject with living relatives.   One example, Robert Brustein's <cite>Nobody Dies on Friday</cite> can elicit <a href="http://query.nytimes.com/gst/fullpage.html?res=990DE5D61F3DF93AA25757C0A96E958260">a very public backlash from critics and family members alike</a>.  <a href="http://amrep.org">ART's</a> new production of <cite><a href="http://amrep.org/copenhagen/">Copenhagen</a></cite> has for it's subject Werner Heisenberg.  In this case, the family is thrilled, as attested to by <a href="http://amrep.wordpress.com/2008/01/11/an-email-from-heisenbergs-son/#more-298">an email from Heisenberg's son, Jochen</a>.  From the <a href="http://amrep.wordpress.com/">ART blog</a>:</p>
 <blockquote><p>
 This afternoon Kati Mitchell, our Director of Press and Public Relations, received a wonderful email from Jochen Heisenberg, Werner Heisenberg’s son, a professor of physics at the University of New Hampshire. Mr. Heisenberg attended Wednesday night’s performance of Copenhagen.</p>

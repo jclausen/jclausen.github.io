@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Schwimmer Mixes it Up
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/01/29/schwimmer-mixes-it-up/
 date: '2008-01-29 10:49:27 -0500'
 date_gmt: '2008-01-29 15:49:27 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

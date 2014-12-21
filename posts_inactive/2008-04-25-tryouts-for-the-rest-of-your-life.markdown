@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Tryouts for the Rest of Your Life
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/04/25/tryouts-for-the-rest-of-you
 date: '2008-04-25 07:59:59 -0400'
 date_gmt: '2008-04-25 12:59:59 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

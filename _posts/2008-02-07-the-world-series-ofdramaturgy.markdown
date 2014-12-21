@@ -4,7 +4,7 @@ status: publish
 published: true
 title: The World Series of...Dramaturgy?
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/02/07/the-world-series-ofdramatur
 date: '2008-02-07 17:30:27 -0500'
 date_gmt: '2008-02-07 22:30:27 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

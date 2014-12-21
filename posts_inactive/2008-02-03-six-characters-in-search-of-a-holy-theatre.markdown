@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Six Characters in Search of a Holy Theatre
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,12 +16,12 @@ wordpress_url: http://betweensilences.com/2008/02/03/directing-journal-six-chara
 date: '2008-02-03 14:17:00 -0500'
 date_gmt: '2008-02-03 19:17:00 -0500'
 categories:
-- Directing
-- On Stage
+- Theatre
+- Theatre
 tags: []
 comments: []
 ---
-<p><img src="http://betweensilences.com/wp-content/uploads/2008/02/sp2008-sixcharacters-poster.jpg" alt="Poster - MSU Six Characters - Photo Courtesy MSU Theatre" align="right" />About a month ago, I checked the <a href="http://theatre.msu.edu/">MSU Theatre department website</a> and saw that they were staging Luigi Pirandello's <cite>Six Characters in Search of an Author</cite>.  After asking my wife to go with me to see it, I booked tickets.  Pirandello's work isn't produced nearly as often as it should be, and I was very excited to be able to catch a staging of it. After having to reschedule our original tickets from Friday night's performance because of a snowstorm, we made the hour-and-change drive to Lansing last night to see it.</p>
+<p><img src="/images/2008/02/sp2008-sixcharacters-poster.jpg" alt="Poster - MSU Six Characters - Photo Courtesy MSU Theatre" align="right" />About a month ago, I checked the <a href="http://theatre.msu.edu/">MSU Theatre department website</a> and saw that they were staging Luigi Pirandello's <cite>Six Characters in Search of an Author</cite>.  After asking my wife to go with me to see it, I booked tickets.  Pirandello's work isn't produced nearly as often as it should be, and I was very excited to be able to catch a staging of it. After having to reschedule our original tickets from Friday night's performance because of a snowstorm, we made the hour-and-change drive to Lansing last night to see it.</p>
 <p>Peter Brook - in his seminal book <cite>The Empty Space</cite> gives specifics to the concept of what he calls a Deadly Theatre in that:</p>
 <blockquote><p>It is vain to pretend that the words we apply to classical plays like 'musical', 'poetic', 'larger than life', 'noble', 'heroic', 'romantic', have any absolute meaning.  They are the reflections of a critical attitude of a particular period, and to attempt to build a performance today to conform to these canons is the most certain road to deadly theatre...</p></blockquote>
 <p>Revisitation of works which have period reference and language necessitate additional care and consideration when staging, especially when - in the case of <cite>Six Characters</cite>; much of the dialogue by the ensemble of 'theatre professionals' is brought about through improvisation.  MSU made the choice to use a recent adaptation of the play by <a href="http://en.wikipedia.org/wiki/Robert_Brustein">Robert Brustein</a>, which had been <a href="http://www.amrep.org/people/bob.html">previously performed by ART to rave reviews and accolades</a>.  As such, the foundation for a meaningful staging which resonates with a modern audience existed.</p>

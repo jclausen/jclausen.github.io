@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Mamet for Future Reference
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/02/24/mamet-for-future-reference/
 date: '2008-02-24 14:38:35 -0500'
 date_gmt: '2008-02-24 19:38:35 -0500'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

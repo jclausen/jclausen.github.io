@@ -4,7 +4,7 @@ status: publish
 published: true
 title: An astounding 'Our Town' hits home - hard
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/05/an-astounding-our-town-hits-ho
 date: '2008-05-25 09:19:56 -0400'
 date_gmt: '2008-05-25 14:19:56 -0400'
 categories:
-- On Stage
+- Theatre
 tags: []
 comments: []
 ---

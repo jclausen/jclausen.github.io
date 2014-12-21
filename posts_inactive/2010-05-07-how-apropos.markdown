@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How Apropos
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/?p=185
 date: '2010-05-07 20:45:39 -0400'
 date_gmt: '2010-05-08 01:45:39 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

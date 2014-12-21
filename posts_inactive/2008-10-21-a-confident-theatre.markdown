@@ -4,7 +4,7 @@ status: publish
 published: true
 title: A Confident Theatre
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,8 +16,8 @@ wordpress_url: http://betweensilences.com/2008/10/a-confident-theatre/
 date: '2008-10-21 14:23:47 -0400'
 date_gmt: '2008-10-21 19:23:47 -0400'
 categories:
-- Theory
-- Asides
+- Theatre
+- Theatre
 tags: []
 comments: []
 ---

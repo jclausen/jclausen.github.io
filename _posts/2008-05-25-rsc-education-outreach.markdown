@@ -4,7 +4,7 @@ status: publish
 published: true
 title: RSC Education Outreach
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/05/rsc-education-outreach/
 date: '2008-05-25 10:24:55 -0400'
 date_gmt: '2008-05-25 15:24:55 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Money, The Arts Etc.
 author:
-  display_name: Jonathan Clausen
+  display_name: Jon Clausen
   login: JClausen
   email: jon_clausen@mac.com
   url: http://betweensilences.com
@@ -16,7 +16,7 @@ wordpress_url: http://betweensilences.com/2008/09/money-the-arts-etc/
 date: '2008-09-15 21:11:16 -0400'
 date_gmt: '2008-09-16 02:11:16 -0400'
 categories:
-- Asides
+- Theatre
 tags: []
 comments: []
 ---
