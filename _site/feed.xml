@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-12-21T11:45:20-05:00</updated>
+<updated>2014-12-21T12:58:34-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -13,11 +13,10 @@
   <email>jon@silowebworks.com</email>
 </author>
 
-
 <entry>
   <title type="html"><![CDATA[Back in Action]]></title>
-  <link rel="alternate" type="text/html" href="/about/index.html" />
-  <id>/about/back-in-action</id>
+  <link rel="alternate" type="text/html" href="/miscelaneous/back-in-action" />
+  <id>/miscelaneous/back-in-action</id>
   <published>2014-12-12T00:00:00-05:00</published>
   <updated>2014-12-12T00:00:00-05:00</updated>
   <author>
@@ -25,16 +24,15 @@
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;I have a bit of a love/hate relationship with blogging. For many years, I was the lead developer for a CFML app called Blogfusion, a blogging app and portal system and I’ve maintained several blogs, throughout the years.  With my  &lt;a href=&quot;/about&quot;&gt;varied interest&lt;/a&gt;, I have always maintained a separation of topics and sites, which made the day-to-day process of blogging a bit complex at times (multiple URLS, platforms, etc). So, eventually, as life became busy and things became wildly out of date, I just stopped posting (hence the name “Between Silences”).  &lt;/p&gt;
+  <content type="html"><![CDATA[<p>I have a bit of a love/hate relationship with blogging. For many years, I was the lead developer for a CFML app called Blogfusion, a blogging app and portal system and I’ve maintained several blogs, throughout the years.  With my  <a href="/about">varied interests</a>, I have always maintained a separation of topics and sites, which made the day-to-day process of blogging a bit complex at times (multiple URLS, platforms, etc). So, eventually, as life became busy and things became wildly out of date, I just stopped posting (hence the name “Between Silences”).  </p>
 
-&lt;p&gt;Enter 2014.  It’s time to get back to regular blog publishing. I enjoy it and, plus, I have oodles of code snippets, poetry, and links from the last several years that are blog-worthy.  Archives for my old personal, theatre-based, Wordpress site are migrated (thanks &lt;a href=&quot;http://import.jekyllrb.com/docs/home/&quot;&gt;jekyll-import&lt;/a&gt; !).  Look for the other blogs to be migrated within the week. &lt;/p&gt;
+<p>Enter 2014.  It’s time to get back to regular blog publishing. I enjoy it and, plus, I have oodles of code snippets, poetry, and links from the last several years that are blog-worthy.  Archives for my old personal, theatre-based, Wordpress site are migrated (thanks <a href="http://import.jekyllrb.com/docs/home/">jekyll-import</a> !).  Look for the other blogs to be migrated within the week. </p>
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; wound up being my choice for the reboot platform. It allows me to dabble in Ruby and, since I have an IDE open all day anyway, it’s convenient to throw a snippet in to a markdown file and create a new post.  That may change, if I get the bug to migrate to a different platform, but it’s a good fit for me now.  &lt;code&gt;echo &quot;Hello World, Again.&quot;&lt;/code&gt;&lt;/p&gt;
+<p><a href="http://jekyllrb.com">Jekyll</a> wound up being my choice for the reboot platform. It allows me to dabble in Ruby and, since I have an IDE open all day anyway, it’s convenient to throw a snippet in to a markdown file and create a new post.  That may change, if I get the bug to migrate to a different platform, but it’s a good fit for me now.  <code>echo "Hello World, Again."</code></p>
 
 
-  &lt;p&gt;&lt;a href=&quot;/about/index.html&quot;&gt;Back in Action&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on December 12, 2014.&lt;/p&gt;</content>
+  <p><small><a href="/miscelaneous/back-in-action">Back in Action</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on December 12, 2014.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Gondolier]]></title>
@@ -47,29 +45,28 @@
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;Pictures in frames,&lt;br /&gt;
-taken in the days of their courtship,&lt;br /&gt;
-were taken down and placed in a drawer&lt;br /&gt;
-as keepsakes.&lt;/p&gt;
-&lt;p&gt;In the room where she would spend her nights alone&lt;br /&gt;
-remained a black and white photograph&lt;br /&gt;
-of a Venetian gondolier.&lt;br /&gt;
-His company would keep her &lt;br /&gt;
-in the dark hours of the morning.&lt;/p&gt;
-&lt;p&gt;In the room, where her lover slept,&lt;br /&gt;
-she sometimes glimpsed, in&lt;br /&gt; his sleeping face,&lt;br /&gt;
-the younger man of years before.&lt;br /&gt;
-She felt &lt;br /&gt;
-gratitude&lt;br /&gt;
-for their life together.&lt;/p&gt;
-&lt;p&gt;She returned, though,&lt;br /&gt; frequently,&lt;br /&gt;to the gondolier,&lt;br /&gt;
-imagining what might be revealed,&lt;br /&gt;
-should he,&lt;br /&gt; someday,&lt;br /&gt; pass out of&lt;br /&gt;
-their river of shadows.&lt;/p&gt;
+  <content type="html"><![CDATA[<p>Pictures in frames,<br />
+taken in the days of their courtship,<br />
+were taken down and placed in a drawer<br />
+as keepsakes.</p>
+<p>In the room where she would spend her nights alone<br />
+remained a black and white photograph<br />
+of a Venetian gondolier.<br />
+His company would keep her <br />
+in the dark hours of the morning.</p>
+<p>In the room, where her lover slept,<br />
+she sometimes glimpsed, in<br /> his sleeping face,<br />
+the younger man of years before.<br />
+She felt <br />
+gratitude<br />
+for their life together.</p>
+<p>She returned, though,<br /> frequently,<br />to the gondolier,<br />
+imagining what might be revealed,<br />
+should he,<br /> someday,<br /> pass out of<br />
+their river of shadows.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/gondolier&quot;&gt;Gondolier&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on October 10, 2010.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/gondolier">Gondolier</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on October 10, 2010.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Empathy for the Devil]]></title>
@@ -82,16 +79,15 @@ their river of shadows.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;I&#39;m catching up on posting old clippings.  This one, from &lt;a href=&quot;http://www.buzzine.com/2008/11/empathy-for-the-devil/&quot;&gt;Buzzine&lt;/a&gt; hit me at the time and, as I reread it and reflect, I find it contains a great deal of truth:&lt;/p&gt;
-&lt;blockquote cite=&quot;http://www.buzzine.com/2008/11/empathy-for-the-devil/&quot;&gt;&lt;p&gt;
-Sympathy and empathy are also primary channels that most traditional theatre uses to affect audiences, stretching back to Ancient Greece. Theatre is the most human of art forms. It involves a group of people gathering together to watch other people in real time in shared space. This act of communion is key to theatre’s power. The performers and the audience make an unspoken social compact that the audience will use their imagination and suspend their disbelief, and the actors will reward them with a fulfilling experience. This means that the audience must work along with the actors to ensure the night is a success. Part of the audience’s side of the bargain is that they will empathically bond with the characters on stage, to some extent, and part of the actor’s side of the bargain is that they will, to some extent, engage the audience’s empathy.&lt;br /&gt;&lt;br /&gt;This is part of why watching bad theatre is so excruciating. Not only are you being let down by the guy on the other side of the bargaining table, but you also, on some level, feel bad for him that he and the show around him are failing so miserably.
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Those of us who love theatre as an artistic medium tend to support bad theatre because we don&#39;t want to lose the possibility of experiencing that exquisite engagement that is both addictive and infrequent.  Of course, bad theatre is a relative term but, even if we continue to support our local institutions, we should be as passionate about elevating the quality of our local and regional stages as we are about perpetuating the medium.  No one benefits by saying a thing is good when it&#39;s not.&lt;/p&gt;
-&lt;div class=&quot;posttagsblock&quot;&gt;&lt;a href=&quot;http://technorati.com/tag/Theatre%20and%20Community&quot; rel=&quot;tag&quot;&gt;Theatre and Community&lt;/a&gt;&lt;/div&gt;
+  <content type="html"><![CDATA[<p>I'm catching up on posting old clippings.  This one, from <a href="http://www.buzzine.com/2008/11/empathy-for-the-devil/">Buzzine</a> hit me at the time and, as I reread it and reflect, I find it contains a great deal of truth:</p>
+<blockquote cite="http://www.buzzine.com/2008/11/empathy-for-the-devil/"><p>
+Sympathy and empathy are also primary channels that most traditional theatre uses to affect audiences, stretching back to Ancient Greece. Theatre is the most human of art forms. It involves a group of people gathering together to watch other people in real time in shared space. This act of communion is key to theatre’s power. The performers and the audience make an unspoken social compact that the audience will use their imagination and suspend their disbelief, and the actors will reward them with a fulfilling experience. This means that the audience must work along with the actors to ensure the night is a success. Part of the audience’s side of the bargain is that they will empathically bond with the characters on stage, to some extent, and part of the actor’s side of the bargain is that they will, to some extent, engage the audience’s empathy.<br /><br />This is part of why watching bad theatre is so excruciating. Not only are you being let down by the guy on the other side of the bargaining table, but you also, on some level, feel bad for him that he and the show around him are failing so miserably.
+</p></blockquote>
+<p>Those of us who love theatre as an artistic medium tend to support bad theatre because we don't want to lose the possibility of experiencing that exquisite engagement that is both addictive and infrequent.  Of course, bad theatre is a relative term but, even if we continue to support our local institutions, we should be as passionate about elevating the quality of our local and regional stages as we are about perpetuating the medium.  No one benefits by saying a thing is good when it's not.</p>
+<div class="posttagsblock"><a href="http://technorati.com/tag/Theatre%20and%20Community" rel="tag">Theatre and Community</a></div>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/empathy-for-the-devil&quot;&gt;Empathy for the Devil&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on May 26, 2009.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/empathy-for-the-devil">Empathy for the Devil</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on May 26, 2009.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[DFW on Life and Education]]></title>
@@ -104,34 +100,33 @@ Sympathy and empathy are also primary channels that most traditional theatre use
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;I&#39;m reprinting &lt;a href=&quot;http://online.wsj.com/article/SB122178211966454607.html#printMode&quot;&gt;this commencement address&lt;/a&gt; from Kenyon College in 2005 by David Foster Wallace for two reasons:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;It has some profound truths in it which require digestion and reflection&lt;/li&gt;
-&lt;li&gt;Since this is my notebook/scrapbook/record of my return to a life in the arts, I don&#39;t want to lose this kind of perspective on my education - a perspective I think I share as much from time away from the arts as I do from time within.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;David Foster Wallace on Life and Work:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, &quot;Morning, boys, how&#39;s the water?&quot; And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, &quot;What the hell is water?&quot;&lt;/p&gt;
-&lt;p&gt;If at this moment, you&#39;re worried that I plan to present myself here as the wise old fish explaining what water is to you younger fish, please don&#39;t be. I am not the wise old fish. The immediate point of the fish story is that the most obvious, ubiquitous, important realities are often the ones that are the hardest to see and talk about. Stated as an English sentence, of course, this is just a banal platitude -- but the fact is that, in the day-to-day trenches of adult existence, banal platitudes can have life-or-death importance. That may sound like hyperbole, or abstract nonsense.&lt;/p&gt;
-&lt;p&gt;A huge percentage of the stuff that I tend to be automatically certain of is, it turns out, totally wrong and deluded. Here&#39;s one example of the utter wrongness of something I tend to be automatically sure of: Everything in my own immediate experience supports my deep belief that I am the absolute center of the universe, the realest, most vivid and important person in existence. We rarely talk about this sort of natural, basic self-centeredness, because it&#39;s so socially repulsive, but it&#39;s pretty much the same for all of us, deep down. It is our default-setting, hard-wired into our boards at birth. Think about it: There is no experience you&#39;ve had that you were not at the absolute center of. The world as you experience it is right there in front of you, or behind you, to the left or right of you, on your TV, or your monitor, or whatever. Other people&#39;s thoughts and feelings have to be communicated to you somehow, but your own are so immediate, urgent, real -- you get the idea. But please don&#39;t worry that I&#39;m getting ready to preach to you about compassion or other-directedness or the so-called &quot;virtues.&quot; This is not a matter of virtue -- it&#39;s a matter of my choosing to do the work of somehow altering or getting free of my natural, hard-wired default-setting, which is to be deeply and literally self-centered, and to see and interpret everything through this lens of self.&lt;/p&gt;
-&lt;p&gt;People who can adjust their natural default-setting this way are often described as being &quot;well adjusted,&quot; which I suggest to you is not an accidental term.&lt;/p&gt;
-&lt;p&gt;Given the triumphal academic setting here, an obvious question is how much of this work of adjusting our default-setting involves actual knowledge or intellect. This question gets tricky. Probably the most dangerous thing about college education, at least in my own case, is that it enables my tendency to over-intellectualize stuff, to get lost in abstract arguments inside my head instead of simply paying attention to what&#39;s going on right in front of me. Paying attention to what&#39;s going on inside me. As I&#39;m sure you guys know by now, it is extremely difficult to stay alert and attentive instead of getting hypnotized by the constant monologue inside your own head. Twenty years after my own graduation, I have come gradually to understand that the liberal-arts cliché about &quot;teaching you how to think&quot; is actually shorthand for a much deeper, more serious idea: &quot;Learning how to think&quot; really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot exercise this kind of choice in adult life, you will be totally hosed. Think of the old cliché about &quot;the mind being an excellent servant but a terrible master.&quot; This, like many clichés, so lame and unexciting on the surface, actually expresses a great and terrible truth. It is not the least bit coincidental that adults who commit suicide with firearms almost always shoot themselves in the head. And the truth is that most of these suicides are actually dead long before they pull the trigger. And I submit that this is what the real, no-bull- value of your liberal-arts education is supposed to be about: How to keep from going through your comfortable, prosperous, respectable adult life dead, unconscious, a slave to your head and to your natural default-setting of being uniquely, completely, imperially alone, day in and day out.&lt;/p&gt;
-&lt;p&gt;That may sound like hyperbole, or abstract nonsense. So let&#39;s get concrete. The plain fact is that you graduating seniors do not yet have any clue what &quot;day in, day out&quot; really means. There happen to be whole large parts of adult American life that nobody talks about in commencement speeches. One such part involves boredom, routine, and petty frustration. The parents and older folks here will know all too well what I&#39;m talking about.&lt;/p&gt;
-&lt;p&gt;By way of example, let&#39;s say it&#39;s an average day, and you get up in the morning, go to your challenging job, and you work hard for nine or ten hours, and at the end of the day you&#39;re tired, and you&#39;re stressed out, and all you want is to go home and have a good supper and maybe unwind for a couple of hours and then hit the rack early because you have to get up the next day and do it all again. But then you remember there&#39;s no food at home -- you haven&#39;t had time to shop this week, because of your challenging job -- and so now after work you have to get in your car and drive to the supermarket. It&#39;s the end of the workday, and the traffic&#39;s very bad, so getting to the store takes way longer than it should, and when you finally get there the supermarket is very crowded, because of course it&#39;s the time of day when all the other people with jobs also try to squeeze in some grocery shopping, and the store&#39;s hideously, fluorescently lit, and infused with soul-killing Muzak or corporate pop, and it&#39;s pretty much the last place you want to be, but you can&#39;t just get in and quickly out: You have to wander all over the huge, overlit store&#39;s crowded aisles to find the stuff you want, and you have to maneuver your junky cart through all these other tired, hurried people with carts, and of course there are also the glacially slow old people and the spacey people and the ADHD kids who all block the aisle and you have to grit your teeth and try to be polite as you ask them to let you by, and eventually, finally, you get all your supper supplies, except now it turns out there aren&#39;t enough checkout lanes open even though it&#39;s the end-of-the-day-rush, so the checkout line is incredibly long, which is stupid and infuriating, but you can&#39;t take your fury out on the frantic lady working the register.&lt;/p&gt;
-&lt;p&gt;Anyway, you finally get to the checkout line&#39;s front, and pay for your food, and wait to get your check or card authenticated by a machine, and then get told to &quot;Have a nice day&quot; in a voice that is the absolute voice of death, and then you have to take your creepy flimsy plastic bags of groceries in your cart through the crowded, bumpy, littery parking lot, and try to load the bags in your car in such a way that everything doesn&#39;t fall out of the bags and roll around in the trunk on the way home, and then you have to drive all the way home through slow, heavy, SUV-intensive rush-hour traffic, etcetera, etcetera.&lt;/p&gt;
-&lt;p&gt;The point is that petty, frustrating crap like this is exactly where the work of choosing comes in. Because the traffic jams and crowded aisles and long checkout lines give me time to think, and if I don&#39;t make a conscious decision about how to think and what to pay attention to, I&#39;m going to be pissed and miserable every time I have to food-shop, because my natural default-setting is the certainty that situations like this are really all about me, about my hungriness and my fatigue and my desire to just get home, and it&#39;s going to seem, for all the world, like everybody else is just in my way, and who are all these people in my way? And look at how repulsive most of them are and how stupid and cow-like and dead-eyed and nonhuman they seem here in the checkout line, or at how annoying and rude it is that people are talking loudly on cell phones in the middle of the line, and look at how deeply unfair this is: I&#39;ve worked really hard all day and I&#39;m starved and tired and I can&#39;t even get home to eat and unwind because of all these stupid g-d- people.&lt;/p&gt;
-&lt;p&gt;Or, of course, if I&#39;m in a more socially conscious form of my default-setting, I can spend time in the end-of-the-day traffic jam being angry and disgusted at all the huge, stupid, lane-blocking SUV&#39;s and Hummers and V-12 pickup trucks burning their wasteful, selfish, forty-gallon tanks of gas, and I can dwell on the fact that the patriotic or religious bumper stickers always seem to be on the biggest, most disgustingly selfish vehicles driven by the ugliest, most inconsiderate and aggressive drivers, who are usually talking on cell phones as they cut people off in order to get just twenty stupid feet ahead in a traffic jam, and I can think about how our children&#39;s children will despise us for wasting all the future&#39;s fuel and probably screwing up the climate, and how spoiled and stupid and disgusting we all are, and how it all just sucks, and so on and so forth...&lt;/p&gt;
-&lt;p&gt;Look, if I choose to think this way, fine, lots of us do -- except that thinking this way tends to be so easy and automatic it doesn&#39;t have to be a choice. Thinking this way is my natural default-setting. It&#39;s the automatic, unconscious way that I experience the boring, frustrating, crowded parts of adult life when I&#39;m operating on the automatic, unconscious belief that I am the center of the world and that my immediate needs and feelings are what should determine the world&#39;s priorities. The thing is that there are obviously different ways to think about these kinds of situations. In this traffic, all these vehicles stuck and idling in my way: It&#39;s not impossible that some of these people in SUV&#39;s have been in horrible auto accidents in the past and now find driving so traumatic that their therapist has all but ordered them to get a huge, heavy SUV so they can feel safe enough to drive; or that the Hummer that just cut me off is maybe being driven by a father whose little child is hurt or sick in the seat next to him, and he&#39;s trying to rush to the hospital, and he&#39;s in a way bigger, more legitimate hurry than I am -- it is actually I who am in his way. Or I can choose to force myself to consider the likelihood that everyone else in the supermarket&#39;s checkout line is just as bored and frustrated as I am, and that some of these people probably have much harder, more tedious or painful lives than I do, overall.&lt;/p&gt;
-&lt;p&gt;Again, please don&#39;t think that I&#39;m giving you moral advice, or that I&#39;m saying you&#39;re &quot;supposed to&quot; think this way, or that anyone expects you to just automatically do it, because it&#39;s hard, it takes will and mental effort, and if you&#39;re like me, some days you won&#39;t be able to do it, or you just flat-out won&#39;t want to. But most days, if you&#39;re aware enough to give yourself a choice, you can choose to look differently at this fat, dead-eyed, over-made-lady who just screamed at her little child in the checkout line -- maybe she&#39;s not usually like this; maybe she&#39;s been up three straight nights holding the hand of her husband who&#39;s dying of bone cancer, or maybe this very lady is the low-wage clerk at the Motor Vehicles Dept. who just yesterday helped your spouse resolve a nightmarish red-tape problem through some small act of bureaucratic kindness. Of course, none of this is likely, but it&#39;s also not impossible -- it just depends on what you want to consider. If you&#39;re automatically sure that you know what reality is and who and what is really important -- if you want to operate on your default-setting -- then you, like me, will not consider possibilities that aren&#39;t pointless and annoying. But if you&#39;ve really learned how to think, how to pay attention, then you will know you have other options. It will actually be within your power to experience a crowded, loud, slow, consumer-hell-type situation as not only meaningful but sacred, on fire with the same force that lit the stars -- compassion, love, the sub-surface unity of all things. Not that that mystical stuff&#39;s necessarily true: The only thing that&#39;s capital-T True is that you get to decide how you&#39;re going to try to see it. You get to consciously decide what has meaning and what doesn&#39;t. You get to decide what to worship...&lt;/p&gt;
-&lt;p&gt;Because here&#39;s something else that&#39;s true. In the day-to-day trenches of adult life, there is actually no such thing as atheism. There is no such thing as not worshipping. Everybody worships. The only choice we get is what to worship. And an outstanding reason for choosing some sort of God or spiritual-type thing to worship -- be it J.C. or Allah, be it Yahweh or the Wiccan mother-goddess or the Four Noble Truths or some infrangible set of ethical principles -- is that pretty much anything else you worship will eat you alive. If you worship money and things -- if they are where you tap real meaning in life -- then you will never have enough. Never feel you have enough. It&#39;s the truth. Worship your own body and beauty and sexual allure and you will always feel ugly, and when time and age start showing, you will die a million deaths before they finally plant you. On one level, we all know this stuff already -- it&#39;s been codified as myths, proverbs, clichés, bromides, epigrams, parables: the skeleton of every great story. The trick is keeping the truth up-front in daily consciousness. Worship power -- you will feel weak and afraid, and you will need ever more power over others to keep the fear at bay. Worship your intellect, being seen as smart -- you will end up feeling stupid, a fraud, always on the verge of being found out. And so on.&lt;/p&gt;
-&lt;p&gt;Look, the insidious thing about these forms of worship is not that they&#39;re evil or sinful; it is that they are unconscious. They are default-settings. They&#39;re the kind of worship you just gradually slip into, day after day, getting more and more selective about what you see and how you measure value without ever being fully aware that that&#39;s what you&#39;re doing. And the world will not discourage you from operating on your default-settings, because the world of men and money and power hums along quite nicely on the fuel of fear and contempt and frustration and craving and the worship of self. Our own present culture has harnessed these forces in ways that have yielded extraordinary wealth and comfort and personal freedom. The freedom to be lords of our own tiny skull-sized kingdoms, alone at the center of all creation. This kind of freedom has much to recommend it. But of course there are all different kinds of freedom, and the kind that is most precious you will not hear much talked about in the great outside world of winning and achieving and displaying. The really important kind of freedom involves attention, and awareness, and discipline, and effort, and being able truly to care about other people and to sacrifice for them, over and over, in myriad petty little unsexy ways, every day. That is real freedom. The alternative is unconsciousness, the default-setting, the &quot;rat race&quot; -- the constant gnawing sense of having had and lost some infinite thing.&lt;/p&gt;
-&lt;p&gt;I know that this stuff probably doesn&#39;t sound fun and breezy or grandly inspirational. What it is, so far as I can see, is the truth with a whole lot of rhetorical bullshit pared away. Obviously, you can think of it whatever you wish. But please don&#39;t dismiss it as some finger-wagging Dr. Laura sermon. None of this is about morality, or religion, or dogma, or big fancy questions of life after death. The capital-T Truth is about life before death. It is about making it to 30, or maybe 50, without wanting to shoot yourself in the head. It is about simple awareness -- awareness of what is so real and essential, so hidden in plain sight all around us, that we have to keep reminding ourselves, over and over: &quot;This is water, this is water.&quot;&lt;/p&gt;
-&lt;p&gt;It is unimaginably hard to do this, to stay conscious and alive, day in and day out.&lt;/p&gt;
-&lt;/blockquote&gt;
+  <content type="html"><![CDATA[<p>I'm reprinting <a href="http://online.wsj.com/article/SB122178211966454607.html#printMode">this commencement address</a> from Kenyon College in 2005 by David Foster Wallace for two reasons:</p>
+<ol>
+<li>It has some profound truths in it which require digestion and reflection</li>
+<li>Since this is my notebook/scrapbook/record of my return to a life in the arts, I don't want to lose this kind of perspective on my education - a perspective I think I share as much from time away from the arts as I do from time within.</li>
+</ol>
+<p>David Foster Wallace on Life and Work:</p>
+<blockquote>
+<p>There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, "Morning, boys, how's the water?" And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, "What the hell is water?"</p>
+<p>If at this moment, you're worried that I plan to present myself here as the wise old fish explaining what water is to you younger fish, please don't be. I am not the wise old fish. The immediate point of the fish story is that the most obvious, ubiquitous, important realities are often the ones that are the hardest to see and talk about. Stated as an English sentence, of course, this is just a banal platitude -- but the fact is that, in the day-to-day trenches of adult existence, banal platitudes can have life-or-death importance. That may sound like hyperbole, or abstract nonsense.</p>
+<p>A huge percentage of the stuff that I tend to be automatically certain of is, it turns out, totally wrong and deluded. Here's one example of the utter wrongness of something I tend to be automatically sure of: Everything in my own immediate experience supports my deep belief that I am the absolute center of the universe, the realest, most vivid and important person in existence. We rarely talk about this sort of natural, basic self-centeredness, because it's so socially repulsive, but it's pretty much the same for all of us, deep down. It is our default-setting, hard-wired into our boards at birth. Think about it: There is no experience you've had that you were not at the absolute center of. The world as you experience it is right there in front of you, or behind you, to the left or right of you, on your TV, or your monitor, or whatever. Other people's thoughts and feelings have to be communicated to you somehow, but your own are so immediate, urgent, real -- you get the idea. But please don't worry that I'm getting ready to preach to you about compassion or other-directedness or the so-called "virtues." This is not a matter of virtue -- it's a matter of my choosing to do the work of somehow altering or getting free of my natural, hard-wired default-setting, which is to be deeply and literally self-centered, and to see and interpret everything through this lens of self.</p>
+<p>People who can adjust their natural default-setting this way are often described as being "well adjusted," which I suggest to you is not an accidental term.</p>
+<p>Given the triumphal academic setting here, an obvious question is how much of this work of adjusting our default-setting involves actual knowledge or intellect. This question gets tricky. Probably the most dangerous thing about college education, at least in my own case, is that it enables my tendency to over-intellectualize stuff, to get lost in abstract arguments inside my head instead of simply paying attention to what's going on right in front of me. Paying attention to what's going on inside me. As I'm sure you guys know by now, it is extremely difficult to stay alert and attentive instead of getting hypnotized by the constant monologue inside your own head. Twenty years after my own graduation, I have come gradually to understand that the liberal-arts cliché about "teaching you how to think" is actually shorthand for a much deeper, more serious idea: "Learning how to think" really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot exercise this kind of choice in adult life, you will be totally hosed. Think of the old cliché about "the mind being an excellent servant but a terrible master." This, like many clichés, so lame and unexciting on the surface, actually expresses a great and terrible truth. It is not the least bit coincidental that adults who commit suicide with firearms almost always shoot themselves in the head. And the truth is that most of these suicides are actually dead long before they pull the trigger. And I submit that this is what the real, no-bull- value of your liberal-arts education is supposed to be about: How to keep from going through your comfortable, prosperous, respectable adult life dead, unconscious, a slave to your head and to your natural default-setting of being uniquely, completely, imperially alone, day in and day out.</p>
+<p>That may sound like hyperbole, or abstract nonsense. So let's get concrete. The plain fact is that you graduating seniors do not yet have any clue what "day in, day out" really means. There happen to be whole large parts of adult American life that nobody talks about in commencement speeches. One such part involves boredom, routine, and petty frustration. The parents and older folks here will know all too well what I'm talking about.</p>
+<p>By way of example, let's say it's an average day, and you get up in the morning, go to your challenging job, and you work hard for nine or ten hours, and at the end of the day you're tired, and you're stressed out, and all you want is to go home and have a good supper and maybe unwind for a couple of hours and then hit the rack early because you have to get up the next day and do it all again. But then you remember there's no food at home -- you haven't had time to shop this week, because of your challenging job -- and so now after work you have to get in your car and drive to the supermarket. It's the end of the workday, and the traffic's very bad, so getting to the store takes way longer than it should, and when you finally get there the supermarket is very crowded, because of course it's the time of day when all the other people with jobs also try to squeeze in some grocery shopping, and the store's hideously, fluorescently lit, and infused with soul-killing Muzak or corporate pop, and it's pretty much the last place you want to be, but you can't just get in and quickly out: You have to wander all over the huge, overlit store's crowded aisles to find the stuff you want, and you have to maneuver your junky cart through all these other tired, hurried people with carts, and of course there are also the glacially slow old people and the spacey people and the ADHD kids who all block the aisle and you have to grit your teeth and try to be polite as you ask them to let you by, and eventually, finally, you get all your supper supplies, except now it turns out there aren't enough checkout lanes open even though it's the end-of-the-day-rush, so the checkout line is incredibly long, which is stupid and infuriating, but you can't take your fury out on the frantic lady working the register.</p>
+<p>Anyway, you finally get to the checkout line's front, and pay for your food, and wait to get your check or card authenticated by a machine, and then get told to "Have a nice day" in a voice that is the absolute voice of death, and then you have to take your creepy flimsy plastic bags of groceries in your cart through the crowded, bumpy, littery parking lot, and try to load the bags in your car in such a way that everything doesn't fall out of the bags and roll around in the trunk on the way home, and then you have to drive all the way home through slow, heavy, SUV-intensive rush-hour traffic, etcetera, etcetera.</p>
+<p>The point is that petty, frustrating crap like this is exactly where the work of choosing comes in. Because the traffic jams and crowded aisles and long checkout lines give me time to think, and if I don't make a conscious decision about how to think and what to pay attention to, I'm going to be pissed and miserable every time I have to food-shop, because my natural default-setting is the certainty that situations like this are really all about me, about my hungriness and my fatigue and my desire to just get home, and it's going to seem, for all the world, like everybody else is just in my way, and who are all these people in my way? And look at how repulsive most of them are and how stupid and cow-like and dead-eyed and nonhuman they seem here in the checkout line, or at how annoying and rude it is that people are talking loudly on cell phones in the middle of the line, and look at how deeply unfair this is: I've worked really hard all day and I'm starved and tired and I can't even get home to eat and unwind because of all these stupid g-d- people.</p>
+<p>Or, of course, if I'm in a more socially conscious form of my default-setting, I can spend time in the end-of-the-day traffic jam being angry and disgusted at all the huge, stupid, lane-blocking SUV's and Hummers and V-12 pickup trucks burning their wasteful, selfish, forty-gallon tanks of gas, and I can dwell on the fact that the patriotic or religious bumper stickers always seem to be on the biggest, most disgustingly selfish vehicles driven by the ugliest, most inconsiderate and aggressive drivers, who are usually talking on cell phones as they cut people off in order to get just twenty stupid feet ahead in a traffic jam, and I can think about how our children's children will despise us for wasting all the future's fuel and probably screwing up the climate, and how spoiled and stupid and disgusting we all are, and how it all just sucks, and so on and so forth...</p>
+<p>Look, if I choose to think this way, fine, lots of us do -- except that thinking this way tends to be so easy and automatic it doesn't have to be a choice. Thinking this way is my natural default-setting. It's the automatic, unconscious way that I experience the boring, frustrating, crowded parts of adult life when I'm operating on the automatic, unconscious belief that I am the center of the world and that my immediate needs and feelings are what should determine the world's priorities. The thing is that there are obviously different ways to think about these kinds of situations. In this traffic, all these vehicles stuck and idling in my way: It's not impossible that some of these people in SUV's have been in horrible auto accidents in the past and now find driving so traumatic that their therapist has all but ordered them to get a huge, heavy SUV so they can feel safe enough to drive; or that the Hummer that just cut me off is maybe being driven by a father whose little child is hurt or sick in the seat next to him, and he's trying to rush to the hospital, and he's in a way bigger, more legitimate hurry than I am -- it is actually I who am in his way. Or I can choose to force myself to consider the likelihood that everyone else in the supermarket's checkout line is just as bored and frustrated as I am, and that some of these people probably have much harder, more tedious or painful lives than I do, overall.</p>
+<p>Again, please don't think that I'm giving you moral advice, or that I'm saying you're "supposed to" think this way, or that anyone expects you to just automatically do it, because it's hard, it takes will and mental effort, and if you're like me, some days you won't be able to do it, or you just flat-out won't want to. But most days, if you're aware enough to give yourself a choice, you can choose to look differently at this fat, dead-eyed, over-made-lady who just screamed at her little child in the checkout line -- maybe she's not usually like this; maybe she's been up three straight nights holding the hand of her husband who's dying of bone cancer, or maybe this very lady is the low-wage clerk at the Motor Vehicles Dept. who just yesterday helped your spouse resolve a nightmarish red-tape problem through some small act of bureaucratic kindness. Of course, none of this is likely, but it's also not impossible -- it just depends on what you want to consider. If you're automatically sure that you know what reality is and who and what is really important -- if you want to operate on your default-setting -- then you, like me, will not consider possibilities that aren't pointless and annoying. But if you've really learned how to think, how to pay attention, then you will know you have other options. It will actually be within your power to experience a crowded, loud, slow, consumer-hell-type situation as not only meaningful but sacred, on fire with the same force that lit the stars -- compassion, love, the sub-surface unity of all things. Not that that mystical stuff's necessarily true: The only thing that's capital-T True is that you get to decide how you're going to try to see it. You get to consciously decide what has meaning and what doesn't. You get to decide what to worship...</p>
+<p>Because here's something else that's true. In the day-to-day trenches of adult life, there is actually no such thing as atheism. There is no such thing as not worshipping. Everybody worships. The only choice we get is what to worship. And an outstanding reason for choosing some sort of God or spiritual-type thing to worship -- be it J.C. or Allah, be it Yahweh or the Wiccan mother-goddess or the Four Noble Truths or some infrangible set of ethical principles -- is that pretty much anything else you worship will eat you alive. If you worship money and things -- if they are where you tap real meaning in life -- then you will never have enough. Never feel you have enough. It's the truth. Worship your own body and beauty and sexual allure and you will always feel ugly, and when time and age start showing, you will die a million deaths before they finally plant you. On one level, we all know this stuff already -- it's been codified as myths, proverbs, clichés, bromides, epigrams, parables: the skeleton of every great story. The trick is keeping the truth up-front in daily consciousness. Worship power -- you will feel weak and afraid, and you will need ever more power over others to keep the fear at bay. Worship your intellect, being seen as smart -- you will end up feeling stupid, a fraud, always on the verge of being found out. And so on.</p>
+<p>Look, the insidious thing about these forms of worship is not that they're evil or sinful; it is that they are unconscious. They are default-settings. They're the kind of worship you just gradually slip into, day after day, getting more and more selective about what you see and how you measure value without ever being fully aware that that's what you're doing. And the world will not discourage you from operating on your default-settings, because the world of men and money and power hums along quite nicely on the fuel of fear and contempt and frustration and craving and the worship of self. Our own present culture has harnessed these forces in ways that have yielded extraordinary wealth and comfort and personal freedom. The freedom to be lords of our own tiny skull-sized kingdoms, alone at the center of all creation. This kind of freedom has much to recommend it. But of course there are all different kinds of freedom, and the kind that is most precious you will not hear much talked about in the great outside world of winning and achieving and displaying. The really important kind of freedom involves attention, and awareness, and discipline, and effort, and being able truly to care about other people and to sacrifice for them, over and over, in myriad petty little unsexy ways, every day. That is real freedom. The alternative is unconsciousness, the default-setting, the "rat race" -- the constant gnawing sense of having had and lost some infinite thing.</p>
+<p>I know that this stuff probably doesn't sound fun and breezy or grandly inspirational. What it is, so far as I can see, is the truth with a whole lot of rhetorical bullshit pared away. Obviously, you can think of it whatever you wish. But please don't dismiss it as some finger-wagging Dr. Laura sermon. None of this is about morality, or religion, or dogma, or big fancy questions of life after death. The capital-T Truth is about life before death. It is about making it to 30, or maybe 50, without wanting to shoot yourself in the head. It is about simple awareness -- awareness of what is so real and essential, so hidden in plain sight all around us, that we have to keep reminding ourselves, over and over: "This is water, this is water."</p>
+<p>It is unimaginably hard to do this, to stay conscious and alive, day in and day out.</p>
+</blockquote>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/dfw-on-life-and-education&quot;&gt;DFW on Life and Education&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on October 21, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/dfw-on-life-and-education">DFW on Life and Education</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on October 21, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Question of the Day: Should You Major In Drama?]]></title>
@@ -144,31 +139,30 @@ Sympathy and empathy are also primary channels that most traditional theatre use
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;Isaac over at Parabasis &lt;a href=&quot;http://parabasis.typepad.com/blog/2008/10/should-you-major-in-drama.html&quot;&gt;posed an important question&lt;/a&gt; yesterday which I think deserves response: &lt;a href=&quot;http://parabasis.typepad.com/blog/2008/10/should-you-major-in-drama.html&quot;&gt;Should you major in drama&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote cite=&quot;http://parabasis.typepad.com/blog/2008/10/should-you-major-in-drama.html&quot;&gt;&lt;p&gt;
-I ask you dear readers to weigh in on this. I was a drama major, and I go back and forth as to whether or not this was a good idea (nothing against Vassar&#39;s Drama Department, which was quite good, and I&#39;m happy I did a liberal arts drama program and not a conservatory one).  I think part of this question gets to the root of an even deeper question: What is a college major for? Is it meant to be vocational training, in which case all liberal arts study fails the test unless all liberal arts students are planning on going into academia?  Is it, as David Foster Wallace postulated, to literally teach us how to think?  Is it to create a society where people at their jobs have a wide variety of perspectives and backgrounds, and thus the disconnect between major and job is a feature not a bug? Why college at all?
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3&gt;I responded in his comments, but for the sake of posterity, I&#39;ll publish it here:&lt;/h3&gt;
-&lt;hr /&gt;
+  <content type="html"><![CDATA[<p>Isaac over at Parabasis <a href="http://parabasis.typepad.com/blog/2008/10/should-you-major-in-drama.html">posed an important question</a> yesterday which I think deserves response: <a href="http://parabasis.typepad.com/blog/2008/10/should-you-major-in-drama.html">Should you major in drama</a>:</p>
+<blockquote cite="http://parabasis.typepad.com/blog/2008/10/should-you-major-in-drama.html"><p>
+I ask you dear readers to weigh in on this. I was a drama major, and I go back and forth as to whether or not this was a good idea (nothing against Vassar's Drama Department, which was quite good, and I'm happy I did a liberal arts drama program and not a conservatory one).  I think part of this question gets to the root of an even deeper question: What is a college major for? Is it meant to be vocational training, in which case all liberal arts study fails the test unless all liberal arts students are planning on going into academia?  Is it, as David Foster Wallace postulated, to literally teach us how to think?  Is it to create a society where people at their jobs have a wide variety of perspectives and backgrounds, and thus the disconnect between major and job is a feature not a bug? Why college at all?
+</p></blockquote>
+<h3>I responded in his comments, but for the sake of posterity, I'll publish it here:</h3>
+<hr />
 
-&lt;p&gt;Here&#39;s my background to give you sense of where I&#39;m coming from: Went to a state University as a drama major for two years, transferred to a big city conservatory and had to drop out due to finances after a year. I never finished my BFA.&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;I then went on to chase carrots and climb ladders very successfully with Fortune 100 company for 15 years. Not wanting to live with regrets, I made a conscious decision to avoid looking back. That strategy worked for a time. One day I&#39;d had enough, gracefully &quot;retired&quot; and today I&#39;m back finishing up that degree with plans for an MFA after that.&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;While a drama degree will never be a notch on the resume for the board of directors or shareholders, I can say that every promotion, every new job (role if you will), my experience in the theatre was a key component to my success. Here&#39;s three reasons why:&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;True dedication to the arts - like that required in a top-notch drama program - requires a ton of hard work, long hours, the ability to prioritize, and tremendous sacrifice. If you have the ability to do these three things, you have a leg up on most others around you in any situation outside of the arts.&lt;/li&gt;
-&lt;li&gt;Succeeding in business, as in many other fields requires both keen self-awareness and the ability to present yourself to others. That&#39;s pretty much what is required to be successful in a highly competitive drama program at a university.&lt;/li&gt;
-&lt;li&gt;Life is competitive - like it or not. You will win some and lose some but it is how you handle both that defines your character to others in your field. Anyone serious about committing themselves to the arts has to learn to deal with the inherent competition in healthy ways or they risk losing it all within their community.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I wholly agree with &quot;Director&quot; in that you should pursue what you are passionate about for as long as you are able to pursue it and for man of the same reasons he listed.&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
+<p>Here's my background to give you sense of where I'm coming from: Went to a state University as a drama major for two years, transferred to a big city conservatory and had to drop out due to finances after a year. I never finished my BFA.<br /></p>
+<p>I then went on to chase carrots and climb ladders very successfully with Fortune 100 company for 15 years. Not wanting to live with regrets, I made a conscious decision to avoid looking back. That strategy worked for a time. One day I'd had enough, gracefully "retired" and today I'm back finishing up that degree with plans for an MFA after that.<br /></p>
+<p>While a drama degree will never be a notch on the resume for the board of directors or shareholders, I can say that every promotion, every new job (role if you will), my experience in the theatre was a key component to my success. Here's three reasons why:<br /></p>
+<ol>
+<li>True dedication to the arts - like that required in a top-notch drama program - requires a ton of hard work, long hours, the ability to prioritize, and tremendous sacrifice. If you have the ability to do these three things, you have a leg up on most others around you in any situation outside of the arts.</li>
+<li>Succeeding in business, as in many other fields requires both keen self-awareness and the ability to present yourself to others. That's pretty much what is required to be successful in a highly competitive drama program at a university.</li>
+<li>Life is competitive - like it or not. You will win some and lose some but it is how you handle both that defines your character to others in your field. Anyone serious about committing themselves to the arts has to learn to deal with the inherent competition in healthy ways or they risk losing it all within their community.</li>
+</ol>
+<p>I wholly agree with "Director" in that you should pursue what you are passionate about for as long as you are able to pursue it and for man of the same reasons he listed.<br /></p>
+<hr />
 
-&lt;p&gt;College is a time when your adult personality really begins to be forged and being able to feel passionate and energized about what you&#39;re doing on a daily basis has a way of bringing out the best in a person.&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;He also linked to a commencement address by David Foster Wallace at Kenyan in 2005 which &lt;a href=&quot;http://www.marginalia.org/dfw_kenyon_commencement.html&quot;&gt;I think is worth a read&lt;/a&gt;.&lt;/p&gt;
+<p>College is a time when your adult personality really begins to be forged and being able to feel passionate and energized about what you're doing on a daily basis has a way of bringing out the best in a person.<br />
+</p>
+<p>He also linked to a commencement address by David Foster Wallace at Kenyan in 2005 which <a href="http://www.marginalia.org/dfw_kenyon_commencement.html">I think is worth a read</a>.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/question-of-the-day-should-you-major-in-drama&quot;&gt;Question of the Day: Should You Major In Drama?&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on October 21, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/question-of-the-day-should-you-major-in-drama">Question of the Day: Should You Major In Drama?</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on October 21, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[You & the Needs of Your Audience]]></title>
@@ -181,14 +175,13 @@ I ask you dear readers to weigh in on this. I was a drama major, and I go back a
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;Another thought-provoking and relative post from Laura Axelrod, &lt;a href=&quot;http://www.gaspjournal.com/2008/09/you-the-needs-of-your-audience.html&quot;&gt;&lt;cite&gt;You &amp;amp; the Needs of Your Audience&lt;/cite&gt;&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote cite=&quot;http://www.gaspjournal.com/2008/09/you-the-needs-of-your-audience.html&quot;&gt;&lt;p&gt;
-Some people might mistake my call for cultural relevance as an urging for agit-prop. Nothing could be further from the truth. It saddens me that there are those who would dismiss these essays with that response. It also would be very simple for the artist to dig a hole and hide from the undercurrent. Why sully yourself with ephemeral matters? Elections come and go; money is for someone else to understand.&lt;br /&gt;&lt;br /&gt;Unfortunately, while you can wash your hands of these problems, your audience cannot. Instead of paying attention to your composition, their thoughts may drift back to their bank accounts. Will they be able to access their money? How are they going to justify buying tickets with these kind of money troubles?
-&lt;/p&gt;&lt;/blockquote&gt;
+  <content type="html"><![CDATA[<p>Another thought-provoking and relative post from Laura Axelrod, <a href="http://www.gaspjournal.com/2008/09/you-the-needs-of-your-audience.html"><cite>You &amp; the Needs of Your Audience</cite></a>:</p>
+<blockquote cite="http://www.gaspjournal.com/2008/09/you-the-needs-of-your-audience.html"><p>
+Some people might mistake my call for cultural relevance as an urging for agit-prop. Nothing could be further from the truth. It saddens me that there are those who would dismiss these essays with that response. It also would be very simple for the artist to dig a hole and hide from the undercurrent. Why sully yourself with ephemeral matters? Elections come and go; money is for someone else to understand.<br /><br />Unfortunately, while you can wash your hands of these problems, your audience cannot. Instead of paying attention to your composition, their thoughts may drift back to their bank accounts. Will they be able to access their money? How are they going to justify buying tickets with these kind of money troubles?
+</p></blockquote>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/you-the-needs-of-your-audience&quot;&gt;You & the Needs of Your Audience&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on September 26, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/you-the-needs-of-your-audience">You & the Needs of Your Audience</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on September 26, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Engaging Arts - In the Classroom]]></title>
@@ -201,14 +194,13 @@ Some people might mistake my call for cultural relevance as an urging for agit-p
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;I&#39;ve been reading the excellent book &lt;cite&gt;&lt;a href=&quot;http://www.amazon.com/Engaging-Art-Transformation-Americas-Cultural/dp/0415960428%3FSubscriptionId%3D0PZ7TM66EXQCXFVTMTR2%26tag%3Dblogezods-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0415960428&quot;&gt;Engaging Art - The Next Great Transformation of America&#39;s Cultural Life&lt;/a&gt;&lt;/cite&gt;, edited by &lt;a href=&quot;http://www.vanderbilt.edu/curbcenter/staff&quot;&gt;Stephen Tepper&lt;/a&gt; and Bill Ivey, former head of the NEA. Though I&#39;m only half way through the book, my intial reactions are that it is an essential book for anyone involved in arts production, exhibition, or planning.&lt;/p&gt;
-&lt;p&gt;&lt;cite&gt;Engaging Art&lt;/cite&gt; is a collection of essays and papers with a combined purpose of understanding the current cultural climate and offering opinions on what can be done to embrace the audience of today.  Since this is a topic that fascinates me, I&#39;m clearly biased toward this type of discussion, however it occurred to me as I was reading last night that there is a clear need in academic programs for the arts to include discussions of the audience in their curriculum - e.g. a 400-level, inter-disciplinary seminar using this book as one of the reference sources. While the critical components of learning ones&#39; craft are essential, part of becoming a contributing &amp;quot;citizen of the arts&amp;quot; is the inclusion of the audience in the presentation of that art - be it theatre, dance, gallery/museum, et all.&lt;/p&gt;
-&lt;p&gt;As our audiences evolve, so must those who make and present art evolve in the manner in which we engage them. Not change the art, but change the way we communicate with them about it and the ways in which we ask them to experience it.&lt;br /&gt;
-&lt;/p&gt;
+  <content type="html"><![CDATA[<p>I've been reading the excellent book <cite><a href="http://www.amazon.com/Engaging-Art-Transformation-Americas-Cultural/dp/0415960428%3FSubscriptionId%3D0PZ7TM66EXQCXFVTMTR2%26tag%3Dblogezods-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0415960428">Engaging Art - The Next Great Transformation of America's Cultural Life</a></cite>, edited by <a href="http://www.vanderbilt.edu/curbcenter/staff">Stephen Tepper</a> and Bill Ivey, former head of the NEA. Though I'm only half way through the book, my intial reactions are that it is an essential book for anyone involved in arts production, exhibition, or planning.</p>
+<p><cite>Engaging Art</cite> is a collection of essays and papers with a combined purpose of understanding the current cultural climate and offering opinions on what can be done to embrace the audience of today.  Since this is a topic that fascinates me, I'm clearly biased toward this type of discussion, however it occurred to me as I was reading last night that there is a clear need in academic programs for the arts to include discussions of the audience in their curriculum - e.g. a 400-level, inter-disciplinary seminar using this book as one of the reference sources. While the critical components of learning ones' craft are essential, part of becoming a contributing &quot;citizen of the arts&quot; is the inclusion of the audience in the presentation of that art - be it theatre, dance, gallery/museum, et all.</p>
+<p>As our audiences evolve, so must those who make and present art evolve in the manner in which we engage them. Not change the art, but change the way we communicate with them about it and the ways in which we ask them to experience it.<br />
+</p>
 
-  &lt;p&gt;&lt;a href=&quot;/the%20arts/engaging-arts-in-the-classroom&quot;&gt;Engaging Arts - In the Classroom&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on September 18, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/the%20arts/engaging-arts-in-the-classroom">Engaging Arts - In the Classroom</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on September 18, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Money, The Arts Etc.]]></title>
@@ -221,15 +213,14 @@ Some people might mistake my call for cultural relevance as an urging for agit-p
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;a href=&quot;http://parabasis.typepad.com/blog/2008/09/money-the-arts-etc.html&quot;&gt;David Cote&lt;/a&gt; touches on a tough subject:  what happens to the arts in an economic crisis:&lt;/p&gt;
-&lt;blockquote cite=&quot;http://parabasis.typepad.com/blog/2008/09/money-the-arts-etc.html&quot;&gt;&lt;p&gt;
-Obviously, the most direct impact will be financial. I was speaking a friend who works for an Off-Broadway theater who told me &quot;we were waiting for a grant from Lehman... I have no idea what&#39;s going to happen with that&quot;. That&#39;s not good. Corporations are going to be donating less. Individual giving is going to fall.  It&#39;s going to be a tough climate.
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;As I continue to mull over some of my ideas on what a sustainable (and I don&#39;t just mean that from an environmental perspective) arts sector looks like, I think there needs to be a more holistic balance between the donations received and how they are allocated annually.  Much of the way money is spent in the NFP revolves around the amount of cash-on-hand at the end of the year - a direct result of the tax requirements imposed upon them.  That needs to change and include longer term financial strategies which allow for both stability in the structure of our institutions and greater artistic freedom from the demands of the box office. Unless this changes, the NFP arts sector will always be a slave to the fluctuations of the market.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><a href="http://parabasis.typepad.com/blog/2008/09/money-the-arts-etc.html">David Cote</a> touches on a tough subject:  what happens to the arts in an economic crisis:</p>
+<blockquote cite="http://parabasis.typepad.com/blog/2008/09/money-the-arts-etc.html"><p>
+Obviously, the most direct impact will be financial. I was speaking a friend who works for an Off-Broadway theater who told me "we were waiting for a grant from Lehman... I have no idea what's going to happen with that". That's not good. Corporations are going to be donating less. Individual giving is going to fall.  It's going to be a tough climate.
+</p></blockquote>
+<p>As I continue to mull over some of my ideas on what a sustainable (and I don't just mean that from an environmental perspective) arts sector looks like, I think there needs to be a more holistic balance between the donations received and how they are allocated annually.  Much of the way money is spent in the NFP revolves around the amount of cash-on-hand at the end of the year - a direct result of the tax requirements imposed upon them.  That needs to change and include longer term financial strategies which allow for both stability in the structure of our institutions and greater artistic freedom from the demands of the box office. Unless this changes, the NFP arts sector will always be a slave to the fluctuations of the market.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/money-the-arts-etc&quot;&gt;Money, The Arts Etc.&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on September 15, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/money-the-arts-etc">Money, The Arts Etc.</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on September 15, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Quote of the Day]]></title>
@@ -242,13 +233,12 @@ Obviously, the most direct impact will be financial. I was speaking a friend who
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;blockquote&gt;...if there are minor arts and major arts, the latter being the ones that contain the former, there will be therefore a sovereign art, which will contain all of the other arts and sciences, and whose field of action and concern will include all of the fields of action of all the other arts and all the other sciences. This sovereign art, of course, will be the one whose laws rule over the relations of men in their totality.  That is, Politics.
-&lt;p&gt;Nothing is alien to Politics, because nothing is alien to the superior art that rules the relations among men.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;- Augusto Boal, &lt;a href=&quot;http://www.amazon.com/Theatre-Oppressed-Augusto-Boal/dp/0930452496%3FSubscriptionId%3D0PZ7TM66EXQCXFVTMTR2%26tag%3Dblogezods-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0930452496&quot;&gt;Theatre of The Oppressed&lt;/a&gt;&lt;/p&gt;
+  <content type="html"><![CDATA[<blockquote>...if there are minor arts and major arts, the latter being the ones that contain the former, there will be therefore a sovereign art, which will contain all of the other arts and sciences, and whose field of action and concern will include all of the fields of action of all the other arts and all the other sciences. This sovereign art, of course, will be the one whose laws rule over the relations of men in their totality.  That is, Politics.
+<p>Nothing is alien to Politics, because nothing is alien to the superior art that rules the relations among men.</p></blockquote>
+<p>- Augusto Boal, <a href="http://www.amazon.com/Theatre-Oppressed-Augusto-Boal/dp/0930452496%3FSubscriptionId%3D0PZ7TM66EXQCXFVTMTR2%26tag%3Dblogezods-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0930452496">Theatre of The Oppressed</a></p>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/quote-for-the-day&quot;&gt;Quote of the Day&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on September 14, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/quote-for-the-day">Quote of the Day</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on September 14, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Quote of the Day]]></title>
@@ -261,12 +251,11 @@ Obviously, the most direct impact will be financial. I was speaking a friend who
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;blockquote&gt;I am skeptical of artistic institutions and national artistic movements to call on us to create good theatre.  Institutions are dedicated to self-preservation: Theatre is temporary.  National movements tend toward the universal: Good theatre is specific.&lt;/blockquote&gt;
-&lt;p&gt;- Elizabeth Zurn - &lt;a href=&quot;http://www.creederep.org/&quot;&gt;Creede Repertory Theatre&lt;/a&gt;, Colorado&lt;/p&gt;
+  <content type="html"><![CDATA[<blockquote>I am skeptical of artistic institutions and national artistic movements to call on us to create good theatre.  Institutions are dedicated to self-preservation: Theatre is temporary.  National movements tend toward the universal: Good theatre is specific.</blockquote>
+<p>- Elizabeth Zurn - <a href="http://www.creederep.org/">Creede Repertory Theatre</a>, Colorado</p>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/quote-of-the-day&quot;&gt;Quote of the Day&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on September 13, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/quote-of-the-day">Quote of the Day</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on September 13, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[The Butterfly Effect]]></title>
@@ -279,14 +268,13 @@ Obviously, the most direct impact will be financial. I was speaking a friend who
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;A neat and, in some ways, inspiring story from WaPo about &lt;a href=&quot;http://www.washingtonpost.com/wp-dyn/content/article/2008/08/15/AR2008081502356.html?hpid=features1&amp;amp;hpv=national&quot;&gt;a man and his...butterfly&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote cite=&quot;http://www.washingtonpost.com/wp-dyn/content/article/2008/08/15/AR2008081502356.html?hpid=features1&amp;amp;hpv=national&quot;&gt;&lt;p&gt;I decided to get the butterfly something to eat at the Smith &amp;amp; Wollensky steakhouse across the street. My colleague Catherine Antoine and I plunged into the rush-hour traffic on 19th, slipping between cars that were jammed together waiting for the light to change. Neither the noise nor the fumes seemed to bother the butterfly.&lt;/p&gt;
-&lt;p&gt;I asked the waiter standing outside the door of the steakhouse to find a corner table for &quot;me, my colleague and the butterfly.&quot;&lt;/p&gt;
-&lt;p&gt;&quot;Right away, sir,&quot; responded the waiter, acting as if there was nothing extraordinary about a butterfly dropping in at a steakhouse. We ordered calamari and two glasses of pinot noir, and I asked the waiter to get something for the butterfly.&lt;/p&gt;&lt;/blockquote&gt;
+  <content type="html"><![CDATA[<p>A neat and, in some ways, inspiring story from WaPo about <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/08/15/AR2008081502356.html?hpid=features1&amp;hpv=national">a man and his...butterfly</a>:</p>
+<blockquote cite="http://www.washingtonpost.com/wp-dyn/content/article/2008/08/15/AR2008081502356.html?hpid=features1&amp;hpv=national"><p>I decided to get the butterfly something to eat at the Smith &amp; Wollensky steakhouse across the street. My colleague Catherine Antoine and I plunged into the rush-hour traffic on 19th, slipping between cars that were jammed together waiting for the light to change. Neither the noise nor the fumes seemed to bother the butterfly.</p>
+<p>I asked the waiter standing outside the door of the steakhouse to find a corner table for "me, my colleague and the butterfly."</p>
+<p>"Right away, sir," responded the waiter, acting as if there was nothing extraordinary about a butterfly dropping in at a steakhouse. We ordered calamari and two glasses of pinot noir, and I asked the waiter to get something for the butterfly.</p></blockquote>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/the-butterfly-effect&quot;&gt;The Butterfly Effect&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 24, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/the-butterfly-effect">The Butterfly Effect</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 24, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Murmur to This Body]]></title>
@@ -299,43 +287,42 @@ Obviously, the most direct impact will be financial. I was speaking a friend who
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Breathe deeply of clean air&lt;br /&gt;
-when you find it.&lt;br /&gt;
-I must have it to turn&lt;br /&gt;
-blue to crimson,&lt;br /&gt;
-to bring life back to&lt;br /&gt;
-dying members of this host,&lt;br /&gt;
-allowing myself once again to&lt;br /&gt;
-revel in the slowness&lt;br /&gt;
-that is the persistent beat of a drum&lt;br /&gt;
-to which we both march.&lt;/p&gt;
-&lt;p&gt;Dance, play, run freely;&lt;br /&gt;
-it makes my muscles stronger&lt;br /&gt;
-to run a race of determined length.&lt;/p&gt;
-&lt;p&gt;Open me up to the deserving.&lt;br /&gt;
-It is well and good&lt;br /&gt;
-that your system is a closed one,&lt;br /&gt;
-but my muscle of metaphors&lt;br /&gt;
-wants to be shared.&lt;br /&gt;
-Un-gifted, I atrophy and become hardened.&lt;/p&gt;
-&lt;p&gt;Treat me gently;&lt;br /&gt;
-hope that others will do the same,&lt;br /&gt;
-but don’t fear me.&lt;br /&gt;
-I have wounds which fester,&lt;br /&gt;
-and may never heal,&lt;br /&gt;
-but endure these.&lt;br /&gt;
-Potential rewards&lt;br /&gt;
-tip scales on periodic pains.&lt;/p&gt;
-&lt;p&gt;You’ve told all this to me,&lt;br /&gt;
-and to yourself, more than once.&lt;br /&gt;
-I’ve heard you, and&lt;br /&gt;
-what is more important&lt;br /&gt;
-is that I have to believe you.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>Breathe deeply of clean air<br />
+when you find it.<br />
+I must have it to turn<br />
+blue to crimson,<br />
+to bring life back to<br />
+dying members of this host,<br />
+allowing myself once again to<br />
+revel in the slowness<br />
+that is the persistent beat of a drum<br />
+to which we both march.</p>
+<p>Dance, play, run freely;<br />
+it makes my muscles stronger<br />
+to run a race of determined length.</p>
+<p>Open me up to the deserving.<br />
+It is well and good<br />
+that your system is a closed one,<br />
+but my muscle of metaphors<br />
+wants to be shared.<br />
+Un-gifted, I atrophy and become hardened.</p>
+<p>Treat me gently;<br />
+hope that others will do the same,<br />
+but don’t fear me.<br />
+I have wounds which fester,<br />
+and may never heal,<br />
+but endure these.<br />
+Potential rewards<br />
+tip scales on periodic pains.</p>
+<p>You’ve told all this to me,<br />
+and to yourself, more than once.<br />
+I’ve heard you, and<br />
+what is more important<br />
+is that I have to believe you.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/murmur-to-this-body&quot;&gt;Murmur to This Body&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/murmur-to-this-body">Murmur to This Body</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[A Gift Rejected]]></title>
@@ -348,38 +335,37 @@ is that I have to believe you.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Her heavy accent breaks my reverie,&lt;br /&gt;
-my self-absorption gives way&lt;br /&gt;
-to abashment.&lt;br /&gt;
-She is a teacher in the old style:&lt;br /&gt;
-herself, long ago, a fugitive&lt;br /&gt;
-from a Holocaust which&lt;br /&gt;
-once fell upon old Europe.&lt;/p&gt;
-&lt;p&gt;She firmly corrects my twelve year-old hands&lt;br /&gt;
-with hers withered and bulging,&lt;br /&gt;
-with the ravages of wars and age,&lt;br /&gt;
-attacking this instrument before us both.&lt;br /&gt;
-I am reminded to hold my fingers properly:&lt;br /&gt;
-not flat and flaccid,&lt;br /&gt;
-but arched and ready.&lt;/p&gt;
-&lt;p&gt;Each week&lt;br /&gt;
-I have come to dread this moment:&lt;br /&gt;
-the contrast of her age and mine,&lt;br /&gt;
-the lack of coolness in it all,&lt;br /&gt;
-hiding this from my friends&lt;br /&gt;
-who play baseball instead&lt;br /&gt;
-or skateboard.&lt;/p&gt;
-&lt;p&gt;In the opacity of a Grand Piano&lt;br /&gt;
-our differences are reflected.&lt;br /&gt;
-As soon as is allowed,&lt;br /&gt;
-I will leave her for good,&lt;br /&gt;
-and will later regret&lt;br /&gt;
-this gift I once rejected.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>Her heavy accent breaks my reverie,<br />
+my self-absorption gives way<br />
+to abashment.<br />
+She is a teacher in the old style:<br />
+herself, long ago, a fugitive<br />
+from a Holocaust which<br />
+once fell upon old Europe.</p>
+<p>She firmly corrects my twelve year-old hands<br />
+with hers withered and bulging,<br />
+with the ravages of wars and age,<br />
+attacking this instrument before us both.<br />
+I am reminded to hold my fingers properly:<br />
+not flat and flaccid,<br />
+but arched and ready.</p>
+<p>Each week<br />
+I have come to dread this moment:<br />
+the contrast of her age and mine,<br />
+the lack of coolness in it all,<br />
+hiding this from my friends<br />
+who play baseball instead<br />
+or skateboard.</p>
+<p>In the opacity of a Grand Piano<br />
+our differences are reflected.<br />
+As soon as is allowed,<br />
+I will leave her for good,<br />
+and will later regret<br />
+this gift I once rejected.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/a-gift-rejected&quot;&gt;A Gift Rejected&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/a-gift-rejected">A Gift Rejected</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Publicity Hounds]]></title>
@@ -392,16 +378,15 @@ this gift I once rejected.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Zebras get a great deal of free publicity.  They are funny looking and who, off the tip of their tongue, knows of another animal that starts with the letter “Z”?  They do, however wear pinstripes which befit them as bookends for budding learners of the alphabet.&lt;/p&gt;
-&lt;p&gt;Cats and Dogs get top billing as well.   Not only are they within the first four letters of the alphabet, but they are gifted just as much from being simple to the ear and to the page.   Why, my very own daughter’s first word was  “kitty” - which, if you extrapolate her age and factor for cat years when she made this brilliant pronouncement, bears out my hypothesis completely.   They (cats and dogs, that is) are, naturally, top of mind to any child when the alphabet soup is on the menu.   Maybe that’s why we have so many of them as pets.&lt;/p&gt;
-&lt;p&gt;Contrast the noble canine to the lowly aardvark.  Most certainly he starts with an “A” and would seem a natural for some free, if albeit juvenile, press of his own.   But it is in the next letter of his name which causes a fundamental problem:  “a” again.  It is regrettable, however, that you simply cannot place the pitiful aardvark into a child’s bedtime story because of this misfortune of circumstance.   Any typical five year old worth her salt, in a most blatant attempt to stave off the impending lights-out, would use the much maligned aardvark as a quasi-intellectual springboard into a parental interrogation on the nuances of spelling in the English language.  We should nary forget his wretched, elongated snout and rat-esque tail, each of which provides fascination and begs questions of their own.   It is neither dogs nor cats which produce in me fitful dreams so much as the mere mention of one wretched aardvark near bedtime.&lt;/p&gt;
-&lt;p&gt;That brings me to “X”.  Most certainly we associate with the musicality of the xylophone which, while neither plant nor mammal, is all too familiar as emblematic for “x”.  The xylophone does, however, begs the question:  In the last century, even as we have discovered new flora and fauna, why have no living things been named begun with the letter “X”?&lt;/p&gt;
-&lt;p&gt;Surely, if they had, they would have gotten a great deal of free publicity.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>Zebras get a great deal of free publicity.  They are funny looking and who, off the tip of their tongue, knows of another animal that starts with the letter “Z”?  They do, however wear pinstripes which befit them as bookends for budding learners of the alphabet.</p>
+<p>Cats and Dogs get top billing as well.   Not only are they within the first four letters of the alphabet, but they are gifted just as much from being simple to the ear and to the page.   Why, my very own daughter’s first word was  “kitty” - which, if you extrapolate her age and factor for cat years when she made this brilliant pronouncement, bears out my hypothesis completely.   They (cats and dogs, that is) are, naturally, top of mind to any child when the alphabet soup is on the menu.   Maybe that’s why we have so many of them as pets.</p>
+<p>Contrast the noble canine to the lowly aardvark.  Most certainly he starts with an “A” and would seem a natural for some free, if albeit juvenile, press of his own.   But it is in the next letter of his name which causes a fundamental problem:  “a” again.  It is regrettable, however, that you simply cannot place the pitiful aardvark into a child’s bedtime story because of this misfortune of circumstance.   Any typical five year old worth her salt, in a most blatant attempt to stave off the impending lights-out, would use the much maligned aardvark as a quasi-intellectual springboard into a parental interrogation on the nuances of spelling in the English language.  We should nary forget his wretched, elongated snout and rat-esque tail, each of which provides fascination and begs questions of their own.   It is neither dogs nor cats which produce in me fitful dreams so much as the mere mention of one wretched aardvark near bedtime.</p>
+<p>That brings me to “X”.  Most certainly we associate with the musicality of the xylophone which, while neither plant nor mammal, is all too familiar as emblematic for “x”.  The xylophone does, however, begs the question:  In the last century, even as we have discovered new flora and fauna, why have no living things been named begun with the letter “X”?</p>
+<p>Surely, if they had, they would have gotten a great deal of free publicity.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/publicity-hounds&quot;&gt;Publicity Hounds&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/publicity-hounds">Publicity Hounds</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[End of Study Break]]></title>
@@ -414,33 +399,32 @@ this gift I once rejected.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;It’s as if I am aging in reverse.&lt;br /&gt;
-Rekindled passions, dormant for many seasons,&lt;br /&gt;
-speak to me now and ask questions:&lt;br /&gt;
-was what once seemed right, instead&lt;br /&gt;
-necessary protection from an aching heart?&lt;br /&gt;
-From poverty? From pain?&lt;br /&gt;
-Shall I try once again to cover myself in&lt;br /&gt;
-the sheath of success which&lt;br /&gt;
-has, in the past,&lt;br /&gt;
-wrapped me with its gilded fabric of a duller hue?&lt;/p&gt;
-&lt;p&gt;I think I will ask my old friends.&lt;br /&gt;
-They once were accomplice to my greatest escape.&lt;br /&gt;
-Yet their pages are yellowed:&lt;br /&gt;
-their brittle stacks faded from passage of time.&lt;/p&gt;
-&lt;p&gt;Perhaps, instead, I should put them away;&lt;br /&gt;
-safe for later days, poised for fresh eyes.&lt;br /&gt;
-The faces on the planks of this shelf&lt;br /&gt;
-have changed much in 15 years.&lt;br /&gt;
-Some familiarity remains.&lt;br /&gt;
-“Hello my friends, my comforts, my teachers&lt;br /&gt;
-I’d like to catch up.&lt;br /&gt;
-It seems I have a moment.”&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>It’s as if I am aging in reverse.<br />
+Rekindled passions, dormant for many seasons,<br />
+speak to me now and ask questions:<br />
+was what once seemed right, instead<br />
+necessary protection from an aching heart?<br />
+From poverty? From pain?<br />
+Shall I try once again to cover myself in<br />
+the sheath of success which<br />
+has, in the past,<br />
+wrapped me with its gilded fabric of a duller hue?</p>
+<p>I think I will ask my old friends.<br />
+They once were accomplice to my greatest escape.<br />
+Yet their pages are yellowed:<br />
+their brittle stacks faded from passage of time.</p>
+<p>Perhaps, instead, I should put them away;<br />
+safe for later days, poised for fresh eyes.<br />
+The faces on the planks of this shelf<br />
+have changed much in 15 years.<br />
+Some familiarity remains.<br />
+“Hello my friends, my comforts, my teachers<br />
+I’d like to catch up.<br />
+It seems I have a moment.”</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/end-of-study-break&quot;&gt;End of Study Break&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/end-of-study-break">End of Study Break</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Puzzle]]></title>
@@ -453,27 +437,26 @@ It seems I have a moment.”&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Deliver me in a box of many colors.&lt;br /&gt;
-Empty this image atomized&lt;br /&gt;
-to the pleasure of your gaze.&lt;br /&gt;
-Inspect my jagged edges toward this&lt;br /&gt;
-decoration of your achievement.&lt;br /&gt;
-My garments cease to exist.&lt;br /&gt;
-For now, their beauty is a challenge&lt;br /&gt;
-to be met and won.&lt;br /&gt;
-The seams of my gilded robe,&lt;br /&gt;
-simply clues to something&lt;br /&gt;
-recognizable as a chance for recognition&lt;br /&gt;
-of intellect, not artistry.&lt;br /&gt;
-Frame me not with glue and mitred corners.&lt;br /&gt;
-Instead, savor my complete complexity.&lt;br /&gt;
-Then destroy me,&lt;br /&gt;
-as I am neither puzzle nor puzzling.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>Deliver me in a box of many colors.<br />
+Empty this image atomized<br />
+to the pleasure of your gaze.<br />
+Inspect my jagged edges toward this<br />
+decoration of your achievement.<br />
+My garments cease to exist.<br />
+For now, their beauty is a challenge<br />
+to be met and won.<br />
+The seams of my gilded robe,<br />
+simply clues to something<br />
+recognizable as a chance for recognition<br />
+of intellect, not artistry.<br />
+Frame me not with glue and mitred corners.<br />
+Instead, savor my complete complexity.<br />
+Then destroy me,<br />
+as I am neither puzzle nor puzzling.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/puzzle-2&quot;&gt;Puzzle&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/puzzle-2">Puzzle</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Sonnet to An Old Flame]]></title>
@@ -486,28 +469,27 @@ as I am neither puzzle nor puzzling.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Even now as years provide me distance,&lt;br /&gt;
-and thunder, bolts of lightning, are replaced&lt;br /&gt;
-by new relationships, loves, lives and children&lt;br /&gt;
-at times, I find my thoughts return to you.&lt;/p&gt;
-&lt;p&gt;I do not long to rekindle an old romance.&lt;br /&gt;
-In truth, my life is richer now by far.&lt;br /&gt;
-And yet, it seems our memory passes history’s&lt;br /&gt;
-test; as time rememb’red finds new meaning.&lt;/p&gt;
-&lt;p&gt;Perhaps this blossoms from growing nostalgia&lt;br /&gt;
-for simpler times which distance makes more pure&lt;br /&gt;
-before bold hope gave way to cynicism,&lt;br /&gt;
-when all ideals gleamed new and possible.&lt;/p&gt;
-&lt;p&gt;So, old flame, I cast out thoughts of hate,&lt;br /&gt;
-the bitter pain of parting and my tears.&lt;br /&gt;
-Instead I’ll forego wrongs to elevate&lt;br /&gt;
-remembrances of me, and you, and us;&lt;br /&gt;
-I wish you boundless joy, much happiness.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>Even now as years provide me distance,<br />
+and thunder, bolts of lightning, are replaced<br />
+by new relationships, loves, lives and children<br />
+at times, I find my thoughts return to you.</p>
+<p>I do not long to rekindle an old romance.<br />
+In truth, my life is richer now by far.<br />
+And yet, it seems our memory passes history’s<br />
+test; as time rememb’red finds new meaning.</p>
+<p>Perhaps this blossoms from growing nostalgia<br />
+for simpler times which distance makes more pure<br />
+before bold hope gave way to cynicism,<br />
+when all ideals gleamed new and possible.</p>
+<p>So, old flame, I cast out thoughts of hate,<br />
+the bitter pain of parting and my tears.<br />
+Instead I’ll forego wrongs to elevate<br />
+remembrances of me, and you, and us;<br />
+I wish you boundless joy, much happiness.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/sonnet-to-an-old-flame&quot;&gt;Sonnet to An Old Flame&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/sonnet-to-an-old-flame">Sonnet to An Old Flame</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Ranch Style]]></title>
@@ -520,31 +502,30 @@ I wish you boundless joy, much happiness.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;&lt;em&gt;by Jonathan Clausen&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;There is familiarity in this house,&lt;br /&gt;
-as if I’ve lived here before.&lt;br /&gt;
-It is perfectly imperfect&lt;br /&gt;
-in its infinite impossiblity of glory,&lt;br /&gt;
-yielding, instead, to a prarie-style practicality.&lt;/p&gt;
-&lt;p&gt;Its proximity of rooms is,&lt;br /&gt;
-at once, too close for comfort&lt;br /&gt;
-and just the right distance&lt;br /&gt;
-for keeping a watchful eye&lt;br /&gt;
-on curious toddlers.&lt;br /&gt;
-At times I am conflicted, whether to expand&lt;br /&gt;
-or to remain compact.&lt;/p&gt;
-&lt;p&gt;The poorly mitred corners&lt;br /&gt;
-on the trim over there,&lt;br /&gt;
-the stain on the carpet in there&lt;br /&gt;
-from wine which no longer flows,&lt;br /&gt;
-the grout which has worked it’s way free back there;&lt;br /&gt;
-these are all reminders of what is left to be done&lt;br /&gt;
-and what has been undone by our presence.&lt;/p&gt;
-&lt;p&gt;This house is a reflection of me, of us.&lt;/p&gt;
+  <content type="html"><![CDATA[<p><em>by Jonathan Clausen</em></p>
+<p>There is familiarity in this house,<br />
+as if I’ve lived here before.<br />
+It is perfectly imperfect<br />
+in its infinite impossiblity of glory,<br />
+yielding, instead, to a prarie-style practicality.</p>
+<p>Its proximity of rooms is,<br />
+at once, too close for comfort<br />
+and just the right distance<br />
+for keeping a watchful eye<br />
+on curious toddlers.<br />
+At times I am conflicted, whether to expand<br />
+or to remain compact.</p>
+<p>The poorly mitred corners<br />
+on the trim over there,<br />
+the stain on the carpet in there<br />
+from wine which no longer flows,<br />
+the grout which has worked it’s way free back there;<br />
+these are all reminders of what is left to be done<br />
+and what has been undone by our presence.</p>
+<p>This house is a reflection of me, of us.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/ranch-style&quot;&gt;Ranch Style&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/ranch-style">Ranch Style</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[Telephones and Tootise Pops]]></title>
@@ -557,54 +538,53 @@ and what has been undone by our presence.&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;by Jonathan Clausen&lt;/p&gt;
-&lt;p&gt;This is a poem to my Grandmother, Vivian&lt;br /&gt;
-who I have not called nor written on time&lt;br /&gt;
-for most of these thirty-five years on this earth.&lt;br /&gt;
-You’d wear purple someday,&lt;br /&gt;
-that’s what a picture said.&lt;br /&gt;
-Purple is nice.&lt;br /&gt;
-Makes me think of popsicles, Tootsie pops too.&lt;br /&gt;
-Grape soda is purple; so was the color&lt;br /&gt;
-of pajamas you once bought me at Christmas.&lt;br /&gt;
-I wanted the Dolphins, got Vikings instead,&lt;br /&gt;
-but jammies were yearly and next year brought teal&lt;br /&gt;
-and orange.&lt;/p&gt;
-&lt;p&gt;Purple’s also the color, of bruises I saw from a fall&lt;br /&gt;
-you’d taken while no one was around you at all,&lt;br /&gt;
-when last we visited.&lt;br /&gt;
-You asked for more syrup, more sweetness, it seemed,&lt;br /&gt;
-eyes stared toward some distance, you struggled to fight&lt;br /&gt;
-the shake of your morning.&lt;br /&gt;
-This vacant stare scared me, this I confess&lt;br /&gt;
-I’m not ready, you see, yet know all too well&lt;br /&gt;
-someday…&lt;/p&gt;
-&lt;p&gt;It’s from polio they say, a blight which once took&lt;br /&gt;
-hold of your body, in the past, in your youth.&lt;br /&gt;
-You beat it back then, though damage was done.&lt;br /&gt;
-Today you are stronger, but weaker, it seems,&lt;br /&gt;
-as you push yourself, still, in this race you must run.&lt;br /&gt;
-The phone rings.&lt;/p&gt;
-&lt;p&gt;Who lives 85 years? That’s what Grandpa once said.&lt;br /&gt;
-You planned a retirement, modest and yet&lt;br /&gt;
-today you are older than you thought you could be.&lt;br /&gt;
-The money is waning, the medicine wants.&lt;br /&gt;
-Your home’s now with strangers.&lt;/p&gt;
-&lt;p&gt;“Hello, Grandma” I answer, warm and exuberant.&lt;br /&gt;
-Salutations exchanged, pictures sent, and then&lt;br /&gt;
-a cough from pneumonia.&lt;br /&gt;
-You’ve beat it before; none of this causes worry.&lt;br /&gt;
-I tease you, you laugh, tell me you must go.&lt;br /&gt;
-It’s time for your dinner: farm cooking, no doubt.&lt;br /&gt;
-Your nurse is approaching, just a little time left&lt;br /&gt;
-for those few words which sum up quite clear&lt;br /&gt;
-your person, your goodness, you say:&lt;/p&gt;
-&lt;p&gt;“I’m proud of you, Jon. God bless and I love you&lt;br /&gt;
-too.”&lt;/p&gt;
+  <content type="html"><![CDATA[<p>by Jonathan Clausen</p>
+<p>This is a poem to my Grandmother, Vivian<br />
+who I have not called nor written on time<br />
+for most of these thirty-five years on this earth.<br />
+You’d wear purple someday,<br />
+that’s what a picture said.<br />
+Purple is nice.<br />
+Makes me think of popsicles, Tootsie pops too.<br />
+Grape soda is purple; so was the color<br />
+of pajamas you once bought me at Christmas.<br />
+I wanted the Dolphins, got Vikings instead,<br />
+but jammies were yearly and next year brought teal<br />
+and orange.</p>
+<p>Purple’s also the color, of bruises I saw from a fall<br />
+you’d taken while no one was around you at all,<br />
+when last we visited.<br />
+You asked for more syrup, more sweetness, it seemed,<br />
+eyes stared toward some distance, you struggled to fight<br />
+the shake of your morning.<br />
+This vacant stare scared me, this I confess<br />
+I’m not ready, you see, yet know all too well<br />
+someday…</p>
+<p>It’s from polio they say, a blight which once took<br />
+hold of your body, in the past, in your youth.<br />
+You beat it back then, though damage was done.<br />
+Today you are stronger, but weaker, it seems,<br />
+as you push yourself, still, in this race you must run.<br />
+The phone rings.</p>
+<p>Who lives 85 years? That’s what Grandpa once said.<br />
+You planned a retirement, modest and yet<br />
+today you are older than you thought you could be.<br />
+The money is waning, the medicine wants.<br />
+Your home’s now with strangers.</p>
+<p>“Hello, Grandma” I answer, warm and exuberant.<br />
+Salutations exchanged, pictures sent, and then<br />
+a cough from pneumonia.<br />
+You’ve beat it before; none of this causes worry.<br />
+I tease you, you laugh, tell me you must go.<br />
+It’s time for your dinner: farm cooking, no doubt.<br />
+Your nurse is approaching, just a little time left<br />
+for those few words which sum up quite clear<br />
+your person, your goodness, you say:</p>
+<p>“I’m proud of you, Jon. God bless and I love you<br />
+too.”</p>
 
-  &lt;p&gt;&lt;a href=&quot;/poetry/telephones_and_tootsie_pops&quot;&gt;Telephones and Tootise Pops&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on August 23, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/poetry/telephones_and_tootsie_pops">Telephones and Tootise Pops</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
-
 
 <entry>
   <title type="html"><![CDATA[The standing ovation is a filthy American habit]]></title>
@@ -617,13 +597,13 @@ too.”&lt;/p&gt;
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html">&lt;p&gt;Guardian Theatre blog, &lt;a href=&quot;http://blogs.guardian.co.uk/theatre/2008/07/standing_ovation.html&quot;&gt;rails against an increasingly frequent occurrence in the British theatre&lt;/a&gt;: the standing ovation.  Frankly, I agree:&lt;/p&gt;
-&lt;blockquote cite=&quot;http://blogs.guardian.co.uk/theatre/2008/07/standing_ovation.html&quot;&gt;&lt;p&gt;
+  <content type="html"><![CDATA[<p>Guardian Theatre blog, <a href="http://blogs.guardian.co.uk/theatre/2008/07/standing_ovation.html">rails against an increasingly frequent occurrence in the British theatre</a>: the standing ovation.  Frankly, I agree:</p>
+<blockquote cite="http://blogs.guardian.co.uk/theatre/2008/07/standing_ovation.html"><p>
 The argument against the standing ovation is simple. If you do it for virtually everything, it soon becomes valueless. I can think of a handful of occasions over the years when, if I were a paying customer, I too would probably have risen to my feet: an Olivier performance; a Sondheim premiere; a farewell to a singing legend such as Ethel Merman or Barbara Cook. But a standing-ovation should be a rare and choice event. Currently, however, it is turning into a hollow gesture in which audiences seek to transform perfectly decent plays and musicals into earth-shattering occasions.
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;More and more, as an actor and audience member, I feel that the expectations on both sides of the stage regarding a possible ovation needlessly create an uncomfortable situation for everyone.  The actors feel, incorrectly, that the audience was not engaged unless they receive one and the audience is divided in whether they choose to rise to their feet or remain seated.  IMHO, this moment of tension after the play ends is unnecessary and casts a pall over the experience to what should be a unifying experience between members of the production and their audience.&lt;/p&gt;
+</p></blockquote>
+<p>More and more, as an actor and audience member, I feel that the expectations on both sides of the stage regarding a possible ovation needlessly create an uncomfortable situation for everyone.  The actors feel, incorrectly, that the audience was not engaged unless they receive one and the audience is divided in whether they choose to rise to their feet or remain seated.  IMHO, this moment of tension after the play ends is unnecessary and casts a pall over the experience to what should be a unifying experience between members of the production and their audience.</p>
 
-  &lt;p&gt;&lt;a href=&quot;/theatre/the-standing-ovation-is-a-filthy-american-habit&quot;&gt;The standing ovation is a filthy American habit&lt;/a&gt; was originally published by Jon Clausen at &lt;a href=&quot;&quot;&gt;Between Silences&lt;/a&gt; on July 31, 2008.&lt;/p&gt;</content>
+  <p><small><a href="/theatre/the-standing-ovation-is-a-filthy-american-habit">The standing ovation is a filthy American habit</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on July 31, 2008.</small></p>]]></content>
 </entry>
 
 </feed>
