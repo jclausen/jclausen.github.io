@@ -14,7 +14,7 @@ tags:
 - poems
 comments: []
 ---
-*by Jon Clausen*
+*by Jon Clausen*  
 
 **Smile:**  
 Stirringofbirds, [a poet said](http://hellopoetry.com/poem/1586/i-have-found-what-you-are-like/).  
