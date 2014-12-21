@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Back in Action
-description: "Let's reboot this bad boy. It's time to get back to regular blog publishing. I enjoy it and, plus, I have oodles of code snippets, poetry, and links from the last several years that are blog-worthy."
+description: "The one in which I blog again"
 image:
   feature: soft-trees.jpg
 author:
