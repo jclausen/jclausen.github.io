@@ -6,6 +6,10 @@
 
     
     <url>
+        <loc>/about/index.html</loc>
+    </url>
+    
+    <url>
         <loc>/poetry/gondolier</loc>
     </url>
     
