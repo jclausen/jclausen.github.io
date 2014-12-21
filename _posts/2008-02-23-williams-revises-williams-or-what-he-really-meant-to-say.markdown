@@ -6,13 +6,13 @@ title: Williams Revises Williams - or what he really meant to say
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 67
-wordpress_url: http://betweensilences.com/2008/02/23/williams-revises-williams-or-what-he-really-meant-to-say/
+wordpress_url: http://jonclausen.com/2008/02/23/williams-revises-williams-or-what-he-really-meant-to-say/
 date: '2008-02-23 23:58:42 -0500'
 date_gmt: '2008-02-24 04:58:42 -0500'
 categories:

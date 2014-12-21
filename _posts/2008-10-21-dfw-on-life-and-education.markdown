@@ -6,13 +6,13 @@ title: DFW on Life and Education
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 173
-wordpress_url: http://betweensilences.com/2008/10/dfw-on-life-and-education/
+wordpress_url: http://jonclausen.com/2008/10/dfw-on-life-and-education/
 date: '2008-10-21 13:07:23 -0400'
 date_gmt: '2008-10-21 18:07:23 -0400'
 categories:

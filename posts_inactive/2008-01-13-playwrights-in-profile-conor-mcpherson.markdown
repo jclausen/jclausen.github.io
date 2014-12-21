@@ -6,13 +6,13 @@ title: 'Playwrights in Profile: Conor McPherson'
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 30
-wordpress_url: http://betweensilences.com/2008/01/13/playwrights-in-profile-conor-mcpherson/
+wordpress_url: http://jonclausen.com/2008/01/13/playwrights-in-profile-conor-mcpherson/
 date: '2008-01-13 17:08:34 -0500'
 date_gmt: '2008-01-13 22:08:34 -0500'
 categories:

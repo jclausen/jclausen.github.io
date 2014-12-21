@@ -6,13 +6,13 @@ title: Quote of the Day
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 177
-wordpress_url: http://betweensilences.com/2008/12/quote-of-the-day-2/
+wordpress_url: http://jonclausen.com/2008/12/quote-of-the-day-2/
 date: '2008-12-21 16:41:49 -0500'
 date_gmt: '2008-12-21 21:41:49 -0500'
 categories:

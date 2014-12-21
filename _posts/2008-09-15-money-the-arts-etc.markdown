@@ -6,13 +6,13 @@ title: Money, The Arts Etc.
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 160
-wordpress_url: http://betweensilences.com/2008/09/money-the-arts-etc/
+wordpress_url: http://jonclausen.com/2008/09/money-the-arts-etc/
 date: '2008-09-15 21:11:16 -0400'
 date_gmt: '2008-09-16 02:11:16 -0400'
 categories:

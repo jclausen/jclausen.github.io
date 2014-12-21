@@ -6,13 +6,13 @@ title: Theatre for the Survivors
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 7
-wordpress_url: http://betweensilences.com/2008/01/11/theatre-for-the-survivors/
+wordpress_url: http://jonclausen.com/2008/01/11/theatre-for-the-survivors/
 date: '2008-01-11 17:41:23 -0500'
 date_gmt: '2008-01-11 22:41:23 -0500'
 categories:

@@ -6,13 +6,13 @@ title: How Apropos
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 185
-wordpress_url: http://betweensilences.com/?p=185
+wordpress_url: http://jonclausen.com/?p=185
 date: '2010-05-07 20:45:39 -0400'
 date_gmt: '2010-05-08 01:45:39 -0400'
 categories:

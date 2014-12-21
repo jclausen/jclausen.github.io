@@ -6,13 +6,13 @@ title: 'Q12 Correlations to Actor Engagement:  How Can We Grow?'
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 103
-wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-actor-engagement-how-can-we-grow/
+wordpress_url: http://jonclausen.com/2008/04/q12-correlations-to-actor-engagement-how-can-we-grow/
 date: '2008-04-28 09:36:40 -0400'
 date_gmt: '2008-04-28 14:36:40 -0400'
 categories:

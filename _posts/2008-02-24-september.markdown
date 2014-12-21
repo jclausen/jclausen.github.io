@@ -6,13 +6,13 @@ title: September
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 73
-wordpress_url: http://betweensilences.com/2008/02/24/september/
+wordpress_url: http://jonclausen.com/2008/02/24/september/
 date: '2008-02-24 13:13:25 -0500'
 date_gmt: '2008-02-24 18:13:25 -0500'
 categories:

@@ -6,13 +6,13 @@ title: Opposing Views of the American Playwright
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 40
-wordpress_url: http://betweensilences.com/2008/01/16/opposing-views-of-the-american-playwright/
+wordpress_url: http://jonclausen.com/2008/01/16/opposing-views-of-the-american-playwright/
 date: '2008-01-16 14:31:01 -0500'
 date_gmt: '2008-01-16 19:31:01 -0500'
 categories:

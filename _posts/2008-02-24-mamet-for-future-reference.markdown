@@ -6,13 +6,13 @@ title: Mamet for Future Reference
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 77
-wordpress_url: http://betweensilences.com/2008/02/24/mamet-for-future-reference/
+wordpress_url: http://jonclausen.com/2008/02/24/mamet-for-future-reference/
 date: '2008-02-24 14:38:35 -0500'
 date_gmt: '2008-02-24 19:38:35 -0500'
 categories:

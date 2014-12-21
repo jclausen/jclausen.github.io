@@ -6,13 +6,13 @@ title: Link Dump and Blog Rescue
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 79
-wordpress_url: http://betweensilences.com/2008/04/20/link-dump-and-blog-rescue/
+wordpress_url: http://jonclausen.com/2008/04/20/link-dump-and-blog-rescue/
 date: '2008-04-20 05:57:32 -0400'
 date_gmt: '2008-04-20 10:57:32 -0400'
 categories:

@@ -6,13 +6,13 @@ title: Empathy for the Devil
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 182
-wordpress_url: http://betweensilences.com/2009/05/empathy-for-the-devil/
+wordpress_url: http://jonclausen.com/2009/05/empathy-for-the-devil/
 date: '2009-05-26 14:34:59 -0400'
 date_gmt: '2009-05-26 19:34:59 -0400'
 categories:

@@ -6,13 +6,13 @@ title: Q12 Correlations to Actor Engagement - Introduction
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 99
-wordpress_url: http://betweensilences.com/2008/04/q12-correlations-to-directing-introduction/
+wordpress_url: http://jonclausen.com/2008/04/q12-correlations-to-directing-introduction/
 date: '2008-04-27 02:09:15 -0400'
 date_gmt: '2008-04-27 07:09:15 -0400'
 categories:
@@ -51,4 +51,4 @@ In essence, as any new employee enters a job or undergoes a significant change i
 </ol>
 <p>
 In both my personal experience as an actor, and my more recent experience as a director, I continue to notice that the journey of an actor as they become part of an ensemble - a process which starts anew with each production (no matter how often the actors have worked together previously) - is identical.  In the workplace, if any one of these questions are not answered in the affirmative, full employee engagement is impossible.  Likewise, as we look at the journey and actor or member of a production crew makes in becoming part of a more powerful ensemble, if any one of these questions are not answered, the individual's engagement in the greater whole of the production is reduced.   In the next three segments, I will focus in on each of these questions and how they translate to the fundamental journey that every actor or member of a production crew makes through the course of the production.</p>
-<h5><a href="http://betweensilences.com/2008/04/q12-correlations-to-actor-engagement-what-do-i-get/">Next:  Part 1 - What Do I Get?  &gt;&gt;</a></h5>
+<h5><a href="http://jonclausen.com/2008/04/q12-correlations-to-actor-engagement-what-do-i-get/">Next:  Part 1 - What Do I Get?  &gt;&gt;</a></h5>

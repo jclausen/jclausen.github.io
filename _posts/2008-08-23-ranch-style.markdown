@@ -6,13 +6,13 @@ title: Ranch Style
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 117
-wordpress_url: http://betweensilences.com/?p=117
+wordpress_url: http://jonclausen.com/?p=117
 date: '2008-08-23 15:37:56 -0400'
 date_gmt: '2008-08-23 20:37:56 -0400'
 categories:

@@ -6,13 +6,13 @@ title: RSC Education Outreach
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 110
-wordpress_url: http://betweensilences.com/2008/05/rsc-education-outreach/
+wordpress_url: http://jonclausen.com/2008/05/rsc-education-outreach/
 date: '2008-05-25 10:24:55 -0400'
 date_gmt: '2008-05-25 15:24:55 -0400'
 categories:

@@ -6,13 +6,13 @@ title: Who's Afraid of Virginia Woolf - First Read
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 151
-wordpress_url: http://betweensilences.com/?p=151
+wordpress_url: http://jonclausen.com/?p=151
 date: '2008-09-14 15:16:26 -0400'
 date_gmt: '2008-09-14 20:16:26 -0400'
 categories:

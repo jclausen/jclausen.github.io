@@ -6,13 +6,13 @@ title: Tryouts for the Rest of Your Life
 author:
   display_name: Jon Clausen
   login: JClausen
-  email: jon_clausen@mac.com
-  url: http://betweensilences.com
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
 author_login: JClausen
-author_email: jon_clausen@mac.com
-author_url: http://betweensilences.com
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
 wordpress_id: 83
-wordpress_url: http://betweensilences.com/2008/04/25/tryouts-for-the-rest-of-your-life/
+wordpress_url: http://jonclausen.com/2008/04/25/tryouts-for-the-rest-of-your-life/
 date: '2008-04-25 07:59:59 -0400'
 date_gmt: '2008-04-25 12:59:59 -0400'
 categories:
