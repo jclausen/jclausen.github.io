@@ -14,7 +14,7 @@ categories:
 tags: [general]
 comments: []
 ---
-I have a bit of a love/hate relationship with blogging. For many years, I was the lead developer for a CFML app called Blogfusion, a blogging app and portal system and I've maintained several blogs, throughout the years.  With my  [varied interests](/about), I have always maintained a separation of topics and sites, which made the day-to-day process of blogging a bit complex at times (multiple URLS, platforms, etc). So, eventually, as life became busy and things became wildly out of date, I just stopped posting (hence the name "Between Silences").  
+I have a bit of a love/hate relationship with blogging. For many years, I was the lead developer for a CFML app called Blogfusion, a blogging app and portal system and I've maintained several blogs throughout the years.  With my  [varied interests](/about), I have always maintained a separation of topics and sites, which made the day-to-day process of blogging a bit complex at times (multiple URLS, platforms, etc). So, eventually, as life became busy and things became wildly out of date, I just stopped posting (hence the name "Between Silences").  
 
 Enter 2014.  It's time to get back to regular blog publishing. I enjoy it and, plus, I have oodles of code snippets, poetry, and links from the last several years that are blog-worthy.  Archives for my old personal, theatre-based, Wordpress site are migrated (thanks [jekyll-import](http://import.jekyllrb.com/docs/home/) !).  Look for the other blogs to be migrated within the week. 
 

@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-12-21T13:46:31-05:00</updated>
+<updated>2014-12-21T13:47:31-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -24,7 +24,7 @@
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html"><![CDATA[<p>I have a bit of a love/hate relationship with blogging. For many years, I was the lead developer for a CFML app called Blogfusion, a blogging app and portal system and I’ve maintained several blogs, throughout the years.  With my  <a href="/about">varied interests</a>, I have always maintained a separation of topics and sites, which made the day-to-day process of blogging a bit complex at times (multiple URLS, platforms, etc). So, eventually, as life became busy and things became wildly out of date, I just stopped posting (hence the name “Between Silences”).  </p>
+  <content type="html"><![CDATA[<p>I have a bit of a love/hate relationship with blogging. For many years, I was the lead developer for a CFML app called Blogfusion, a blogging app and portal system and I’ve maintained several blogs throughout the years.  With my  <a href="/about">varied interests</a>, I have always maintained a separation of topics and sites, which made the day-to-day process of blogging a bit complex at times (multiple URLS, platforms, etc). So, eventually, as life became busy and things became wildly out of date, I just stopped posting (hence the name “Between Silences”).  </p>
 
 <p>Enter 2014.  It’s time to get back to regular blog publishing. I enjoy it and, plus, I have oodles of code snippets, poetry, and links from the last several years that are blog-worthy.  Archives for my old personal, theatre-based, Wordpress site are migrated (thanks <a href="http://import.jekyllrb.com/docs/home/">jekyll-import</a> !).  Look for the other blogs to be migrated within the week. </p>
 
