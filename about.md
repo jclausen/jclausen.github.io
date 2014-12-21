@@ -31,7 +31,7 @@ I was born and raised in the tall grasses and open skies of South Dakota, USA - 
 This is my thinkspace.  
 ----------------------
 
-After maintaining and developing on a number of different blogs (theatre, tech, personal, politics, etc.) and platforms over the years, I'm finally consolidating them all in to one big old diverse mish-mash of a blog.  That's how my mind operates, for the most part, so I figured I'd put it all out there...  Somtimes I'm brief, sometimes verbose, often introspective, quite a bit artsy and randomly philosophical.  
+After maintaining and developing on a number of different blogs (theatre, tech, personal, politics, etc.) and platforms over the years, I'm finally consolidating them all in to one big old diverse mishmash (yes, this is a word) of a blog.  That's how my mind operates, for the most part, so I figured I'd put it all out there...  Somtimes I'm brief, sometimes verbose, often introspective, quite a bit artsy and randomly philosophical.  
 
 Under the hood
 --------------
