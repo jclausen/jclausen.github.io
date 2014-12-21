@@ -35,7 +35,7 @@
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                     	<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></p>
-                        <p class="">{{ post.content | strip_html | strip_newlines | truncate: 200 }} <a href="{{ site.url }}{{ post.url }}">[read on..]</a></p>
+                        <p class="intro">{{ post.content | strip_html | strip_newlines | truncate: 200 }} <a href="{{ site.url }}{{ post.url }}">[read on..]</a></p>
                     </div>
                   {% endfor %}
           </article>

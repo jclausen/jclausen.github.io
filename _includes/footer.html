@@ -13,16 +13,21 @@
 
       <div class="social">
         <ul>
-            <li><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">Contact Me</span></a></li>
-
             {% if site.owner.twitter %}
-            <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
+            <li><a title="@{{ site.owner.twitter }} on Twitter" id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link"><i class="fa fa-twitter fa-2x"></i></span></a></li>
             {% endif %}
-
+			
+            {% if site.owner.github %}
+            <li><a id="twit" title="{{ site.owner.github }} on GitHub" href="http://github.com/{{ site.owner.github }}" target="_blank"><span class="foot-link"><i class="fa fa-github fa-2x"></i></span></a></li>
+            {% endif %}
 
             {% if site.owner.dribbble %}
-            <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>
+            <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link"><i class="fa fa-dribble fa-2x"></i></span></a></li>
             {% endif %}
+            
+			<li style="text-indent: 4px;"><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link"><i class="fa fa-envelope"></i></a></li>
+
+
         </ul>
     </div>
     </aside>
