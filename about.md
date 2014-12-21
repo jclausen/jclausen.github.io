@@ -35,7 +35,7 @@ After maintaining and developing on a number of different blogs (theatre, tech, 
 Under the hood
 --------------
 
-Today, we're running on [Jekyll][] and [GitHub Pages][].  Keeps me on my toes with Ruby, since most of my work days are spent writing in CFML and PHP. It also makes jotting things down easy, since I have a text editor open all day anyway.
+Today, we're running on [Jekyll][] and [GitHub Pages][].  Keeps me on my toes with Ruby, since most of my work days are spent writing in CFML and PHP. It also makes jotting things down easy (w00t!), as I have a text editor open all day anyway.
 
 [Jekyll]: http://jekyllrb.com/
 [GitHub Pages]: https://pages.github.com/
