@@ -1,102 +1,27 @@
-<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<title>Six Characters in Search of a Holy Theatre &#8211; Between Silences</title>
-<!-- head v.head-->
-<meta name="description" content="Between Silences is the personal site of Jon Clausen - actor, director, web developer, sometime thinker and fishing geek">
-<meta name="keywords" content="">
-
-
-<meta property="og:locale" content="en_US">
-<meta property="og:title" content="Six Characters in Search of a Holy Theatre &#8211; Between Silences">
-<meta property="og:description" content="About a month ago, I checked the MSU Theatre department website and saw that they were staging Luigi Pirandello's Six...">
-<meta property="og:url" content="/posts_inactive/2008-02-03-six-characters-in-search-of-a-holy-theatre.html">
-<meta property="og:site_name" content="Between Silences">
-
-
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Between Silences Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Type -->
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
-<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
-
-<!-- In order to use Calendas Plus, you must first purchase it. Then, create a font-face package using FontSquirrel.
-<link rel='stylesheet' href='/assets/cal.css' media='all' />
--->
-
-
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/i.css">
-
-<!-- Fresh Squeezed jQuery -->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<!-- Add Bootstrap -->
-<script src="/assets/js/bootstrap.js"></script>
-
-<meta http-equiv="cleartype" content="on">
-
-<!-- Load Modernizr -->
-<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-
-
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="/favicon.ico">
-
-<div id="bump">
-  <body class="">
-    <header class="site-header">
-      <div class="wrap">
-        <hgroup>
-          <h1><a href="/">Between Silences</a></h1>
-        </hgroup>
-        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
-        <nav role="navigation">
-          <ul>
-            <li>
-              <a href="/" title="Between Silences">Home</a>
-            </li>
-            
-            
-                <li><a href="/about" >About</a></li>
-            
-                <li><a href="https://github.com/jclausen" target="_blank">Github</a></li>
-            
-                <li><a href="http://silowebworks.com" target="_blank">Silo</a></li>
-            
-
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-
-<section class="article">
-
-
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url(/images/soft-trees.jpg)"></div>
-
-
-
-     	<article class="wrap post">
-        <header class="post-header">
-          <hgroup>
-          	<h1>Six Characters in Search of a Holy Theatre</h1>
-          	<p class="date">Feb 03, 2008</p>
-            <p class="intro"></p>
-          </hgroup>
-        </header>
-
-        <p><img src="/images/2008/02/sp2008-sixcharacters-poster.jpg" alt="Poster - MSU Six Characters - Photo Courtesy MSU Theatre" align="right" />About a month ago, I checked the <a href="http://theatre.msu.edu/">MSU Theatre department website</a> and saw that they were staging Luigi Pirandello's <cite>Six Characters in Search of an Author</cite>.  After asking my wife to go with me to see it, I booked tickets.  Pirandello's work isn't produced nearly as often as it should be, and I was very excited to be able to catch a staging of it. After having to reschedule our original tickets from Friday night's performance because of a snowstorm, we made the hour-and-change drive to Lansing last night to see it.</p>
+---
+layout: post
+status: publish
+published: false
+title: Six Characters in Search of a Holy Theatre
+author:
+  display_name: Jon Clausen
+  login: JClausen
+  email: jon_clausen@silowebworks.com
+  url: http://jonclausen.com
+author_login: JClausen
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
+wordpress_id: 59
+wordpress_url: http://jonclausen.com/2008/02/03/directing-journal-six-characters-in-search-of-a-holy-theatre/
+date: '2008-02-03 14:17:00 -0500'
+date_gmt: '2008-02-03 19:17:00 -0500'
+categories:
+- Theatre
+- Theatre
+tags: []
+comments: []
+---
+<p><img src="/images/2008/02/sp2008-sixcharacters-poster.jpg" alt="Poster - MSU Six Characters - Photo Courtesy MSU Theatre" align="right" />About a month ago, I checked the <a href="http://theatre.msu.edu/">MSU Theatre department website</a> and saw that they were staging Luigi Pirandello's <cite>Six Characters in Search of an Author</cite>.  After asking my wife to go with me to see it, I booked tickets.  Pirandello's work isn't produced nearly as often as it should be, and I was very excited to be able to catch a staging of it. After having to reschedule our original tickets from Friday night's performance because of a snowstorm, we made the hour-and-change drive to Lansing last night to see it.</p>
 <p>Peter Brook - in his seminal book <cite>The Empty Space</cite> gives specifics to the concept of what he calls a Deadly Theatre in that:</p>
 <blockquote><p>It is vain to pretend that the words we apply to classical plays like 'musical', 'poetic', 'larger than life', 'noble', 'heroic', 'romantic', have any absolute meaning.  They are the reflections of a critical attitude of a particular period, and to attempt to build a performance today to conform to these canons is the most certain road to deadly theatre...</p></blockquote>
 <p>Revisitation of works which have period reference and language necessitate additional care and consideration when staging, especially when - in the case of <cite>Six Characters</cite>; much of the dialogue by the ensemble of 'theatre professionals' is brought about through improvisation.  MSU made the choice to use a recent adaptation of the play by <a href="http://en.wikipedia.org/wiki/Robert_Brustein">Robert Brustein</a>, which had been <a href="http://www.amrep.org/people/bob.html">previously performed by ART to rave reviews and accolades</a>.  As such, the foundation for a meaningful staging which resonates with a modern audience existed.</p>
@@ -126,83 +51,3 @@
 <p>Members of the audience began to shift, reach for coats with uncertainty, and finally one or two lead the rest in the decision that the play had ended.  The actor in tableau, rather than an embodiment of all they had witnessed, becomes instead a blatant theatrical element, indicative of a performance which failed to meet it's promise.  What aspires to be holy becomes, instead, the deadliest which live theatre can offer: an acute awareness of the time spent in this space in an aborted rite of communion with others now aware of the same.</p>
 <p>I remained mostly silent on my thoughts of the production as my wife and I walked back to the car - not wanting to be overheard by family members or students who might have been hurt by my words.  Once in the car, I said to her, "I hope you know how much I appreciate you going to see this with me, even if it means we had to see bad theatre tonight."  "Thank god!" she exclaimed.  "I thought maybe it was just me - that I just didn't get it." I assured her that was not supposed to be the point.  Instead it seemed apparent that it was perhaps the director who "didn't get it" and, as such, let both their actors and audience down.  That may be a bit harsh and I'm sure the individual who takes ownership of the staging must be a capable individual, but the fact remains that the majority of the failures in this production fall squarely on the shoulders of the director, before inevitably cascading on to the cast and crew.</p>
 <p>MSU's website - and its playbill - states the artistic mission of it's department is "To provoke and sustain interest in the theatre as a source of truth and insight into the human condition."  If one is determined to take on Pirandello for his "truth and insight" one must be willing to take into account that engagement with the "human condition" of it's audience is the transaction which ultimately must be completed.</p>
-
-
-      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Six Characters in Search of a Holy Theatre&quot;%20http://jonclausen.com/posts_inactive/2008-02-03-six-characters-in-search-of-a-holy-theatre.html%20via%20&#64;jclausen" data-dnt="true">Share</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-      
-      <aside class="disqus">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'jonclausen'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </aside>
-      
-
-
-	</article> 
-
-    </section>
-</div>
-
-<div class="push"></div>
-  <footer>
-    <aside class="wrap">
-      <ol class="prev-posts">
-        <p class="list-title">Recent Posts</p>
-         <!-- for1 -->
-            <li>
-              <span class="recent-title"><a href="/miscelaneous/back-in-action" title="Back in Action">Back in Action </a></span>
-              <span class="date">Dec 12, 2014</span>
-            </li>
-         <!-- for1 -->
-            <li>
-              <span class="recent-title"><a href="/poetry/gondolier" title="Gondolier">Gondolier </a></span>
-              <span class="date">Oct 10, 2010</span>
-            </li>
-         <!-- for1 -->
-            <li>
-              <span class="recent-title"><a href="/theatre/empathy-for-the-devil" title="Empathy for the Devil">Empathy for the Devil </a></span>
-              <span class="date">May 26, 2009</span>
-            </li>
-        
-      </ol>
-
-      <div class="social">
-        <ul>
-            <li><a id="mail" href="mailto:jon@silowebworks.com"><span class="foot-link">Contact Me</span></a></li>
-
-            
-            <li><a id="twit" href="http://twitter.com/jclausen" target="_blank"><span class="foot-link">@jclausen</span></a></li>
-            
-
-
-            
-        </ul>
-    </div>
-    </aside>
-    <small>&copy; 2014 Jon Clausen. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
-  </footer>
-
-  <!-- If they're out, get some from the cellar -->
-  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="/assets/js/retina.min.js"></script>
-
-  <!-- Custom JS -->
-  <script src="/assets/js/scripts.js"></script>
-
-
-  </body>
-</html>
-

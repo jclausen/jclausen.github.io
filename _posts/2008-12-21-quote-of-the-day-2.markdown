@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-published: true
+published: false
 title: Quote of the Day
 author:
   display_name: Jon Clausen

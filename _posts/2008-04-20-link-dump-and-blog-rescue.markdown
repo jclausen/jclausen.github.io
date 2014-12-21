@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-published: true
+published: false
 title: Link Dump and Blog Rescue
 author:
   display_name: Jon Clausen

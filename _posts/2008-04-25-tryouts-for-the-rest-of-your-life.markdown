@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-published: true
+published: false
 title: Tryouts for the Rest of Your Life
 author:
   display_name: Jon Clausen
