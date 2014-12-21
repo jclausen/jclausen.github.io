@@ -4,7 +4,7 @@
           	<h1>{{page.title}}</h1>
           	<p class="date">{{page.date | date: "%b %d, %Y" }}</p>
           	{% if page.description or page.tagline %}
-            <p class="intro text-muted" style="text-align:center!important"><i class="fa {% if page.fa_class %}{{page.fa_class}}{% else %}fa-key{% endif %}"></i> <em>{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</em> <i class="fa {% if page.fa_class %}{{page.fa_class}}{% else %}fa-key{% endif %}"></i></p>
+            <p class="intro text-muted" style="text-align:center!important"><i class="fa {% if page.fa_class %}{{page.fa_class}}{% else %}fa-key{% endif %}"></i><br/><em>{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</em></p>
             {% endif %}
           </hgroup>
         </header>
