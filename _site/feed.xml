@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-12-22T14:30:58-05:00</updated>
+<updated>2014-12-22T14:53:29-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -28,9 +28,11 @@
 
 <p>The VPS was non-responsive so I had to force reboot the server from the VMWare master.  None of the other VM’s on the server were affected - just this one, which is running a <abbr title="Linux,Apache,(NGINX),PHP,PostgreSQL">LA(N)PP</abbr> stack on <a href="https://www.opensuse.org/en/">SuSE 13.3</a>.  Once I got the server back up and running again, it was time to dig in to the logs to see what had caused the issue. </p>
 
-<p>A look at /var/log/messages showed the last item logged before the system became non-responsive was an entry for <a href="http://en.wikipedia.org/wiki/Syslog-ng">syslog-ng</a>, and then nothing until the reboot. Next I went and looked at the web server logs.  This particular machine uses NGINX as a reverse proxy for Apache. NGINX handles the static files (which it does really, really well) on Port 80 and high-level request caching, while Apache handles serving PHP and all requests on Port 443 (There is a method to this madness, which I’ll discuss in a future post).  In addition, NGINX also reverse proxies to three other servers so the log for that site logs every requests to those subapps running on other servers. </p>
+<p>A look at /var/log/messages showed the last item logged before the system became non-responsive was an entry for <a href="http://en.wikipedia.org/wiki/Syslog-ng">syslog-ng</a>, and then nothing until the reboot. Next I went and looked at the web server logs.  </p>
 
-<p>The NGINX log for the site showed a filesize of nearly 1GB, which shouldn’t have happened as rotation happens daily, plus the max filesize on that log is set at 4MB. Big problem.</p>
+<p>This particular machine uses NGINX as a reverse proxy for Apache. NGINX handles the static files (which it does really, really well) on Port 80 and high-level request caching, while Apache handles serving PHP and all requests on Port 443 (There is a method to this madness, which I’ll discuss in a future post).  In addition, NGINX also reverse proxies to three other servers so the log for that site logs every requests to those subapps running on other servers. </p>
+
+<p>The NGINX log for the site showed a filesize of nearly 1GB, which shouldn’t have happened, as rotation happens daily, plus the max filesize on that log is set at 4MB. Big problem.</p>
 
 <p>Running logrotate in debug mode manually, <code>logrotate -dv /etc/logrotate.conf</code>, returned the following message regarding the NGINX log (along with similar messages for few others):</p>
 

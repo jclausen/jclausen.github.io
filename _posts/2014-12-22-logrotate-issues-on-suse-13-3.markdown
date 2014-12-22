@@ -22,9 +22,11 @@ I received a dreaded "The web site is down!" call from a client this morning.  I
 
 The VPS was non-responsive so I had to force reboot the server from the VMWare master.  None of the other VM's on the server were affected - just this one, which is running a <abbr title="Linux,Apache,(NGINX),PHP,PostgreSQL">LA(N)PP</abbr> stack on [SuSE 13.3](https://www.opensuse.org/en/).  Once I got the server back up and running again, it was time to dig in to the logs to see what had caused the issue. 
 
-A look at /var/log/messages showed the last item logged before the system became non-responsive was an entry for [syslog-ng](http://en.wikipedia.org/wiki/Syslog-ng), and then nothing until the reboot. Next I went and looked at the web server logs.  This particular machine uses NGINX as a reverse proxy for Apache. NGINX handles the static files (which it does really, really well) on Port 80 and high-level request caching, while Apache handles serving PHP and all requests on Port 443 (There is a method to this madness, which I'll discuss in a future post).  In addition, NGINX also reverse proxies to three other servers so the log for that site logs every requests to those subapps running on other servers. 
+A look at /var/log/messages showed the last item logged before the system became non-responsive was an entry for [syslog-ng](http://en.wikipedia.org/wiki/Syslog-ng), and then nothing until the reboot. Next I went and looked at the web server logs.  
 
-The NGINX log for the site showed a filesize of nearly 1GB, which shouldn't have happened as rotation happens daily, plus the max filesize on that log is set at 4MB. Big problem.
+This particular machine uses NGINX as a reverse proxy for Apache. NGINX handles the static files (which it does really, really well) on Port 80 and high-level request caching, while Apache handles serving PHP and all requests on Port 443 (There is a method to this madness, which I'll discuss in a future post).  In addition, NGINX also reverse proxies to three other servers so the log for that site logs every requests to those subapps running on other servers. 
+
+The NGINX log for the site showed a filesize of nearly 1GB, which shouldn't have happened, as rotation happens daily, plus the max filesize on that log is set at 4MB. Big problem.
 
 Running logrotate in debug mode manually, `logrotate -dv /etc/logrotate.conf`, returned the following message regarding the NGINX log (along with similar messages for few others):
 
