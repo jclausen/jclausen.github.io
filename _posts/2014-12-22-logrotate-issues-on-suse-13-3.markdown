@@ -36,7 +36,7 @@ Root cause found.  After some digging in to the whys, it turns out the version o
 
 On this system NGINX runs in group "nginx" and Apache runs in group "www" so adding the following to the configuration block in /etc/logrotate.d/nginx fixed the problem: `su root nginx`.
 
-The final configuration block is:
+The final configuration block looks like:
 
 {% highlight diff %}
 /var/log/nginx/*.log {
@@ -55,6 +55,6 @@ The final configuration block is:
 }
 {% endhighlight %}
 
-I also had to change all of the Apache logrotate entry blocks to `su root www` as the ownership permissions on those directories need to be writeable by the group in which httpd runs.  If you're running MySQL/MariaDB, you'll need to change add `su root mysql` to any config blocks in /etc/logrotate.d/mysql as well.
+I also had to change all of the Apache logrotate entry blocks to `su root www` as the ownership permissions on those directories need to be writeable by the group in which httpd runs.  If you're running MySQL/MariaDB, you'll need to change add `su root mysql` to any config blocks in /etc/logrotate.d/mysql as well.  PostgreSQL handles its own log rotation, so those will not be an issue.
 
 Since this applies to all Linux distros running logrotate 3.8.0 and above, it's worthy of a quick check of your systems, if you've upgraded recently.  Running `ls -l` from within your /var/log directory should allow you to pull the correct group names to ensure log rotation will keep functioning properly.  If you started with a fresh machine running those versions, your package manager installation will add those blocks automatically.

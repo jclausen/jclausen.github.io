@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-12-22T14:26:29-05:00</updated>
+<updated>2014-12-22T14:30:58-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -40,7 +40,7 @@
 
 <p>On this system NGINX runs in group “nginx” and Apache runs in group “www” so adding the following to the configuration block in /etc/logrotate.d/nginx fixed the problem: <code>su root nginx</code>.</p>
 
-<p>The final configuration block is:</p>
+<p>The final configuration block looks like:</p>
 
 <div class="highlight"><pre><code class="language-diff" data-lang="diff">/var/log/nginx/*.log {
 	su root nginx
@@ -57,7 +57,7 @@
 	endscript  
 }</code></pre></div>
 
-<p>I also had to change all of the Apache logrotate entry blocks to <code>su root www</code> as the ownership permissions on those directories need to be writeable by the group in which httpd runs.  If you’re running MySQL/MariaDB, you’ll need to change add <code>su root mysql</code> to any config blocks in /etc/logrotate.d/mysql as well.</p>
+<p>I also had to change all of the Apache logrotate entry blocks to <code>su root www</code> as the ownership permissions on those directories need to be writeable by the group in which httpd runs.  If you’re running MySQL/MariaDB, you’ll need to change add <code>su root mysql</code> to any config blocks in /etc/logrotate.d/mysql as well.  PostgreSQL handles its own log rotation, so those will not be an issue.</p>
 
 <p>Since this applies to all Linux distros running logrotate 3.8.0 and above, it’s worthy of a quick check of your systems, if you’ve upgraded recently.  Running <code>ls -l</code> from within your /var/log directory should allow you to pull the correct group names to ensure log rotation will keep functioning properly.  If you started with a fresh machine running those versions, your package manager installation will add those blocks automatically.</p>
 
