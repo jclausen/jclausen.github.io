@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-01T15:17:51-05:00</updated>
+<updated>2015-02-01T15:31:22-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -138,15 +138,15 @@ sudo httpd -k restart
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html"><![CDATA[<p>I have this application, maybe some of you have one like it too.  I first developed it all the way through public BETA in 2008, but it never took off and I was never really happy with it. In 2010 I took the site offline, but I never really stopped wanting to give it another go.</p>
+  <content type="html"><![CDATA[<p>I have this application, maybe some of you have one like it too.  I first developed it all the way through public beta in 2008, but it never took off and I was never really happy with it. In 2010 I took the site offline, but I never really stopped wanting to give it another go.</p>
 
 <p>In retrospect, I realize the problem was, in part, a database problem and, to a larger degree, a user interface problem.  The javascript technology and browser support just wasn’t available for the interface I wanted to use and the relational data model was complex and, well, slow.  Really slow.</p>
 
 <p>I dusted off the app this fall - winter up here in Michigan, USA is my time for personal projects - as it seemed like the stars were aligning to make what I wanted to do with it possible.</p>
 
-<p>The old app was developed in <a href="http://en.wikipedia.org/wiki/Model-Glue">Model-Glue</a>, running on MySQL with <a href="https://github.com/ReactorORM/reactor">Reactor</a> as the ORM framework. It was lightweight and fast, but I’ve never been a fan of XML configuration files.  More importantly development updates to the database schema and application were cumbersome and feature upgrades were often a tedious process.  I became frustrated with the experience it was producing, the development headaches for myself and, eventually, shelved the project.</p>
+<p>The old app was developed in <a href="http://en.wikipedia.org/wiki/Model-Glue">Model-Glue</a>, running on MySQL with <a href="https://github.com/ReactorORM/reactor">Reactor</a> as the ORM framework. It was lightweight and fast with both of those, but I’ve never been a fan of XML configuration files and neither are really actively being developed.  Development updates to the database schema and application were cumbersome and feature upgrades were often a tedious process.  I became frustrated with the experience it was producing, the development headaches for myself and, eventually, shelved the project.</p>
 
-<p>Once I dusted it off, my first thought was an in-place upgrade to server-side ORM and Coldbox as the app framework.  I’ve deployed several large projects using CF ORM, though and, well, I like it’s ease of use but it has a massive footprint for the convenience it brings and is slow when handling multi-dimensional relationships.  For this app, I wanted nimble, flexible and fast so I decided to look at…  </p>
+<p>Once I dusted it off, my first thought was an in-place upgrade to server-side ORM and Coldbox as the app framework.  I’ve deployed several large projects using CF ORM, though and, while I like its ease of use, it has a massive footprint for the convenience it brings and can be slow when handling multi-dimensional relationships.  For this app, I wanted nimble, flexible and fast so I decided to look at…  </p>
 
 <h2 id="nosql">NoSQL</h2>
 <p>NoSQL DBMS’s, frankly, kind of scare me.  Not from a technical standpoint, but absence of all but indexing to force schema compliance gives me acid flashbacks to the some of the wild and wooly web application DB’s I’ve had to fix or bring up to date.  You know the ones:  No foreign keys, primary keys manually generated at runtime from arcane methodologies, storing the same information in 12 different tables because of #1.</p>
