@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-01T14:03:28-05:00</updated>
+<updated>2015-02-01T14:05:59-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -171,8 +171,8 @@ sudo httpd -k restart
 
 <entry>
   <title type="html"><![CDATA[Logrotate Issues after Linux Distribution Upgrade]]></title>
-  <link rel="alternate" type="text/html" href="/linux/logrotate-issues-on-suse-13-3" />
-  <id>/linux/logrotate-issues-on-suse-13-3</id>
+  <link rel="alternate" type="text/html" href="/servers/logrotate-issues-on-suse-13-3" />
+  <id>/servers/logrotate-issues-on-suse-13-3</id>
   <published>2014-12-22T00:00:00-05:00</published>
   <updated>2014-12-22T00:00:00-05:00</updated>
   <author>
@@ -219,7 +219,7 @@ sudo httpd -k restart
 
 <p>Since this applies to all Linux distros running logrotate 3.8.0 and above, it’s worthy of a quick check of your systems, if you’ve upgraded recently.  Running <code>ls -l</code> from within your /var/log directory should allow you to pull the correct group names to ensure log rotation will keep functioning properly.  If you started with a fresh machine running those versions, your package manager installation will add those blocks automatically.</p>
 
-  <p><small><a href="/linux/logrotate-issues-on-suse-13-3">Logrotate Issues after Linux Distribution Upgrade</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on December 22, 2014.</small></p>]]></content>
+  <p><small><a href="/servers/logrotate-issues-on-suse-13-3">Logrotate Issues after Linux Distribution Upgrade</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on December 22, 2014.</small></p>]]></content>
 </entry>
 
 <entry>

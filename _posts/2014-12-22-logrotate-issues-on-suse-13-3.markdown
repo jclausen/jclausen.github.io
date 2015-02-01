@@ -9,9 +9,10 @@ author:
 author_email: jon_clausen@silowebworks.com
 author_url: http://jonclausen.com
 categories:
-- Linux
+- Servers
 tags:
 - SuSE
+- logrotate
 - Linux
 - Logging
 
