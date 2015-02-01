@@ -5,13 +5,123 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-12-22T14:53:29-05:00</updated>
+<updated>2015-02-01T13:33:37-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
   <uri>/</uri>
   <email>jon@silowebworks.com</email>
 </author>
+
+<entry>
+  <title type="html"><![CDATA[Proxying the CommandBox Embedded Server Behind Apache]]></title>
+  <link rel="alternate" type="text/html" href="/programming/proxying-commandbox-embedded-server" />
+  <id>/programming/proxying-commandbox-embedded-server</id>
+  <published>2015-02-01T00:00:00-05:00</published>
+  <updated>2015-02-01T00:00:00-05:00</updated>
+  <author>
+    <name>Jon Clausen</name>
+    <uri></uri>
+    <email>jon@silowebworks.com</email>
+  </author>
+  <content type="html"><![CDATA[<p>I’m a big fan of the <a href="http://www.ortussolutions.com/products/commandbox" title="CommandBox">CommandBox</a> embedded <a href="http://lucee.org/">Lucee server</a> and am finding the scenarios in which I use it for development and testing to be growing day-by-day. At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  I also don’t like exposing my app server technology in my URL’s so having a path like “/index.cfm/handler/action” upsets my delicate sensibilities.  </p>
+
+<p>So, let’s place our Coldbox embedded server behind Apache.  First things first, we’ll probably need to modify our hosts file to recognize our local domain.  I’m on a Mac, so my hosts file is located at /etc/hosts, but you can also <a href="http://www.thewindowsclub.com/hosts-file-in-windows">make this modification on Windows</a>.  In your hosts file, add the following:</p>
+
+<pre>
+127.0.0.1 mydomain.localhost
+</pre>
+
+<p>Next you’ll want to start up your commandbox server:</p>
+
+<pre>
+$ cd /Sites/mydomain
+$ box server start
+</pre>
+
+<p>Your browser will open, but you can close that out for now and you’ll see something like the following in the terminal output:</p>
+
+<pre>
+The server for /Sites/mydomain is starting on 127.0.0.1:63616... type 'server status' to see result
+</pre>
+
+<p>We’re going to need that port number so that we can fix it permanently so, stop your server and add that port to your box.json as the default port:</p>
+
+<pre>
+$ box package set defaultPort=63616
+Set defaultPort = 63616
+</pre>
+
+<p>Now that we have the default port set permanently, we’re going to set up Apache to proxy it. We’re going to need mod_proxy enabled on Apache so make sure the following two lines (with your paths) are uncommented in httpd.conf:</p>
+
+<pre>
+LoadModule proxy_module libexec/apache2/mod_proxy.so
+LoadModule proxy_connect_module libexec/apache2/mod_proxy_connect.so
+</pre>
+
+<p>Depending on your Apache installation and your OS, your virtual host files will be in different locations.  I keep all mine in /etc/apache2/vhosts.d with an <code>include /etc/apache2/vhosts.d/*.conf</code> in my httpd.conf file, which loads all config files in that directory on restart. Let’s create our domain config file:</p>
+
+<pre>
+$ sudo vi /etc/apache2/vhosts.d/mydomain.localhost.conf 
+</pre>
+
+<p>This will open up a new file for editing.  We’re using sudo so that we can save it, because OSX’s permissions normally wouldn’t let us do that in the /etc/ path.  Now add the following (we’re copying a big segment of the default coldbox .htaccess file, with one exception (see the comment in the config code):</p>
+
+<div class="highlight"><pre><code class="language-diff" data-lang="diff"># My Application
+&lt;VirtualHost 127.0.0.1:80&gt;
+ServerName mydomain.localhost
+# Document Root
+DocumentRoot /Sites/mydomain/
+&lt;Location / &gt;
+	RewriteEngine on
+	RewriteBase /
+
+# Bypass images, css, javascript and docs, add your own extensions if needed.
+
+	RewriteCond %{REQUEST_URI} \.(bmp|gif|jpe?g|png|css|js|txt|pdf|doc|xls|ico)$
+	RewriteRule ^(.*)$ - [NC,L]
+
+# The ColdBox index.cfm/{path_info} rules.
+
+	RewriteRule ^$ index.cfm [QSA,NS]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+# Notice the [P] flag at the end of the rewrite rule. 
+#	This tells Apache that the rewrite rule is proxy
+
+	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
+
+# For development, you can just keep the following 
+# in place to provide you with full access.
+# What&#39;s below tells apache to proxy everything 
+# that hasn&#39;t been found with the rules above. 
+ 
+	ProxyPass http://127.0.0.1:63616/
+	ProxyPassReverse http://127.0.0.1:63616/
+	SetEnv force-proxy-request-1.0 1
+
+# Now for our permissions
+# Note: &quot;Require all granted&quot; is Apache 2.2 syntax
+# for &lt;2.2, you&#39;ll want Order allow,deny in its place
+
+	AllowOverride All
+	Require all granted
+	Allow from all
+
+&lt;/Location&gt;
+&lt;/VirtualHost&gt;</code></pre></div>
+
+<p>Now restart Apache:</p>
+<pre>
+sudo httpd -k restart
+</pre>
+
+<p>and point your browser to: http://mydomain.localhost Paths like http://mydomain.localhost/myhandler/myaction will now work as they should. You can also configure additional require rules and proxies (like NodeJS) in the file above and mimic your production environment.  Vóila! Code like the wind. -JC</p>
+
+
+  <p><small><a href="/programming/proxying-commandbox-embedded-server">Proxying the CommandBox Embedded Server Behind Apache</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on February 01, 2015.</small></p>]]></content>
+</entry>
 
 <entry>
   <title type="html"><![CDATA[Logrotate Issues after Linux Distribution Upgrade]]></title>
@@ -578,65 +688,6 @@ remembrances of me, and you, and us;<br />
 I wish you boundless joy, much happiness.</p>
 
   <p><small><a href="/poetry/sonnet-to-an-old-flame">Sonnet to An Old Flame</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
-</entry>
-
-<entry>
-  <title type="html"><![CDATA[Telephones and Tootise Pops]]></title>
-  <link rel="alternate" type="text/html" href="/poetry/telephones_and_tootsie_pops" />
-  <id>/poetry/telephones_and_tootsie_pops</id>
-  <published>2008-08-23T04:56:14-04:00</published>
-  <updated>2008-08-23T04:56:14-04:00</updated>
-  <author>
-    <name>Jon Clausen</name>
-    <uri></uri>
-    <email>jon@silowebworks.com</email>
-  </author>
-  <content type="html"><![CDATA[<p>by Jonathan Clausen</p>
-<p>This is a poem to my Grandmother, Vivian<br />
-who I have not called nor written on time<br />
-for most of these thirty-five years on this earth.<br />
-You’d wear purple someday,<br />
-that’s what a picture said.<br />
-Purple is nice.<br />
-Makes me think of popsicles, Tootsie pops too.<br />
-Grape soda is purple; so was the color<br />
-of pajamas you once bought me at Christmas.<br />
-I wanted the Dolphins, got Vikings instead,<br />
-but jammies were yearly and next year brought teal<br />
-and orange.</p>
-<p>Purple’s also the color, of bruises I saw from a fall<br />
-you’d taken while no one was around you at all,<br />
-when last we visited.<br />
-You asked for more syrup, more sweetness, it seemed,<br />
-eyes stared toward some distance, you struggled to fight<br />
-the shake of your morning.<br />
-This vacant stare scared me, this I confess<br />
-I’m not ready, you see, yet know all too well<br />
-someday…</p>
-<p>It’s from polio they say, a blight which once took<br />
-hold of your body, in the past, in your youth.<br />
-You beat it back then, though damage was done.<br />
-Today you are stronger, but weaker, it seems,<br />
-as you push yourself, still, in this race you must run.<br />
-The phone rings.</p>
-<p>Who lives 85 years? That’s what Grandpa once said.<br />
-You planned a retirement, modest and yet<br />
-today you are older than you thought you could be.<br />
-The money is waning, the medicine wants.<br />
-Your home’s now with strangers.</p>
-<p>“Hello, Grandma” I answer, warm and exuberant.<br />
-Salutations exchanged, pictures sent, and then<br />
-a cough from pneumonia.<br />
-You’ve beat it before; none of this causes worry.<br />
-I tease you, you laugh, tell me you must go.<br />
-It’s time for your dinner: farm cooking, no doubt.<br />
-Your nurse is approaching, just a little time left<br />
-for those few words which sum up quite clear<br />
-your person, your goodness, you say:</p>
-<p>“I’m proud of you, Jon. God bless and I love you<br />
-too.”</p>
-
-  <p><small><a href="/poetry/telephones_and_tootsie_pops">Telephones and Tootise Pops</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on August 23, 2008.</small></p>]]></content>
 </entry>
 
 </feed>

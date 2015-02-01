@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Proxying the CommandBox Embedded Server Behind Apache &#8211; Between Silences</title>
+<!-- head v.head-->
+<meta name="description" content="Developing and Deploying Coldbox Applications using the Commandbox Embedded Lucee Server - Part 1">
+<meta name="keywords" content="Coldbox, CommandBox">
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Proxying the CommandBox Embedded Server Behind Apache &#8211; Between Silences">
+<meta property="og:description" content="Developing and Deploying Coldbox Applications using the Commandbox Embedded Lucee Server - Part 1">
+<meta property="og:url" content="/programming/proxying-commandbox-embedded-server">
+<meta property="og:site_name" content="Between Silences">
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Between Silences Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Type -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/i.css">
+<!-- Fresh Squeezed jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- Add Bootstrap -->
+<script src="/assets/js/bootstrap.js"></script>
+<!-- Code Highlighting --->
+<link rel="stylesheet" href="/assets/css/pygments.css" />
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<div id="bump">
+  <body class="">
+    <header class="site-header">
+      <div class="wrap">
+        <hgroup>
+          <h1><a href="/">Between Silences</a></h1>
+        </hgroup>
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="Between Silences">Home</a>
+            </li>
+            
+            
+                <li><a href="/about" >About</a></li>
+            
+                <li><a href="https://github.com/jclausen" target="_blank">Github</a></li>
+            
+                <li><a href="http://silowebworks.com" target="_blank">Silo</a></li>
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="article">
+
+
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url(/images/soft-trees.jpg)"></div>
+
+
+
+     	<article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+          	<h1>Proxying the CommandBox Embedded Server Behind Apache</h1>
+          	<p class="date">Feb 01, 2015</p>
+          	
+            <p class="intro text-muted" style="text-align:center!important"><i class="fa fa-gears"></i><br/><em>Developing and Deploying Coldbox Applications using the Commandbox Embedded Lucee Server - Part 1</em></p>
+            
+          </hgroup>
+        </header>
+
+        <p>I’m a big fan of the <a href="http://www.ortussolutions.com/products/commandbox" title="CommandBox">CommandBox</a> embedded <a href="http://lucee.org/">Lucee server</a> and am finding the scenarios in which I use it for development and testing to be growing day-by-day. At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  I also don’t like exposing my app server technology in my URL’s so having a path like “/index.cfm/handler/action” upsets my delicate sensibilities.  </p>
+
+<p>So, let’s place our Coldbox embedded server behind Apache.  First things first, we’ll probably need to modify our hosts file to recognize our local domain.  I’m on a Mac, so my hosts file is located at /etc/hosts, but you can also <a href="http://www.thewindowsclub.com/hosts-file-in-windows">make this modification on Windows</a>.  In your hosts file, add the following:</p>
+
+<pre>
+127.0.0.1 mydomain.localhost
+</pre>
+
+<p>Next you’ll want to start up your commandbox server:</p>
+
+<pre>
+$ cd /Sites/mydomain
+$ box server start
+</pre>
+
+<p>Your browser will open, but you can close that out for now and you’ll see something like the following in the terminal output:</p>
+
+<pre>
+The server for /Sites/mydomain is starting on 127.0.0.1:63616... type 'server status' to see result
+</pre>
+
+<p>We’re going to need that port number so that we can fix it permanently so, stop your server and add that port to your box.json as the default port:</p>
+
+<pre>
+$ box package set defaultPort=63616
+Set defaultPort = 63616
+</pre>
+
+<p>Now that we have the default port set permanently, we’re going to set up Apache to proxy it. We’re going to need mod_proxy enabled on Apache so make sure the following two lines (with your paths) are uncommented in httpd.conf:</p>
+
+<pre>
+LoadModule proxy_module libexec/apache2/mod_proxy.so
+LoadModule proxy_connect_module libexec/apache2/mod_proxy_connect.so
+</pre>
+
+<p>Depending on your Apache installation and your OS, your virtual host files will be in different locations.  I keep all mine in /etc/apache2/vhosts.d with an <code>include /etc/apache2/vhosts.d/*.conf</code> in my httpd.conf file, which loads all config files in that directory on restart. Let’s create our domain config file:</p>
+
+<pre>
+$ sudo vi /etc/apache2/vhosts.d/mydomain.localhost.conf 
+</pre>
+
+<p>This will open up a new file for editing.  We’re using sudo so that we can save it, because OSX’s permissions normally wouldn’t let us do that in the /etc/ path.  Now add the following (we’re copying a big segment of the default coldbox .htaccess file, with one exception (see the comment in the config code):</p>
+
+<div class="highlight"><pre><code class="language-diff" data-lang="diff"># My Application
+&lt;VirtualHost 127.0.0.1:80&gt;
+ServerName mydomain.localhost
+# Document Root
+DocumentRoot /Sites/mydomain/
+&lt;Location / &gt;
+	RewriteEngine on
+	RewriteBase /
+
+# Bypass images, css, javascript and docs, add your own extensions if needed.
+
+	RewriteCond %{REQUEST_URI} \.(bmp|gif|jpe?g|png|css|js|txt|pdf|doc|xls|ico)$
+	RewriteRule ^(.*)$ - [NC,L]
+
+# The ColdBox index.cfm/{path_info} rules.
+
+	RewriteRule ^$ index.cfm [QSA,NS]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+# Notice the [P] flag at the end of the rewrite rule. 
+#	This tells Apache that the rewrite rule is proxy
+
+	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
+
+# For development, you can just keep the following 
+# in place to provide you with full access.
+# What&#39;s below tells apache to proxy everything 
+# that hasn&#39;t been found with the rules above. 
+ 
+	ProxyPass http://127.0.0.1:63616/
+	ProxyPassReverse http://127.0.0.1:63616/
+	SetEnv force-proxy-request-1.0 1
+
+# Now for our permissions
+# Note: &quot;Require all granted&quot; is Apache 2.2 syntax
+# for &lt;2.2, you&#39;ll want Order allow,deny in its place
+
+	AllowOverride All
+	Require all granted
+	Allow from all
+
+&lt;/Location&gt;
+&lt;/VirtualHost&gt;</code></pre></div>
+
+<p>Now restart Apache:</p>
+<pre>
+sudo httpd -k restart
+</pre>
+
+<p>and point your browser to: http://mydomain.localhost Paths like http://mydomain.localhost/myhandler/myaction will now work as they should. You can also configure additional require rules and proxies (like NodeJS) in the file above and mimic your production environment.  Vóila! Code like the wind. -JC</p>
+
+
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Proxying the CommandBox Embedded Server Behind Apache&quot;%20http://jonclausen.com/programming/proxying-commandbox-embedded-server%20via%20&#64;jclausen" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+
+	</article> 
+
+    </section>
+</div>
+
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/programming/proxying-commandbox-embedded-server" title="Proxying the CommandBox Embedded Server Behind Apache">Proxying the CommandBox Emb... </a></span>
+              <span class="date">Feb 01, 2015</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/linux/logrotate-issues-on-suse-13-3" title="Logrotate Issues after Linux Distribution Upgrade">Logrotate Issues after Linu... </a></span>
+              <span class="date">Dec 22, 2014</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/miscelaneous/back-in-action" title="Back in Action">Back in Action </a></span>
+              <span class="date">Dec 12, 2014</span>
+            </li>
+        
+      </ol>
+
+      <div class="social">
+        <ul>
+            
+            <li><a title="@jclausen on Twitter" id="twit" href="http://twitter.com/jclausen" target="_blank"><span class="foot-link"><i class="fa fa-twitter fa-2x"></i></span></a></li>
+            
+			
+            
+            <li><a id="twit" title="jclausen on GitHub" href="http://github.com/jclausen" target="_blank"><span class="foot-link"><i class="fa fa-github fa-2x"></i></span></a></li>
+            
+
+            
+            
+			<li style="text-indent: 4px;"><a id="mail" href="mailto:jon@silowebworks.com"><span class="foot-link"><i class="fa fa-envelope"></i></a></li>
+
+
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; 2015 Jon Clausen. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="/assets/js/scripts.js"></script>
+
+
+  </body>
+</html>
+

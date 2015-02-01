@@ -9,6 +9,6 @@ Creator of Balzac theme: Cole Townsend
 Twitter: @twnsndco
 
 /* SITE */                         
-Last update: 2014-12-22
+Last update: 2015-02-01
 Standards: HTML, SCSS, Jekyll                        
 Software: git
