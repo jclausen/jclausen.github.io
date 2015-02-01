@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Logrotate Issues after Linux Distribution Upgrade &#8211; Between Silences</title>
+<!-- head v.head-->
+<meta name="description" content="The one in which your web and database server log files stop rotating properly">
+<meta name="keywords" content="SuSE, logrotate, Linux, Logging">
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Logrotate Issues after Linux Distribution Upgrade &#8211; Between Silences">
+<meta property="og:description" content="The one in which your web and database server log files stop rotating properly">
+<meta property="og:url" content="/servers/logrotate-issues-on-suse-13-3">
+<meta property="og:site_name" content="Between Silences">
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Between Silences Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Type -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/i.css">
+<!-- Fresh Squeezed jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- Add Bootstrap -->
+<script src="/assets/js/bootstrap.js"></script>
+<!-- Code Highlighting --->
+<link rel="stylesheet" href="/assets/css/pygments.css" />
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<div id="bump">
+  <body class="">
+    <header class="site-header">
+      <div class="wrap">
+        <hgroup>
+          <h1><a href="/">Between Silences</a></h1>
+        </hgroup>
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="Between Silences">Home</a>
+            </li>
+            
+            
+                <li><a href="/about" >About</a></li>
+            
+                <li><a href="https://github.com/jclausen" target="_blank">Github</a></li>
+            
+                <li><a href="http://silowebworks.com" target="_blank">Silo</a></li>
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="article">
+
+
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url(/images/soft-trees.jpg)"></div>
+
+
+
+     	<article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+          	<h1>Logrotate Issues after Linux Distribution Upgrade</h1>
+          	<p class="date">Dec 22, 2014</p>
+          	
+            <p class="intro text-muted" style="text-align:center!important"><i class="fa fa-exclamation-circle"></i><br/><em>The one in which your web and database server log files stop rotating properly</em></p>
+            
+          </hgroup>
+        </header>
+
+        <p>I received a dreaded “The web site is down!” call from a client this morning.  I had stepped away from the computer and when I sat down to take a look at the problem my inbox was full with site outage notifications.  </p>
+
+<p>The VPS was non-responsive so I had to force reboot the server from the VMWare master.  None of the other VM’s on the server were affected - just this one, which is running a <abbr title="Linux,Apache,(NGINX),PHP,PostgreSQL">LA(N)PP</abbr> stack on <a href="https://www.opensuse.org/en/">SuSE 13.3</a>.  Once I got the server back up and running again, it was time to dig in to the logs to see what had caused the issue. </p>
+
+<p>A look at /var/log/messages showed the last item logged before the system became non-responsive was an entry for <a href="http://en.wikipedia.org/wiki/Syslog-ng">syslog-ng</a>, and then nothing until the reboot. Next I went and looked at the web server logs.  </p>
+
+<p>This particular machine uses NGINX as a reverse proxy for Apache. NGINX handles the static files (which it does really, really well) on Port 80 and high-level request caching, while Apache handles serving PHP and all requests on Port 443 (There is a method to this madness, which I’ll discuss in a future post).  In addition, NGINX also reverse proxies to three other servers so the log for that site logs every requests to those subapps running on other servers. </p>
+
+<p>The NGINX log for the site showed a filesize of nearly 1GB, which shouldn’t have happened, as rotation happens daily, plus the max filesize on that log is set at 4MB. Big problem.</p>
+
+<p>Running logrotate in debug mode manually, <code>logrotate -dv /etc/logrotate.conf</code>, returned the following message regarding the NGINX log (along with similar messages for few others):</p>
+
+<div class="highlight"><pre><code class="language-diff" data-lang="diff">error: skipping &quot;/var/log/nginx/mysite.com.access.log&quot; because parent directory has insecure permissions (It&#39;s world writable or writable by group which is not &quot;root&quot;) Set &quot;su&quot; directive in config file to tell logrotate which user/group should be used for rotation.</code></pre></div>
+
+<p>Root cause found.  After some digging in to the whys, it turns out the version of logrotate on SuSE 13.3, which this machine was upgraded to two weeks ago now requires explicit directory permissions to be specified in the logrotate command unless the the directory is chowned root:root.  <a href="https://fedorahosted.org/logrotate/browser/tags/r3-8-0/CHANGES">This change was introduced in logrotate version 3.8.0</a> so the this issue applies to all linux distros using that version or above. </p>
+
+<p>On this system NGINX runs in group “nginx” and Apache runs in group “www” so adding the following to the configuration block in /etc/logrotate.d/nginx fixed the problem: <code>su root nginx</code>.</p>
+
+<p>The final configuration block looks like:</p>
+
+<div class="highlight"><pre><code class="language-diff" data-lang="diff">/var/log/nginx/*.log {
+	su root nginx
+	compress
+	dateext
+	maxage 365
+	rotate 99
+	size=+4096k
+	notifempty
+	missingok
+	create 644 root root
+	postrotate
+	  /etc/init.d/nginx reopen
+	endscript  
+}</code></pre></div>
+
+<p>I also had to change all of the Apache logrotate entry blocks to <code>su root www</code> as the ownership permissions on those directories need to be writeable by the group in which httpd runs.  If you’re running MySQL/MariaDB, you’ll need to change add <code>su root mysql</code> to any config blocks in /etc/logrotate.d/mysql as well.  PostgreSQL handles its own log rotation, so those will not be an issue.</p>
+
+<p>Since this applies to all Linux distros running logrotate 3.8.0 and above, it’s worthy of a quick check of your systems, if you’ve upgraded recently.  Running <code>ls -l</code> from within your /var/log directory should allow you to pull the correct group names to ensure log rotation will keep functioning properly.  If you started with a fresh machine running those versions, your package manager installation will add those blocks automatically.</p>
+
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Logrotate Issues after Linux Distribution Upgrade&quot;%20http://jonclausen.com/servers/logrotate-issues-on-suse-13-3%20via%20&#64;jclausen" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+
+	</article> 
+
+    </section>
+</div>
+
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/programming/proxying-commandbox-embedded-server" title="Proxying the CommandBox Embedded Server Behind Apache">Proxying the CommandBox Emb... </a></span>
+              <span class="date">Feb 01, 2015</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/programming/mongo-radical" title="Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox">Mongo-Radical - Introducing... </a></span>
+              <span class="date">Jan 19, 2015</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/servers/logrotate-issues-on-suse-13-3" title="Logrotate Issues after Linux Distribution Upgrade">Logrotate Issues after Linu... </a></span>
+              <span class="date">Dec 22, 2014</span>
+            </li>
+        
+      </ol>
+
+      <div class="social">
+        <ul>
+            
+            <li><a title="@jclausen on Twitter" id="twit" href="http://twitter.com/jclausen" target="_blank"><span class="foot-link"><i class="fa fa-twitter fa-2x"></i></span></a></li>
+            
+			
+            
+            <li><a id="twit" title="jclausen on GitHub" href="http://github.com/jclausen" target="_blank"><span class="foot-link"><i class="fa fa-github fa-2x"></i></span></a></li>
+            
+
+            
+            
+			<li style="text-indent: 4px;"><a id="mail" href="mailto:jon@silowebworks.com"><span class="foot-link"><i class="fa fa-envelope"></i></a></li>
+
+
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; 2015 Jon Clausen. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="/assets/js/scripts.js"></script>
+
+
+  </body>
+</html>
+

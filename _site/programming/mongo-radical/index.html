@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox &#8211; Between Silences</title>
+<!-- head v.head-->
+<meta name="description" content="The one in which I dust off an old application, get all fancy-pants, and write my own Coldbox module">
+<meta name="keywords" content="NoSQL, MongoDB, Coldfusion, Coldbox">
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox &#8211; Between Silences">
+<meta property="og:description" content="The one in which I dust off an old application, get all fancy-pants, and write my own Coldbox module">
+<meta property="og:url" content="/programming/mongo-radical">
+<meta property="og:site_name" content="Between Silences">
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Between Silences Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Type -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/i.css">
+<!-- Fresh Squeezed jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- Add Bootstrap -->
+<script src="/assets/js/bootstrap.js"></script>
+<!-- Code Highlighting --->
+<link rel="stylesheet" href="/assets/css/pygments.css" />
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<div id="bump">
+  <body class="">
+    <header class="site-header">
+      <div class="wrap">
+        <hgroup>
+          <h1><a href="/">Between Silences</a></h1>
+        </hgroup>
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="Between Silences">Home</a>
+            </li>
+            
+            
+                <li><a href="/about" >About</a></li>
+            
+                <li><a href="https://github.com/jclausen" target="_blank">Github</a></li>
+            
+                <li><a href="http://silowebworks.com" target="_blank">Silo</a></li>
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="article">
+
+
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url(/images/soft-trees.jpg)"></div>
+
+
+
+     	<article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+          	<h1>Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox</h1>
+          	<p class="date">Jan 19, 2015</p>
+          	
+            <p class="intro text-muted" style="text-align:center!important"><i class="fa fa-database"></i><br/><em>The one in which I dust off an old application, get all fancy-pants, and write my own Coldbox module</em></p>
+            
+          </hgroup>
+        </header>
+
+        <p>I have this application, maybe some of you have one like it too.  I first developed it all the way through public BETA in 2008, but it never took off and I was never really happy with it. In 2010 I took the site offline, but I never really stopped wanting to give it another go.</p>
+
+<p>In retrospect, I realize the problem was, in part, a database problem and, to a larger degree, a user interface problem.  The javascript technology and browser support just wasn’t available for the interface I wanted to use and the relational data model was complex and, well, slow.  Really slow.</p>
+
+<p>I dusted off the app this fall - winter up here in Michigan, USA is my time for personal projects - as it seemed like the stars were aligning to make what I wanted to do with it possible.</p>
+
+<p>The old app was developed in <a href="http://en.wikipedia.org/wiki/Model-Glue">Model-Glue</a>, running on MySQL with <a href="https://github.com/ReactorORM/reactor">Reactor</a> as the ORM framework. It was lightweight and fast, but I’ve never been a fan of XML configuration files.  More importantly development updates to the database schema and application were cumbersome and feature upgrades were often a tedious process.  I became frustrated with the experience it was producing, the development headaches for myself and, eventually, shelved the project.</p>
+
+<p>Once I dusted it off, my first thought was an in-place upgrade to server-side ORM and Coldbox as the app framework.  I’ve deployed several large projects using CF ORM, though and, well, I like it’s ease of use but it has a massive footprint for the convenience it brings and is slow when handling multi-dimensional relationships.  For this app, I wanted nimble, flexible and fast so I decided to look at…  </p>
+
+<h2 id="nosql">NoSQL</h2>
+<p>NoSQL DBMS’s, frankly, kind of scare me.  Not from a technical standpoint, but absence of all but indexing to force schema compliance gives me acid flashbacks to the some of the wild and wooly web application DB’s I’ve had to fix or bring up to date.  You know the ones:  No foreign keys, primary keys manually generated at runtime from arcane methodologies, storing the same information in 12 different tables because of #1.</p>
+
+<p>The paradigm shift of NoSQL, is that the application assumes responsibility for schema control and enforcement and, because I try to develop with protection of myself from myself, I decided to develop an active record(-esqe) facade for my database abstraction layer (in this case the excellent <a href="https://github.com/marcesher/cfmongodb">CFMongoDB library</a>. </p>
+
+<h2 id="cbmongodb">CBMongoDB</h2>
+<p>Say hello to <a href="http://www.coldbox.org/forgebox/view/cbmongodb">CBMongoDB</a>, a module for the Coldbox platform.</p>
+
+<p>My intent is for the module to develop over time to include GEO spatial capabilities<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, as well as data relationship <a href="http://docs.mongodb.org/manual/core/data-model-design/">normalization and de-normalization</a> introspection.  In the meantime, I’ll keep working on the app and adding functionality to the module as needed.  Code like the wind. -JC</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This functionality was pushed to the master branch on Jan 24, 2015. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox&quot;%20http://jonclausen.com/programming/mongo-radical%20via%20&#64;jclausen" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+
+	</article> 
+
+    </section>
+</div>
+
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/programming/proxying-commandbox-embedded-server" title="Proxying the CommandBox Embedded Server Behind Apache">Proxying the CommandBox Emb... </a></span>
+              <span class="date">Feb 01, 2015</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/programming/mongo-radical" title="Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox">Mongo-Radical - Introducing... </a></span>
+              <span class="date">Jan 19, 2015</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/servers/logrotate-issues-on-suse-13-3" title="Logrotate Issues after Linux Distribution Upgrade">Logrotate Issues after Linu... </a></span>
+              <span class="date">Dec 22, 2014</span>
+            </li>
+        
+      </ol>
+
+      <div class="social">
+        <ul>
+            
+            <li><a title="@jclausen on Twitter" id="twit" href="http://twitter.com/jclausen" target="_blank"><span class="foot-link"><i class="fa fa-twitter fa-2x"></i></span></a></li>
+            
+			
+            
+            <li><a id="twit" title="jclausen on GitHub" href="http://github.com/jclausen" target="_blank"><span class="foot-link"><i class="fa fa-github fa-2x"></i></span></a></li>
+            
+
+            
+            
+			<li style="text-indent: 4px;"><a id="mail" href="mailto:jon@silowebworks.com"><span class="foot-link"><i class="fa fa-envelope"></i></a></li>
+
+
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; 2015 Jon Clausen. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="/assets/js/scripts.js"></script>
+
+
+  </body>
+</html>
+
