@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-01T16:45:17-05:00</updated>
+<updated>2015-02-01T17:23:33-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -95,6 +95,13 @@ DocumentRoot /Sites/mydomain/
 #	This tells Apache that the rewrite rule is proxy
 
 	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
+
+
+# 	Now let&#39;s clean up and make sure all of 
+#	our cfm/cfc files can be accessed
+
+	RewriteCond %{REQUEST_URI} \.(cfm|cfc)$
+	RewriteRule ^(.*)$ http://127.0.0.1:63616/%{REQUEST_URI} [P]	
 
 # Now for our permissions
 # Note: &quot;Require all granted&quot; is Apache 2.2 syntax
