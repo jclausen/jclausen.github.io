@@ -92,6 +92,13 @@ DocumentRoot /Sites/mydomain/
 
 	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
 
+
+# 	Now let's clean up and make sure all of 
+#	our cfm/cfc files can be accessed
+
+	RewriteCond %{REQUEST_URI} \.(cfm|cfc)$
+	RewriteRule ^(.*)$ http://127.0.0.1:63616/%{REQUEST_URI} [P]	
+
 # Now for our permissions
 # Note: "Require all granted" is Apache 2.2 syntax
 # for <2.2, you'll want Order allow,deny in its place
