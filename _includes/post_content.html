@@ -3,14 +3,12 @@
           <hgroup>
           	<h1>{{page.title}}</h1>
           	<p class="date">{{page.date | date: "%b %d, %Y" }}</p>
-          	<!-- 
           	<p style="text-align:center">
       			{% assign page_tags=page.tags %}	
         		{% for tag in page_tags %}
-            		<a href="/tagged/{{tag}}/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> {{tag}}</a>
+            		<span class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> {{tag}}</span>
       			{% endfor %}
       		</p>
-          	-->
           	{% if page.description or page.tagline %}
             <p class="intro text-muted" style="text-align:center!important"><i class="fa {% if page.fa_class %}{{page.fa_class}}{% else %}fa-key{% endif %}"></i><br/><em>{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</em></p>
             {% endif %}
