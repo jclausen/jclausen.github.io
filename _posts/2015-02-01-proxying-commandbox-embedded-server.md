@@ -16,9 +16,13 @@ tags:
 
 fa_class: "fa-gears"
 ---
-I'm a big fan of the [CommandBox][1] embedded [Lucee server][2] and am finding the scenarios in which I use it for development and testing to be growing day-by-day. At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  I also don't like exposing my app server technology in my URL's so having a path like "/index.cfm/handler/action" upsets my delicate sensibilities.  
+I'm a big fan of the [CommandBox][1] embedded [Lucee server][2] and am finding the scenarios in which I use it for development and testing to be growing day-by-day. 
 
-So, let's place our Coldbox embedded server behind Apache.  First things first, we'll probably need to modify our hosts file to recognize our local domain.  I'm on a Mac, so my hosts file is located at /etc/hosts, but you can also [make this modification on Windows](http://www.thewindowsclub.com/hosts-file-in-windows).  In your hosts file, add the following:
+At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  
+
+I also don't like exposing my app server technology in my URL's so having a path like "/index.cfm/handler/action" upsets my delicate sensibilities.  
+
+So, with that in mind, let's place our Coldbox embedded server behind Apache.  First things first, we'll probably need to modify our hosts file to recognize our local domain.  I'm on a Mac, so my hosts file is located at /etc/hosts, but you can also [make this modification on Windows](http://www.thewindowsclub.com/hosts-file-in-windows).  In your hosts file, add the following:
 
 <pre>
 127.0.0.1 mydomain.localhost

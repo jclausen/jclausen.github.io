@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-01T13:33:37-05:00</updated>
+<updated>2015-02-01T13:35:49-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -24,9 +24,13 @@
     <uri></uri>
     <email>jon@silowebworks.com</email>
   </author>
-  <content type="html"><![CDATA[<p>I’m a big fan of the <a href="http://www.ortussolutions.com/products/commandbox" title="CommandBox">CommandBox</a> embedded <a href="http://lucee.org/">Lucee server</a> and am finding the scenarios in which I use it for development and testing to be growing day-by-day. At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  I also don’t like exposing my app server technology in my URL’s so having a path like “/index.cfm/handler/action” upsets my delicate sensibilities.  </p>
+  <content type="html"><![CDATA[<p>I’m a big fan of the <a href="http://www.ortussolutions.com/products/commandbox" title="CommandBox">CommandBox</a> embedded <a href="http://lucee.org/">Lucee server</a> and am finding the scenarios in which I use it for development and testing to be growing day-by-day. </p>
 
-<p>So, let’s place our Coldbox embedded server behind Apache.  First things first, we’ll probably need to modify our hosts file to recognize our local domain.  I’m on a Mac, so my hosts file is located at /etc/hosts, but you can also <a href="http://www.thewindowsclub.com/hosts-file-in-windows">make this modification on Windows</a>.  In your hosts file, add the following:</p>
+<p>At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  </p>
+
+<p>I also don’t like exposing my app server technology in my URL’s so having a path like “/index.cfm/handler/action” upsets my delicate sensibilities.  </p>
+
+<p>So, with that in mind, let’s place our Coldbox embedded server behind Apache.  First things first, we’ll probably need to modify our hosts file to recognize our local domain.  I’m on a Mac, so my hosts file is located at /etc/hosts, but you can also <a href="http://www.thewindowsclub.com/hosts-file-in-windows">make this modification on Windows</a>.  In your hosts file, add the following:</p>
 
 <pre>
 127.0.0.1 mydomain.localhost
