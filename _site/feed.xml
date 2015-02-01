@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-01T15:15:48-05:00</updated>
+<updated>2015-02-01T15:17:51-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -26,7 +26,7 @@
   </author>
   <content type="html"><![CDATA[<p>I’m a big fan of the <a href="http://www.ortussolutions.com/products/commandbox" title="CommandBox">CommandBox</a> embedded <a href="http://lucee.org/">Lucee server</a> and am finding the scenarios in which I use it for development and testing to be growing day-by-day. </p>
 
-<p>At some point, though, you need to be able to develop applications in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  </p>
+<p>At some point, though, you need to be able to develop applications in an environment that mimics production, including full usage of rewrite rules, routing based on domain names, etc.  </p>
 
 <p>I also don’t like exposing my app server technology in my URL’s so having a path like “/index.cfm/handler/action” upsets my delicate sensibilities.  </p>
 
