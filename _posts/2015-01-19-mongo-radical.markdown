@@ -34,7 +34,7 @@ NoSQL
 -----
 NoSQL DBMS's, frankly, kind of scare me.  Not from a technical standpoint, but absence of all but indexing to force schema compliance gives me acid flashbacks to the some of the wild and wooly web application DB's I've had to fix or bring up to date.  You know the ones:  No foreign keys, primary keys manually generated at runtime from arcane methodologies, storing the same information in 12 different tables because of #1.
 
-The paradigm shift of NoSQL, is that the application assumes responsibility for schema control and enforcement and, because I try to develop with protection of myself from myself, I decided to develop an active record(-esqe) facade for my database abstraction layer (in this case the excellent [CFMongoDB library](https://github.com/marcesher/cfmongodb). 
+The paradigm shift of NoSQL, is that the application assumes responsibility for schema control and enforcement and, because I try to develop with protection of myself from myself, I decided to develop an active record(-esqe) facade for my database abstraction layer ( in this case the excellent [CFMongoDB library](https://github.com/marcesher/cfmongodb) ). 
 
 CBMongoDB
 ---------
