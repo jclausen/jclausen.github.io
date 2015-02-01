@@ -14,7 +14,6 @@ tags:
 - SuSE
 - logrotate
 - Linux
-- Logging
 
 fa_class: "fa-exclamation-circle"
 ---

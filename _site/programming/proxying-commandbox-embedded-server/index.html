@@ -4,7 +4,7 @@
 <title>Proxying the CommandBox Embedded Server Behind Apache &#8211; Between Silences</title>
 <!-- head v.head-->
 <meta name="description" content="Developing and Deploying Coldbox Applications using the Commandbox Embedded Lucee Server - Part 1">
-<meta name="keywords" content="Coldbox, CommandBox">
+<meta name="keywords" content="Coldbox, Coldfusion, Lucee, CFML, CommandBox">
 
 
 <meta property="og:locale" content="en_US">
@@ -85,12 +85,25 @@
           <hgroup>
           	<h1>Proxying the CommandBox Embedded Server Behind Apache</h1>
           	<p class="date">Feb 01, 2015</p>
+          	<p style="text-align:center">
+      				
+        		
+            		<a href="/tag/Coldbox/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> Coldbox</a>
+      			
+            		<a href="/tag/Coldfusion/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> Coldfusion</a>
+      			
+            		<a href="/tag/Lucee/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> Lucee</a>
+      			
+            		<a href="/tag/CFML/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> CFML</a>
+      			
+            		<a href="/tag/CommandBox/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> CommandBox</a>
+      			
+      		</p>
           	
             <p class="intro text-muted" style="text-align:center!important"><i class="fa fa-gears"></i><br/><em>Developing and Deploying Coldbox Applications using the Commandbox Embedded Lucee Server - Part 1</em></p>
             
           </hgroup>
         </header>
-
         <p>I’m a big fan of the <a href="http://www.ortussolutions.com/products/commandbox" title="CommandBox">CommandBox</a> embedded <a href="http://lucee.org/">Lucee server</a> and am finding the scenarios in which I use it for development and testing to be growing day-by-day. </p>
 
 <p>At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  </p>
@@ -191,13 +204,10 @@ sudo httpd -k restart
 <p>and point your browser to: http://mydomain.localhost Paths like http://mydomain.localhost/myhandler/myaction will now work as they should. You can also configure additional require rules and proxies (like NodeJS) in the file above and mimic your production environment.  Vóila! Code like the wind. -JC</p>
 
 
-
+      <div class="clearfix"></div>
       <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Proxying the CommandBox Embedded Server Behind Apache&quot;%20http://jonclausen.com/programming/proxying-commandbox-embedded-server%20via%20&#64;jclausen" data-dnt="true">Share</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
       
-
-
 	</article> 
 
     </section>

@@ -12,6 +12,9 @@ categories:
 - Programming
 tags:
 - Coldbox
+- Coldfusion
+- Lucee
+- CFML
 - CommandBox
 
 fa_class: "fa-gears"

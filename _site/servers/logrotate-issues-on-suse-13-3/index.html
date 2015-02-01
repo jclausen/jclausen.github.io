@@ -4,7 +4,7 @@
 <title>Logrotate Issues after Linux Distribution Upgrade &#8211; Between Silences</title>
 <!-- head v.head-->
 <meta name="description" content="The one in which your web and database server log files stop rotating properly">
-<meta name="keywords" content="SuSE, logrotate, Linux, Logging">
+<meta name="keywords" content="SuSE, logrotate, Linux">
 
 
 <meta property="og:locale" content="en_US">
@@ -85,12 +85,21 @@
           <hgroup>
           	<h1>Logrotate Issues after Linux Distribution Upgrade</h1>
           	<p class="date">Dec 22, 2014</p>
+          	<p style="text-align:center">
+      				
+        		
+            		<a href="/tag/SuSE/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> SuSE</a>
+      			
+            		<a href="/tag/logrotate/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> logrotate</a>
+      			
+            		<a href="/tag/Linux/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> Linux</a>
+      			
+      		</p>
           	
             <p class="intro text-muted" style="text-align:center!important"><i class="fa fa-exclamation-circle"></i><br/><em>The one in which your web and database server log files stop rotating properly</em></p>
             
           </hgroup>
         </header>
-
         <p>I received a dreaded “The web site is down!” call from a client this morning.  I had stepped away from the computer and when I sat down to take a look at the problem my inbox was full with site outage notifications.  </p>
 
 <p>The VPS was non-responsive so I had to force reboot the server from the VMWare master.  None of the other VM’s on the server were affected - just this one, which is running a <abbr title="Linux,Apache,(NGINX),PHP,PostgreSQL">LA(N)PP</abbr> stack on <a href="https://www.opensuse.org/en/">SuSE 13.3</a>.  Once I got the server back up and running again, it was time to dig in to the logs to see what had caused the issue. </p>
@@ -130,13 +139,10 @@
 
 <p>Since this applies to all Linux distros running logrotate 3.8.0 and above, it’s worthy of a quick check of your systems, if you’ve upgraded recently.  Running <code>ls -l</code> from within your /var/log directory should allow you to pull the correct group names to ensure log rotation will keep functioning properly.  If you started with a fresh machine running those versions, your package manager installation will add those blocks automatically.</p>
 
-
+      <div class="clearfix"></div>
       <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Logrotate Issues after Linux Distribution Upgrade&quot;%20http://jonclausen.com/servers/logrotate-issues-on-suse-13-3%20via%20&#64;jclausen" data-dnt="true">Share</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
       
-
-
 	</article> 
 
     </section>

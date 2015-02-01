@@ -3,17 +3,21 @@
           <hgroup>
           	<h1>{{page.title}}</h1>
           	<p class="date">{{page.date | date: "%b %d, %Y" }}</p>
+          	<p style="text-align:center">
+      			{% assign page_tags=page.tags %}	
+        		{% for tag in page_tags %}
+            		<a href="/tag/{{tag}}/" class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> {{tag}}</a>
+      			{% endfor %}
+      		</p>
           	{% if page.description or page.tagline %}
             <p class="intro text-muted" style="text-align:center!important"><i class="fa {% if page.fa_class %}{{page.fa_class}}{% else %}fa-key{% endif %}"></i><br/><em>{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</em></p>
             {% endif %}
           </hgroup>
         </header>
-
         {{ content }}
-
+      <div class="clearfix"></div>
       <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
       {% if page.comments %}
       <aside class="disqus">
         <div id="disqus_thread"></div>
@@ -32,6 +36,4 @@
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </aside>
       {% endif %}
-
-
 	</article>
