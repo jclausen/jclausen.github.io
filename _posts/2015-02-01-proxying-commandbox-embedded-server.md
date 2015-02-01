@@ -87,19 +87,10 @@ DocumentRoot /Sites/mydomain/
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 
-# Notice the [P] flag at the end of the rewrite rule. 
+# 	Notice the [P] flag at the end of the rewrite rule. 
 #	This tells Apache that the rewrite rule is proxy
 
 	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
-
-# For development, you can just keep the following 
-# in place to provide you with full access.
-# What's below tells apache to proxy everything 
-# that hasn't been found with the rules above. 
- 
-	ProxyPass http://127.0.0.1:63616/
-	ProxyPassReverse http://127.0.0.1:63616/
-	SetEnv force-proxy-request-1.0 1
 
 # Now for our permissions
 # Note: "Require all granted" is Apache 2.2 syntax
