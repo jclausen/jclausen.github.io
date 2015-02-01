@@ -21,7 +21,7 @@ fa_class: "fa-gears"
 ---
 I'm a big fan of the [CommandBox][1] embedded [Lucee server][2] and am finding the scenarios in which I use it for development and testing to be growing day-by-day. 
 
-At some point, though, you need to be able to develop applications for production in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  
+At some point, though, you need to be able to develop applications in an environment that mimics the production environment, including full usage of rewrite rules, routing based on domain names, etc.  
 
 I also don't like exposing my app server technology in my URL's so having a path like "/index.cfm/handler/action" upsets my delicate sensibilities.  
 
