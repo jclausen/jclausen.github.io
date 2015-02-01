@@ -2,8 +2,8 @@
 layout: post
 status: publish
 published: true
-title: Proxying the CommandBox Embedded Server Behind Apache
-description: "Developing and Deploying Coldbox Applications using the Commandbox Embedded Lucee Server - Part 1"
+title: Reverse Proxy Your CommandBox Embedded Server - Apache
+description: "Developing and Deploying Coldbox Applications using the CommandBox Embedded Server - Part 1"
 author:
   display_name: Jon Clausen
 author_email: jon_clausen@silowebworks.com

@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-01T15:11:17-05:00</updated>
+<updated>2015-02-01T15:14:42-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -14,7 +14,7 @@
 </author>
 
 <entry>
-  <title type="html"><![CDATA[Proxying the CommandBox Embedded Server Behind Apache]]></title>
+  <title type="html"><![CDATA[Reverse Proxy Your CommandBox Embedded Server - Apache]]></title>
   <link rel="alternate" type="text/html" href="/programming/proxying-commandbox-embedded-server" />
   <id>/programming/proxying-commandbox-embedded-server</id>
   <published>2015-02-01T00:00:00-05:00</published>
@@ -124,7 +124,7 @@ sudo httpd -k restart
 <p>and point your browser to: http://mydomain.localhost Paths like http://mydomain.localhost/myhandler/myaction will now work as they should. You can also configure additional require rules and proxies (like NodeJS) in the file above and mimic your production environment.  Vóila! Code like the wind. -JC</p>
 
 
-  <p><small><a href="/programming/proxying-commandbox-embedded-server">Proxying the CommandBox Embedded Server Behind Apache</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on February 01, 2015.</small></p>]]></content>
+  <p><small><a href="/programming/proxying-commandbox-embedded-server">Reverse Proxy Your CommandBox Embedded Server - Apache</a> was originally published by Jon Clausen at <a href="">Between Silences</a> on February 01, 2015.</small></p>]]></content>
 </entry>
 
 <entry>
