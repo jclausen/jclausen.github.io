@@ -6,7 +6,7 @@
           	<p style="text-align:center">
       			{% assign page_tags=page.tags %}	
         		{% for tag in page_tags %}
-            		<span class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> {{tag}}</span>
+            		<a href="/tagged/{{tag}}"><span class="btn btn-lg tag-context text-muted"><i class="fa fa-tag"></i> {{tag}}</span></a>
       			{% endfor %}
       		</p>
           	{% if page.description or page.tagline %}

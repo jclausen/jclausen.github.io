@@ -1,0 +1,204 @@
+---
+layout: post
+status: publish
+published: true
+title: Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox
+description: "The one in which I dust off an old application, get all fancy-pants, and write my own Coldbox module"
+author:
+  display_name: Jon Clausen
+author_email: jon_clausen@silowebworks.com
+author_url: http://jonclausen.com
+categories:
+- Programming
+tags:
+- NoSQL
+- MongoDB
+- Coldfusion
+- Lucee
+- CFML
+
+fa_class: "fa-database"
+---
+
+
+Before
+------
+
+```
+public void function processPaymentSearch(event,asQuery=false){
+		var q = this.newCriteria();
+		var rc = arguments.event.getCollection();
+		var aConjunct = arrayNew(1);
+		var maxrows = arguments.event.getValue("maxrows",75);
+		var startrow = arguments.event.getValue("startrow",0);
+		var search_string = arguments.event.getValue("filter",'');
+		var sortOrder='date DESC';
+
+    	q.resultTransformer(q.DISTINCT_ROOT_ENTITY);
+		q.withProjections(groupproperty="{alias}.id");
+
+    	//date range
+		if(isDate(arguments.event.getValue("date_start",'')) or isDate(arguments.event.getValue("date_end",''))){
+			if(isDate(arguments.event.getValue("date_start"))){
+				q.add(q.restrictions.GE('payment.date',ODBCBeginDate(arguments.event.getValue("date_start"))));
+			}
+			if(isDate(arguments.event.getValue("date_end"))){
+				q.add(q.restrictions.LE('payment.date',ODBCEndDate(arguments.event.getValue("date_end"))));
+			}
+		}
+
+		//search values
+		if(trim(arguments.event.getValue("filter",'')) NEQ ''){
+			if(!isNumeric(rc.filter)){
+				var search_string='%'&search_string&'%';
+				var by_agent=q.restrictions.iLike('name',search_string);
+				var by_newspaper=q.restrictions.iLike('name',search_string);
+				var by_transaction=q.restrictions.isEQ('transaction_id',rc.filter);
+				var by_comment = arrayNew(1);
+	  		  	arrayAppend(by_comment,q.restrictions.iLike('comment',search_string));
+	  		  	arrayAppend(by_comment,q.restrictions.iLike('reference',search_string));
+			} else {
+				var by_agent=q.restrictions.isEq(getWirebox().getInstance("Agent").get(rc.filter));
+				var by_newspaper=q.restrictions.isEq(getWirebox().getInstance("Newspaper").get(rc.filter));
+			}
+
+	  		switch (rc.filter_type){
+	  		  	case "agent":
+	  		  		q.withcampaigns(q.LEFT_JOIN).withAgent(q.INNER_JOIN);
+	  		  		q.add(by_agent);
+	  		  		sortOrder='name ASC';
+	  		  		break;
+	  		  	case "newspaper":
+	  		  		q.withcampaigns(q.LEFT_JOIN).withNewspaper(q.INNER_JOIN);
+	  		  		q.add(by_newspaper);
+	  		  		sortOrder='name ASC';
+	  		  		break;
+	  		  	case "transaction":
+	 	 			q.add(by_transaction);
+	  		  		break;
+	  		  	case "comment":
+	 	 			q.Disjunction(by_comment);
+	  		  		break;
+	  		  	default:
+	  		  		if(isNumeric(rc.filter)){
+	  		  			var or_with=arrayNew(1);
+						arrayAppend(or_with,by_agent);
+						arrayAppend(or_width,by_newspaper);
+	  		  		} else {
+	  		  			var ors=arrayNew(1);
+	  		  			var sub_agents=q.createSubCriteria('Agent','agent').withProjections(property="id").add(by_agent);
+	  		  			var sub_newspaper=q.createSubCriteria('Newspaper','newspaper').withProjections(property="id").add(by_agent);
+						q.or(by_transaction,by_comment[1],by_comment[2]);
+						q.withcampaigns(q.LEFT_JOIN);
+						q.or(sub_agents.propertyEq('Agent'));
+						q.or(sub_newspaper.propertyEq('Newspaper'));
+						sortOrder='created DESC';
+	  		  		}
+
+	  		}
+	 	}
+	 	//set paging count
+	 	rc.total_records = q.count();
+	 	//wrap up and scope
+	 	q.order(listFirst(sortOrder,' '),listLast(sortOrder,' '));
+	 	q.maxResults(maxrows);
+	 	q.firstResult(startrow);
+	 	writeOutput(q.getSQL());
+	 	die;
+	 	rc.payments = q.list(asQuery=arguments.asQuery);
+
+}
+```
+
+After
+-----
+
+```
+public void function processPaymentSearch(event,asQuery=false){
+		var q = this.newCriteria();
+		var rc = arguments.event.getCollection();
+		var aConjunct = arrayNew(1);
+		var maxrows = arguments.event.getValue("maxrows",75);
+		var startrow = arguments.event.getValue("startrow",0);
+		var search_string = arguments.event.getValue("filter",'');
+		var sortOrder='date DESC';
+
+    	q.resultTransformer(q.DISTINCT_ROOT_ENTITY);
+		q.withProjections(groupproperty="{alias}.id");
+
+    	//date range
+		if(isDate(arguments.event.getValue("date_start",'')) or isDate(arguments.event.getValue("date_end",''))){
+			if(isDate(arguments.event.getValue("date_start"))){
+				q.add(q.restrictions.GE('payment.date',ODBCBeginDate(arguments.event.getValue("date_start"))));
+			}
+			if(isDate(arguments.event.getValue("date_end"))){
+				q.add(q.restrictions.LE('payment.date',ODBCEndDate(arguments.event.getValue("date_end"))));
+			}
+		}
+
+		//search values
+		if(trim(arguments.event.getValue("filter",'')) NEQ ''){
+			if(!isNumeric(rc.filter)){
+				var search_string='%'&search_string&'%';
+				var by_agent=q.restrictions.iLike('name',search_string);
+				var by_newspaper=q.restrictions.iLike('name',search_string);
+				var by_transaction=q.restrictions.isEQ('transaction_id',rc.filter);
+				var by_comment = arrayNew(1);
+	  		  	arrayAppend(by_comment,q.restrictions.iLike('comment',search_string));
+	  		  	arrayAppend(by_comment,q.restrictions.iLike('reference',search_string));
+			} else {
+				var by_agent=q.restrictions.isEq(getWirebox().getInstance("Agent").get(rc.filter));
+				var by_newspaper=q.restrictions.isEq(getWirebox().getInstance("Newspaper").get(rc.filter));
+			}
+
+	  		switch (rc.filter_type){
+	  		  	case "agent":
+	  		  		q.withcampaigns(q.LEFT_JOIN).withAgent(q.INNER_JOIN);
+	  		  		q.add(by_agent);
+	  		  		sortOrder='name ASC';
+	  		  		break;
+	  		  	case "newspaper":
+	  		  		q.withcampaigns(q.LEFT_JOIN).withNewspaper(q.INNER_JOIN);
+	  		  		q.add(by_newspaper);
+	  		  		sortOrder='name ASC';
+	  		  		break;
+	  		  	case "transaction":
+	 	 			q.add(by_transaction);
+	  		  		break;
+	  		  	case "comment":
+	 	 			q.Disjunction(by_comment);
+	  		  		break;
+	  		  	default:
+	  		  		if(isNumeric(rc.filter)){
+	  		  			var or_with=arrayNew(1);
+						arrayAppend(or_with,by_agent);
+						arrayAppend(or_width,by_newspaper);
+	  		  		} else {
+	  		  			var ors=arrayNew(1);
+	  		  			//alias instead of with() which switches the entity
+	  		  			q.createAlias('campaigns','Campaign',q.INNER_JOIN);
+	  		  			var sub_agents=q.createSubCriteria('Agent','agent').withProjections(property="id").add(by_agent);
+	  		  			var sub_newspaper=q.createSubCriteria('Newspaper','newspaper').withProjections(property="id").add(by_agent);
+						//All of our "ors"
+						q.or(
+						by_transaction
+						,by_comment[1]
+						,by_comment[2]
+						,sub_agents.propertyEq('Campaign.Agent')
+						,sub_newspaper.propertyEq('Campaign.Newspaper')
+						);
+						sortOrder='Campaign.created DESC';
+	  		  		}
+
+	  		}
+	 	}
+	 	//set paging count
+	 	rc.total_records = q.count();
+	 	//wrap up and scope
+	 	q.order(listFirst(sortOrder,' '),listLast(sortOrder,' '));
+	 	q.maxResults(maxrows);
+	 	q.firstResult(startrow);
+	 	rc.payments = q.list(asQuery=arguments.asQuery);
+
+}
+```
