@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 status: publish
 published: true
 title: Mongo-Radical - Introducing CBMongoDB, a MongoDB module for Coldbox

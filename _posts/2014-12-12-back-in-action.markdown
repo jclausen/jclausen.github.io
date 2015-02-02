@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Back in Action
+comments: true
 description: "The one in which I decide to blog again"
 image:
   feature: soft-trees.jpg

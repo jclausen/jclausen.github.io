@@ -1,6 +1,7 @@
 ---
 layout: post
 status: publish
+comments: true
 published: false
 title: How Apropos
 author:
@@ -20,5 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>Little did I know when I started this site that the title would become so relevant to me and my long absences away.  I've been around.  I've just been learning and growing and haven't had much energy left over to keep up with the massive information flow that is the Internet.</p>
-<p>With my new position of Interim Director of Marketing and Development at <a href="http://atgr.org">Actors' Theatre Grand Rapids</a>, I will be doing more post - if only as a way to organize my thoughts and to provide a hindsight perspective of my experience.  For now, though,  consider this a moment between silences...</p>
+<p>Little did I know when I started this site that the title would become so relevant to me and my long absences away. ��I've been around. ��I've just been learning and growing and haven't had much energy left over to keep up with the massive information flow that is the Internet.</p>
+<p>With my new position of Interim Director of Marketing and Development at <a href="http://atgr.org">Actors' Theatre Grand Rapids</a>, I will be doing more post - if only as a way to organize my thoughts and to provide a hindsight perspective of my experience. ��For now, though, ��consider this a moment between silences...</p>

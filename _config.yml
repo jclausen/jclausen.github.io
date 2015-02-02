@@ -23,6 +23,12 @@ tools:
   standards:      "HTML, SCSS, Jekyll"
   software:       "git"
 
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
 # Links to include in top navigation
 # For external links add external: true
 links:

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 status: publish
 published: true
 title: Reverse Proxy Your CommandBox Embedded Server - Apache

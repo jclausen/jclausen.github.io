@@ -1,6 +1,7 @@
 ---
 layout: post
 status: publish
+comments: true
 published: true
 title: Logrotate Issues after Linux Distribution Upgrade
 description: "The one in which your web and database server log files stop rotating properly"

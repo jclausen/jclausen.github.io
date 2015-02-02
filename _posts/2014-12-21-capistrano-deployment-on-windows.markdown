@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 status: draft
 published: false
 title: Deploying on Windows Server With Capistrano
