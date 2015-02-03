@@ -116,7 +116,9 @@ Now restart Apache:
 sudo httpd -k restart
 </pre>
 
-and point your browser to: http://mydomain.localhost Paths like http://mydomain.localhost/myhandler/myaction will now work as they should. You can also configure additional require rules and proxies (like NodeJS) in the file above and mimic your production environment.  Vóila! Code like the wind. -JC
+and point your browser to: http://mydomain.localhost . 
+
+Paths like http://mydomain.localhost/myhandler/myaction will now work as they should. You can also configure additional require rules and proxies (like NodeJS) in the file above and mimic your production environment.  Vóila! Code like the wind. -JC
 
 [1]:http://www.ortussolutions.com/products/commandbox "CommandBox"
 [2]:http://lucee.org/
