@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-08T11:00:47-05:00</updated>
+<updated>2015-02-18T21:09:44-05:00</updated>
 <id>/</id>
 <author>
   <name>Jon Clausen</name>
@@ -56,11 +56,17 @@ $ box package set defaultPort=63616
 Set defaultPort = 63616
 </pre>
 
-<p>Now that we have the default port set permanently, we’re going to set up Apache to proxy it. We’re going to need mod_proxy enabled on Apache so make sure the following two lines (with your paths) are uncommented in httpd.conf:</p>
+<p>Now that we have the default port set permanently, we’re going to set up Apache to proxy it. We’re going to need mod_proxy and a few other modules enabled on Apache so make sure the following modules (with your paths) are uncommented in httpd.conf:</p>
 
 <pre>
+#These are our HTML handling modules
+LoadModule xml2enc_module libexec/apache2/mod_xml2enc.so
+LoadModule proxy_html_module libexec/apache2/mod_proxy_html.so
+
+#These are the proxying modules we need
 LoadModule proxy_module libexec/apache2/mod_proxy.so
 LoadModule proxy_connect_module libexec/apache2/mod_proxy_connect.so
+LoadModule proxy_http_module libexec/apache2/mod_proxy_http.so
 </pre>
 
 <p>Depending on your Apache installation and your OS, your virtual host files will be in different locations.  I keep all mine in /etc/apache2/vhosts.d with an <code>include /etc/apache2/vhosts.d/*.conf</code> in my httpd.conf file, which loads all config files in that directory on restart. Let’s create our domain config file:</p>
@@ -74,29 +80,33 @@ $ sudo vi /etc/apache2/vhosts.d/mydomain.localhost.conf
 <div class="highlight"><pre><code class="language-diff" data-lang="diff"># My Application
 &lt;VirtualHost 127.0.0.1:80&gt;
 ServerName mydomain.localhost
+
+# We&#39;re adding the following to ensure our relative url&#39;s behave as they should
+ProxyPreserveHost On
+ProxyHTMLEnable On
+ProxyHTMLURLMap http://127.0.0.1:63616/ /
+
+
 # Document Root
 DocumentRoot /Sites/mydomain/
 &lt;Location / &gt;
 	RewriteEngine on
-	RewriteBase /
 
-# Bypass images, css, javascript and docs, add your own extensions if needed.
+# Bypass fonts, images, css, javascript and docs, add your own extensions if needed.
 
-	RewriteCond %{REQUEST_URI} \.(bmp|gif|jpe?g|png|css|js|txt|pdf|doc|xls|ico)$
+	RewriteCond %{REQUEST_URI} \.(ttf|otf|woff|map|bmp|gif|jpe?g|png|css|js|txt|pdf|doc|xls|ico)$
 	RewriteRule ^(.*)$ - [NC,L,NS]
 
-# The ColdBox index.cfm/{path_info} rules.
+# The ColdBox index.cfm/{path_info} rules - in this case, though we&#39;re direct proxying the .cfm file
 	RewriteRule ^$ index.cfm [QSA,NS]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^(.*)$ /index.cfm%{REQUEST_URI} [QSA,L,NS]	
+	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
 	
-# Notice the [P] flag at the end of the rewrite rule. 
-# This tells Apache that the rewrite rule is proxy
+# Now as a catch all, we&#39;ll proxy any remaining content 
 
-	RewriteCond %{REQUEST_URI} \.(html|htm|txt)$
-	RewriteRule  ^(/.*)$	http://127.0.0.1:63616$1  [P]
-	ProxyPassReverse http://127.0.0.1:63616
+	ProxyPass http://127.0.0.1:63616/
+    ProxyPassReverse http://127.0.0.1:63616/
 
 # Now for our permissions
 # Note: &quot;Require all granted&quot; is Apache 2.2 syntax

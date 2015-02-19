@@ -52,11 +52,17 @@ $ box package set defaultPort=63616
 Set defaultPort = 63616
 </pre>
 
-Now that we have the default port set permanently, we're going to set up Apache to proxy it. We're going to need mod_proxy enabled on Apache so make sure the following two lines (with your paths) are uncommented in httpd.conf:
+Now that we have the default port set permanently, we're going to set up Apache to proxy it. We're going to need mod_proxy and a few other modules enabled on Apache so make sure the following modules (with your paths) are uncommented in httpd.conf:
 
 <pre>
+#These are our HTML handling modules
+LoadModule xml2enc_module libexec/apache2/mod_xml2enc.so
+LoadModule proxy_html_module libexec/apache2/mod_proxy_html.so
+
+#These are the proxying modules we need
 LoadModule proxy_module libexec/apache2/mod_proxy.so
 LoadModule proxy_connect_module libexec/apache2/mod_proxy_connect.so
+LoadModule proxy_http_module libexec/apache2/mod_proxy_http.so
 </pre>
 
 Depending on your Apache installation and your OS, your virtual host files will be in different locations.  I keep all mine in /etc/apache2/vhosts.d with an `include /etc/apache2/vhosts.d/*.conf` in my httpd.conf file, which loads all config files in that directory on restart. Let's create our domain config file:
@@ -71,29 +77,33 @@ This will open up a new file for editing.  We're using sudo so that we can save 
 # My Application
 <VirtualHost 127.0.0.1:80>
 ServerName mydomain.localhost
+
+# We're adding the following to ensure our relative url's behave as they should
+ProxyPreserveHost On
+ProxyHTMLEnable On
+ProxyHTMLURLMap http://127.0.0.1:63616/ /
+
+
 # Document Root
 DocumentRoot /Sites/mydomain/
 <Location / >
 	RewriteEngine on
-	RewriteBase /
 
-# Bypass images, css, javascript and docs, add your own extensions if needed.
+# Bypass fonts, images, css, javascript and docs, add your own extensions if needed.
 
-	RewriteCond %{REQUEST_URI} \.(bmp|gif|jpe?g|png|css|js|txt|pdf|doc|xls|ico)$
+	RewriteCond %{REQUEST_URI} \.(ttf|otf|woff|map|bmp|gif|jpe?g|png|css|js|txt|pdf|doc|xls|ico)$
 	RewriteRule ^(.*)$ - [NC,L,NS]
 
-# The ColdBox index.cfm/{path_info} rules.
+# The ColdBox index.cfm/{path_info} rules - in this case, though we're direct proxying the .cfm file
 	RewriteRule ^$ index.cfm [QSA,NS]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^(.*)$ /index.cfm%{REQUEST_URI} [QSA,L,NS]	
+	RewriteRule ^(.*)$ http://127.0.0.1:63616/index.cfm/%{REQUEST_URI} [P]	
 	
-# Notice the [P] flag at the end of the rewrite rule. 
-# This tells Apache that the rewrite rule is proxy
+# Now as a catch all, we'll proxy any remaining content 
 
-	RewriteCond %{REQUEST_URI} \.(html|htm|txt)$
-	RewriteRule  ^(/.*)$	http://127.0.0.1:63616$1  [P]
-	ProxyPassReverse http://127.0.0.1:63616
+	ProxyPass http://127.0.0.1:63616/
+    ProxyPassReverse http://127.0.0.1:63616/
 
 # Now for our permissions
 # Note: "Require all granted" is Apache 2.2 syntax
